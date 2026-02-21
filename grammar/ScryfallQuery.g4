@@ -118,425 +118,425 @@ includeTerm: INCLUDE COLON EXTRAS;
 isTerm: IS COLON isValue;
 notTerm: NOT COLON isValue;
 isValue
-    : ABNORMAL
-    | ADVENTURE
-    | ADVENTURER
-    | ALCHEMY
-    | ALIGHTS
-    | ALTERNATE
-    | AMPERSAND
-    | ARCHENEMY
-    | ARCHIVAL
-    | ARENA_LEAGUE
-    | ARENAID
-    | ARENALEAGUE
-    | ARTCARD
-    | ARTIST
-    | ARTISTID
-    | ARTISTMISPRINT
-    | ARTSERIES
-    | ATTRACTIONLIGHTS
-    | ATYPICAL
-    | AUGMENT
-    | AUGMENTATION
-    | AUGMENTING
-    | AUGMENTS
-    | BACK
-    | BASELINE
-    | BATTLELAND
-    | BEAR
-    | BEGINNERBOX
-    | BELZENLOK
-    | BICYCLELAND
-    | BIKELAND
-    | BOB
-    | BONDLAND
-    | BOOSTER
-    | BOOSTERFUN
-    | BORDERLESS
-    | BOUNCELAND
-    | BOX
-    | BOXTOPPER
-    | BRAWLCOMMANDER
-    | BRAWLDECK
-    | BRAWLER
-    | BREAKER
-    | BUNDLE
-    | BURSTFOIL
-    | BUYABOX
-    | CANLAND
-    | CANOPYLAND
-    | CARDBACK
-    | CARDMARKET
-    | CARDMARKETID
-    | CHECKLAND
-    | CHOCOBOTRACKFOIL
-    | CHRIMBY
-    | CI
-    | CLASS
-    | COLORINDICATOR
-    | COLORSHIFTED
-    | COMMANDER
-    | COMMANDERPARTY
-    | COMMANDERPROMO
-    | COMPANION
-    | CONCEPT
-    | CONFETTIFOIL
-    | CONJUREONLY
-    | CONTENTWARNING
-    | CONVENTION
-    | CORE
-    | COSMICFOIL
-    | COVERED
-    | CREATURELAND
-    | CUTE
-    | CYCLELAND
-    | DATESTAMPED
-    | DEFAULT
-    | DEN
-    | DFC
-    | DIGITAL
-    | DOUBLEEXPOSURE
-    | DOUBLEFACED
-    | DOUBLERAINBOW
-    | DOUBLESIDED
-    | DRACULASERIES
-    | DRAFTINNOVATION
-    | DRAFTWEEKEND
-    | DUAL
-    | DUALCOMMANDER
-    | DUELCOMMANDER
-    | DUELDECK
-    | DUELS
-    | ENGLISHART
-    | ESCAPED
-    | ETB
-    | ETCH
-    | ETCHED
-    | ETCHEDFOIL
-    | EVENT
-    | EXPANSION
-    | EXTENDED
-    | EXTENDEDART
-    | EXTRA
-    | FASTLAND
-    | FBB
-    | FETCHLAND
-    | FF
-    | FF1
-    | FF10
-    | FF11
-    | FF12
-    | FF13
-    | FF14
-    | FF15
-    | FF16
-    | FF2
-    | FF3
-    | FF4
-    | FF5
-    | FF6
-    | FF7
-    | FF8
-    | FF9
-    | FFANTASY
-    | FFI
-    | FFII
-    | FFIII
-    | FFIV
-    | FFIX
-    | FFV
-    | FFVI
-    | FFVII
-    | FFVIII
-    | FFX
-    | FFXI
-    | FFXII
-    | FFXIII
-    | FFXIV
-    | FFXV
-    | FFXVI
-    | FILTERLAND
-    | FIN
-    | FINALFANTASY
-    | FINALFANTASY1
-    | FINALFANTASY10
-    | FINALFANTASY11
-    | FINALFANTASY12
-    | FINALFANTASY13
-    | FINALFANTASY14
-    | FINALFANTASY15
-    | FINALFANTASY16
-    | FINALFANTASY2
-    | FINALFANTASY3
-    | FINALFANTASY4
-    | FINALFANTASY5
-    | FINALFANTASY6
-    | FINALFANTASY7
-    | FINALFANTASY8
-    | FINALFANTASY9
-    | FINALFANTASYI
-    | FINALFANTASYII
-    | FINALFANTASYIII
-    | FINALFANTASYIV
-    | FINALFANTASYIX
-    | FINALFANTASYV
-    | FINALFANTASYVI
-    | FINALFANTASYVII
-    | FINALFANTASYVIII
-    | FINALFANTASYX
-    | FINALFANTASYXI
-    | FINALFANTASYXII
-    | FINALFANTASYXIII
-    | FINALFANTASYXIV
-    | FINALFANTASYXV
-    | FINALFANTASYXVI
-    | FINKEL
-    | FIRSTPLACEFOIL
-    | FIRSTPRINT
-    | FIRSTPRINTING
-    | FIXED
-    | FLAVOR
-    | FLAVORNAME
-    | FLAVORTEXT
-    | FLIP
-    | FMB1
-    | FNM
-    | FOIL
-    | FRAMEODDITY
-    | FRENCHVANILLA
-    | FROMTHEVAULT
-    | FT
-    | FULLART
-    | FULLTEXT
-    | FUNNY
-    | FUTURE
-    | FUTURESHIFTED
-    | FWB
-    | GAINLAND
-    | GALAXYFOIL
-    | GAMECHANGER
-    | GAMEDAY
-    | GARY
-    | GATEWAY
-    | GIFTBOX
-    | GILDED
-    | GLOSSY
-    | GODZILLASERIES
-    | HALO
-    | HALOFOIL
-    | HEADLINER
-    | HIGHRES
-    | HIRES
-    | HISTORIC
-    | HORIZ
-    | HOST
-    | HYBRID
-    | HYBRIDMANA
-    | ILLUSTRATION
-    | ILLUSTRATIONID
-    | IMAGE
-    | IMAGEDATA
-    | IMAGEQA
-    | IMAGINE
-    | INDICATOR
-    | INSTORE
-    | INTRO_PACK
-    | INTROPACK
-    | INVITATIONAL
-    | JPWALKER
-    | JUDGE_GIFT
-    | JUDGEGIFT
-    | JUMPSTART
-    | KAROO
-    | KEEPER
-    | LEAGUE
-    | LEVELER
-    | LIGHTS
-    | LISTWHITE
-    | LOCALIZEDIMAGE
-    | LOCALIZEDNAME
-    | LOSTLEGENDS
-    | MAGICSPOTLIGHT
-    | MANLAND
-    | MASTERPIECE
-    | MASTERS
-    | MB1
-    | MB2
-    | MDFC
-    | MEDIA_INSERT
-    | MEDIAINSERT
-    | MELD
-    | MELDPART
-    | MELDRESULT
-    | MEMORABILIA
-    | METAL
-    | MISPRINT
-    | MODAL
-    | MODALDFC
-    | MODERN
-    | MOM
-    | MOONLITLAND
-    | MTGOID
-    | MULTICOMMANDER
-    | MULTIPLAYER
-    | MULTIVERSE
-    | MULTIVERSEID
-    | NEONINK
-    | NEW
-    | NEWINPAUPER
-    | NONDEFAULT
-    | NONFOIL
-    | NONTRADITIONAL
-    | NORMAL
-    | NOTUB
-    | NOTUNIVERSEBEYOND
-    | NOTUNIVERSESBEYOND
-    | OATHBREAKER
-    | OATHKEEPER
-    | OB
-    | OBREAKER
-    | ODDFRAME
-    | OILSLICK
-    | OK
-    | OKEEPER
-    | OLD
-    | ONLYPRINT
-    | ONLYPRINTING
-    | OPENHOUSE
-    | OUTLAW
-    | OUTLAWS
-    | OVERSIZED
-    | PAGL
-    | PAINLAND
-    | PAIRCOMMANDER
-    | PAIREDCOMMANDER
-    | PAPERART
-    | PARTNER
-    | PARTY
-    | PATHWAY
-    | PAUPERCOMMANDER
-    | PCTB
-    | PERMANENT
-    | PHED
-    | PHYREXIA
-    | PHYREXIAN
-    | PHYREXIANMANA
-    | PIKULA
-    | PLACEHOLDERIMAGE
-    | PLANAR
-    | PLANECHASE
-    | PLANESWALKER_DECK
-    | PLANESWALKERDECK
-    | PLASTIC
-    | PLAYER_REWARDS
-    | PLAYERREWARDS
-    | PLAYPROMO
-    | PLAYTEST
-    | PORTAL
-    | PORTRAIT
-    | POSTER
-    | PREMIERESHOP
-    | PREMIUM
-    | PREMIUMDECK
-    | PRERELEASE
-    | PRINTEDNAME
-    | PRINTEDTEXT
-    | PROMO
-    | PROMOPACK
-    | RAINBOWFOIL
-    | RAISEDFOIL
-    | REBALANCED
-    | RELATED
-    | RELATEDCARDS
-    | RELATIONSHIPS
-    | RELEASE
-    | REPRINT
-    | RESALE
-    | RESERVED
-    | REVERSABLE
-    | REVERSEABLE
-    | REVERSIBLE
-    | RIPPLEFOIL
-    | SCANNEEDED
-    | SCENE
-    | SCHINESEALTART
-    | SCROLL
-    | SCRYFALLPREVIEW
-    | SCRYLAND
-    | SECSTAMP
-    | SECURITYSTAMP
-    | SERIALIZED
-    | SET_PROMO
-    | SETEXTENSION
-    | SETPROMO
-    | SHADOWLAND
-    | SHINY
-    | SHOCKLAND
-    | SHOWCASE
-    | SINGULARITYFOIL
-    | SLDBONUS
-    | SLOWLAND
-    | SNARL
-    | SOURCEMATERIAL
-    | SPECIALBACK
-    | SPELL
-    | SPELLBOOK
-    | SPIKEY
-    | SPLIT
-    | SPLITMANA
-    | SPOTLIGHT
-    | STAMP
-    | STAMPED
-    | STARTER
-    | STARTERCOLLECTION
-    | STARTERDECK
-    | STEPANDCOMPLEAT
-    | STORAGELAND
-    | STORECHAMPIONSHIP
-    | STORY
-    | SURVEILLAND
-    | TANGOLAND
-    | TCGPLAYER
-    | TCGPLAYERID
-    | TDFC
-    | TEXTLESS
-    | TEXTURED
-    | THEMEPACK
-    | THICK
-    | TIMESHIFTED
-    | TOKEN
-    | TOMBSTONE
-    | TOURNEY
-    | TRADITIONAL
-    | TRANSFORM
-    | TRANSFORMINGDFC
-    | TRANSLUCENT
-    | TREASURECHEST
-    | TRICYCLELAND
-    | TRIKELAND
-    | TRILAND
-    | TRIOME
-    | TRON
-    | TWOCOMMANDER
-    | TYPICAL
-    | UB
-    | UNIQUE
-    | UNIVERSEBEYOND
-    | UNIVERSESBEYOND
-    | UNSET
-    | UPSIDEDOWN
-    | UPSIDEDOWNBACK
-    | USELESS
-    | VANGUARD
-    | VANILLA
-    | VARIATION
-    | VAULT
-    | VERT
-    | WANTED
-    | WATERMARK
-    | WIZARDSPLAYNETWORK
-    | WM
+    : ABNORMAL /* cards aren't printed with standard frames and effects */
+    | ADVENTURE /* cards have Adventures */
+    | ADVENTURER /* cards have Adventures */
+    | ALCHEMY /* the set type is alchemy */
+    | ALIGHTS /* cards have attraction lights */
+    | ALTERNATE /* cards are one of several alternate versions of the card in the same set */
+    | AMPERSAND /* cards are embossed */
+    | ARCHENEMY /* the set type is archenemy */
+    | ARCHIVAL /* cards require additional archival work */
+    | ARENA_LEAGUE /* cards are Arena League prizes */
+    | ARENAID /* cards have an Arena ID */
+    | ARENALEAGUE /* cards are Arena League prizes */
+    | ARTCARD /* cards are Art Series */
+    | ARTIST /* have artists */
+    | ARTISTID /* have artists */
+    | ARTISTMISPRINT /* cards are cards with a misprinted artist */
+    | ARTSERIES /* cards are Art Series */
+    | ATTRACTIONLIGHTS /* cards have attraction lights */
+    | ATYPICAL /* cards aren't printed with standard frames and effects */
+    | AUGMENT /* cards are augment pieces */
+    | AUGMENTATION /* cards are augment pieces */
+    | AUGMENTING /* cards are augment pieces */
+    | AUGMENTS /* cards are augment pieces */
+    | BACK /* cards have non-standard backs */
+    | BASELINE /* cards are printed with standard frames and effects */
+    | BATTLELAND /* cards are dual lands from the 'takes-two-to-tango' cycle */
+    | BEAR /* cards are 2/2/2 bears */
+    | BEGINNERBOX /* cards are part of a Beginner Box */
+    | BELZENLOK /* cards are Demonlord Belzenlok, Evincar of the Stronghold, Scion of Darkness, Doom of Fools, Lord of the Wastes, Master of the Ebon Hand, Eternal Patriarch of the Cabal */
+    | BICYCLELAND /* cards are cycling dual lands */
+    | BIKELAND /* cards are cycling dual lands */
+    | BOB /* cards are Bob Maher's Invitational card */
+    | BONDLAND /* cards are dual lands that require two or more opponents */
+    | BOOSTER /* cards are cards that are included in the standard contents of draft boosters */
+    | BOOSTERFUN /* cards are special versions that are part of "Project Booster Fun" */
+    | BORDERLESS /* cards are borderless */
+    | BOUNCELAND /* cards are land-bouncing duals */
+    | BOX /* the set type is box */
+    | BOXTOPPER /* cards are box toppers */
+    | BRAWLCOMMANDER /* cards can be your Brawl commander */
+    | BRAWLDECK /* cards are cards found in Brawl decks */
+    | BRAWLER /* cards can be your Brawl commander */
+    | BREAKER /* cards can be your oathbreaker */
+    | BUNDLE /* cards are bundle promos */
+    | BURSTFOIL /* cards are burst foils */
+    | BUYABOX /* cards are Buy-a-Box promos */
+    | CANLAND /* cards are dual lands that cantrip */
+    | CANOPYLAND /* cards are dual lands that cantrip */
+    | CARDBACK /* cards have non-standard backs */
+    | CARDMARKET /* cards have a Cardmarket ID */
+    | CARDMARKETID /* cards have a Cardmarket ID */
+    | CHECKLAND /* cards are dual lands that check for other types */
+    | CHOCOBOTRACKFOIL /* cards are Chocobo Track foils */
+    | CHRIMBY /* cards are winners of Good Luck High Five's 'Chrimby Award' */
+    | CI /* cards have color indicators */
+    | CLASS /* cards are Class-type */
+    | COLORINDICATOR /* cards have color indicators */
+    | COLORSHIFTED /* cards have a colorshifted frame */
+    | COMMANDER /* cards can be your commander */
+    | COMMANDERPARTY /* cards are Commander Party promos */
+    | COMMANDERPROMO /* cards are Commander promos */
+    | COMPANION /* cards are Companions */
+    | CONCEPT /* cards are concept treatments */
+    | CONFETTIFOIL /* cards are confetti foil */
+    | CONJUREONLY /* cards are can only be conjured in their set */
+    | CONTENTWARNING /* cards have content warnings */
+    | CONVENTION /* cards are convention promos */
+    | CORE /* the set type is core */
+    | COSMICFOIL /* cards are Cosmic foils */
+    | COVERED /* cards are covered */
+    | CREATURELAND /* cards are lands that become creatures */
+    | CUTE /* cards are Good Luck High Five's 'Cutest Card' in a set */
+    | CYCLELAND /* cards are cycling dual lands */
+    | DATESTAMPED /* cards are cards with a date stamp */
+    | DEFAULT /* cards are printed with standard frames and effects */
+    | DEN /* cards are monster Dens */
+    | DFC /* cards are double-sided */
+    | DIGITAL /* cards are digital prints */
+    | DOUBLEEXPOSURE /* cards are Double Exposure cards */
+    | DOUBLEFACED /* cards are double-sided */
+    | DOUBLERAINBOW /* cards are Double Rainbow foils */
+    | DOUBLESIDED /* cards are double-sided */
+    | DRACULASERIES /* cards are in the Innistrad: Crimson Vow Dracula Series */
+    | DRAFTINNOVATION /* the set type is draftinnovation */
+    | DRAFTWEEKEND /* cards are Draft Weekend promos */
+    | DUAL /* cards are dual lands */
+    | DUALCOMMANDER /* cards have multi-commander mechanics */
+    | DUELCOMMANDER /* cards can be your Duel Commander */
+    | DUELDECK /* the set type is dueldeck */
+    | DUELS /* cards are promo cards for Duels of the Planeswalkers */
+    | ENGLISHART /* cards have art that has been printed in English */
+    | ESCAPED /* cards are cards that were never officially distributed by WotC */
+    | ETB /* cards have an ETB effect */
+    | ETCH /* cards are available in etched foil */
+    | ETCHED /* cards are available in etched foil */
+    | ETCHEDFOIL /* cards are available in etched foil */
+    | EVENT /* cards are promos for a special event */
+    | EXPANSION /* the set type is expansion */
+    | EXTENDED /* cards are extended art frames */
+    | EXTENDEDART /* cards are extended art frames */
+    | EXTRA /* cards are Scryfall “extras” */
+    | FASTLAND /* cards are duals lands that are 'fast' */
+    | FBB /* cards are Cards printed in black border in non-English editions of white-border sets */
+    | FETCHLAND /* cards are dual lands that fetches lands from the library */
+    | FF /* from Final Fantasy */
+    | FF1 /* cards are from Final Fantasy I */
+    | FF10 /* cards are from Final Fantasy X */
+    | FF11 /* cards are from Final Fantasy XI */
+    | FF12 /* cards are from Final Fantasy XII */
+    | FF13 /* cards are from Final Fantasy XIII */
+    | FF14 /* cards are from Final Fantasy XIV */
+    | FF15 /* cards are from Final Fantasy XV */
+    | FF16 /* cards are from Final Fantasy XVI */
+    | FF2 /* cards are from Final Fantasy II */
+    | FF3 /* cards are from Final Fantasy III */
+    | FF4 /* cards are from Final Fantasy IV */
+    | FF5 /* cards are from Final Fantasy V */
+    | FF6 /* cards are from Final Fantasy VI */
+    | FF7 /* cards are from Final Fantasy VII */
+    | FF8 /* cards are from Final Fantasy VIII */
+    | FF9 /* cards are from Final Fantasy IX */
+    | FFANTASY /* from Final Fantasy */
+    | FFI /* cards are from Final Fantasy I */
+    | FFII /* cards are from Final Fantasy II */
+    | FFIII /* cards are from Final Fantasy III */
+    | FFIV /* cards are from Final Fantasy IV */
+    | FFIX /* cards are from Final Fantasy IX */
+    | FFV /* cards are from Final Fantasy V */
+    | FFVI /* cards are from Final Fantasy VI */
+    | FFVII /* cards are from Final Fantasy VII */
+    | FFVIII /* cards are from Final Fantasy VIII */
+    | FFX /* cards are from Final Fantasy X */
+    | FFXI /* cards are from Final Fantasy XI */
+    | FFXII /* cards are from Final Fantasy XII */
+    | FFXIII /* cards are from Final Fantasy XIII */
+    | FFXIV /* cards are from Final Fantasy XIV */
+    | FFXV /* cards are from Final Fantasy XV */
+    | FFXVI /* cards are from Final Fantasy XVI */
+    | FILTERLAND /* cards are dual lands that filters mana into other colors */
+    | FIN /* from Final Fantasy */
+    | FINALFANTASY /* from Final Fantasy */
+    | FINALFANTASY1 /* cards are from Final Fantasy I */
+    | FINALFANTASY10 /* cards are from Final Fantasy X */
+    | FINALFANTASY11 /* cards are from Final Fantasy XI */
+    | FINALFANTASY12 /* cards are from Final Fantasy XII */
+    | FINALFANTASY13 /* cards are from Final Fantasy XIII */
+    | FINALFANTASY14 /* cards are from Final Fantasy XIV */
+    | FINALFANTASY15 /* cards are from Final Fantasy XV */
+    | FINALFANTASY16 /* cards are from Final Fantasy XVI */
+    | FINALFANTASY2 /* cards are from Final Fantasy II */
+    | FINALFANTASY3 /* cards are from Final Fantasy III */
+    | FINALFANTASY4 /* cards are from Final Fantasy IV */
+    | FINALFANTASY5 /* cards are from Final Fantasy V */
+    | FINALFANTASY6 /* cards are from Final Fantasy VI */
+    | FINALFANTASY7 /* cards are from Final Fantasy VII */
+    | FINALFANTASY8 /* cards are from Final Fantasy VIII */
+    | FINALFANTASY9 /* cards are from Final Fantasy IX */
+    | FINALFANTASYI /* cards are from Final Fantasy I */
+    | FINALFANTASYII /* cards are from Final Fantasy II */
+    | FINALFANTASYIII /* cards are from Final Fantasy III */
+    | FINALFANTASYIV /* cards are from Final Fantasy IV */
+    | FINALFANTASYIX /* cards are from Final Fantasy IX */
+    | FINALFANTASYV /* cards are from Final Fantasy V */
+    | FINALFANTASYVI /* cards are from Final Fantasy VI */
+    | FINALFANTASYVII /* cards are from Final Fantasy VII */
+    | FINALFANTASYVIII /* cards are from Final Fantasy VIII */
+    | FINALFANTASYX /* cards are from Final Fantasy X */
+    | FINALFANTASYXI /* cards are from Final Fantasy XI */
+    | FINALFANTASYXII /* cards are from Final Fantasy XII */
+    | FINALFANTASYXIII /* cards are from Final Fantasy XIII */
+    | FINALFANTASYXIV /* cards are from Final Fantasy XIV */
+    | FINALFANTASYXV /* cards are from Final Fantasy XV */
+    | FINALFANTASYXVI /* cards are from Final Fantasy XVI */
+    | FINKEL /* cards are Jon Finkel's Invitational card */
+    | FIRSTPLACEFOIL /* cards are First-Place foils */
+    | FIRSTPRINT /* the card is the first printing */
+    | FIRSTPRINTING /* the card is the first printing */
+    | FIXED /* cards are from sets with fixed contents */
+    | FLAVOR /* cards have flavor text */
+    | FLAVORNAME /* cards have flavor names */
+    | FLAVORTEXT /* cards have flavor text */
+    | FLIP /* cards flip */
+    | FMB1 /* cards are fmb1 */
+    | FNM /* cards are FNM promos */
+    | FOIL /* cards are available in foil */
+    | FRAMEODDITY /* cards are cards with an unusual frame that doesn't fit any other specific category */
+    | FRENCHVANILLA /* cards are French vanilla */
+    | FROMTHEVAULT /* the set type is fromthevault */
+    | FT /* cards have flavor text */
+    | FULLART /* cards are cards with full extended art */
+    | FULLTEXT /* cards are the cards are only text */
+    | FUNNY /* cards are funny */
+    | FUTURE /* cards have the future frame */
+    | FUTURESHIFTED /* cards have the future frame */
+    | FWB /* cards are “foreign white border” prints */
+    | GAINLAND /* cards are dual lands from the cycle that gains 1 life */
+    | GALAXYFOIL /* cards are Galaxy foils */
+    | GAMECHANGER /* cards are on the Commander Game Changer list */
+    | GAMEDAY /* cards are Game Day promos */
+    | GARY /* cards are the Gray Merchant of Asphodel a.k.a. 'Gary' */
+    | GATEWAY /* cards are Gateway prizes */
+    | GIFTBOX /* cards are Gift Box promos */
+    | GILDED /* cards are cards with a gilded foil treatment */
+    | GLOSSY /* cards are glossy foils */
+    | GODZILLASERIES /* cards are in the Ikoria Godzilla Monsters Series */
+    | HALO /* cards are Halo foils */
+    | HALOFOIL /* cards are Halo foils */
+    | HEADLINER /* cards are Headliner cards */
+    | HIGHRES /* cards have hi-res scans */
+    | HIRES /* cards have hi-res scans */
+    | HISTORIC /* cards are historic */
+    | HORIZ /* cards are a non-standard horizontal orientation */
+    | HOST /* cards are augment pieces */
+    | HYBRID /* cards have hybrid mana */
+    | HYBRIDMANA /* cards have hybrid mana */
+    | ILLUSTRATION /* have illustration IDs */
+    | ILLUSTRATIONID /* have illustration IDs */
+    | IMAGE /* cards have images */
+    | IMAGEDATA /* cards have images */
+    | IMAGEQA /* cards are pending image fixes */
+    | IMAGINE /* cards are Imagine cards */
+    | INDICATOR /* cards have color indicators */
+    | INSTORE /* cards are prize cards for in-store play */
+    | INTRO_PACK /* cards are exclusive Intro Pack cards */
+    | INTROPACK /* cards are exclusive Intro Pack cards */
+    | INVITATIONAL /* cards are Invitational cards */
+    | JPWALKER /* cards are Japanese-exclusive alternate-art War of the Spark planeswalkers */
+    | JUDGE_GIFT /* cards are Judge Gift Cards */
+    | JUDGEGIFT /* cards are Judge Gift Cards */
+    | JUMPSTART /* cards are Jumpstart cards */
+    | KAROO /* cards are land-bouncing duals */
+    | KEEPER /* cards can be your oathbreaker */
+    | LEAGUE /* cards are League promos */
+    | LEVELER /* cards have Level Up */
+    | LIGHTS /* cards have attraction lights */
+    | LISTWHITE /* cards are printed with strange white mana symbols */
+    | LOCALIZEDIMAGE /* cards are non-English cards with localized images */
+    | LOCALIZEDNAME /* cards have localized names */
+    | LOSTLEGENDS /* cards are Dominaria United Lost Legends */
+    | MAGICSPOTLIGHT /* cards are part of the Magic Spotlight promo series */
+    | MANLAND /* cards are lands that become creatures */
+    | MASTERPIECE /* cards are masterpieces */
+    | MASTERS /* the set type is masters */
+    | MB1 /* cards are printed in Mystery Booster */
+    | MB2 /* cards are printed in Mystery Booster 2 */
+    | MDFC /* cards are modal DFCs */
+    | MEDIA_INSERT /* cards are cards inserted into books or magazines */
+    | MEDIAINSERT /* cards are cards inserted into books or magazines */
+    | MELD /* cards meld */
+    | MELDPART /* cards are parts of a meld */
+    | MELDRESULT /* cards are the result of a meld */
+    | MEMORABILIA /* the set type is memorabilia */
+    | METAL /* cards are metal finishes */
+    | MISPRINT /* cards are printed with a mistake or error */
+    | MODAL /* cards have modal effects */
+    | MODALDFC /* cards are modal DFCs */
+    | MODERN /* cards have the 2003 frame */
+    | MOM /* cards are the Mother of Runes a.k.a. 'Mom' */
+    | MOONLITLAND /* cards are Moonlit Lands promos */
+    | MTGOID /* cards have a MTGO ID (CatID) */
+    | MULTICOMMANDER /* cards have multi-commander mechanics */
+    | MULTIPLAYER /* cards are in a multiplayer-oriented set */
+    | MULTIVERSE /* cards have a Multiverse ID */
+    | MULTIVERSEID /* cards have a Multiverse ID */
+    | NEONINK /* cards are cards with a neon ink treatment */
+    | NEW /* cards have a new frame */
+    | NEWINPAUPER /* cards are paper commons added to the Pauper format */
+    | NONDEFAULT /* cards aren't printed with standard frames and effects */
+    | NONFOIL /* cards are available in nonfoil */
+    | NONTRADITIONAL /* cards aren't printed with standard frames and effects */
+    | NORMAL /* cards are printed with standard frames and effects */
+    | NOTUB /* Printings not from Universes Beyond products */
+    | NOTUNIVERSEBEYOND /* Printings not from Universes Beyond products */
+    | NOTUNIVERSESBEYOND /* Printings not from Universes Beyond products */
+    | OATHBREAKER /* cards can be your oathbreaker */
+    | OATHKEEPER /* cards can be your oathbreaker */
+    | OB /* cards can be your oathbreaker */
+    | OBREAKER /* cards can be your oathbreaker */
+    | ODDFRAME /* cards are cards with an unusual frame that doesn't fit any other specific category */
+    | OILSLICK /* cards are cards with the raised 'oil slick' foil treatment */
+    | OK /* cards can be your oathbreaker */
+    | OKEEPER /* cards can be your oathbreaker */
+    | OLD /* cards have the ‘93/97 frame */
+    | ONLYPRINT /* the card has been printed exactly once */
+    | ONLYPRINTING /* the card has been printed exactly once */
+    | OPENHOUSE /* cards are Open House promos */
+    | OUTLAW /* cards are Assassins, Mercenaries, Pirates, Rogues, or Warlocks */
+    | OUTLAWS /* cards are Assassins, Mercenaries, Pirates, Rogues, or Warlocks */
+    | OVERSIZED /* cards are larger than standard card size */
+    | PAGL /* cards are printed in Angels: They're Just Like Us but Cooler and with Wings */
+    | PAINLAND /* cards are dual lands that damage you when you get colored mana */
+    | PAIRCOMMANDER /* cards have multi-commander mechanics */
+    | PAIREDCOMMANDER /* cards have multi-commander mechanics */
+    | PAPERART /* cards have art that has been printed in paper */
+    | PARTNER /* cards have multi-commander mechanics */
+    | PARTY /* cards are Clerics, Rogues, Warriors, or Wizards */
+    | PATHWAY /* cards are Pathway duals */
+    | PAUPERCOMMANDER /* cards are can be your Pauper Commander */
+    | PCTB /* cards are printed in From Cute to Brute */
+    | PERMANENT /* cards become permanents */
+    | PHED /* cards are printed in Heads I Win, Tails You Lose */
+    | PHYREXIA /* cards have Phyrexian mana */
+    | PHYREXIAN /* cards have Phyrexian mana */
+    | PHYREXIANMANA /* cards have Phyrexian mana */
+    | PIKULA /* cards are Chris Pikula's Invitational card */
+    | PLACEHOLDERIMAGE /* cards are non-English cards with placeholder images */
+    | PLANAR /* cards are planar deck cards */
+    | PLANECHASE /* the set type is planechase */
+    | PLANESWALKER_DECK /* cards are exclusive Planeswalker Deck cards */
+    | PLANESWALKERDECK /* cards are exclusive Planeswalker Deck cards */
+    | PLASTIC /* cards are plastic finishes */
+    | PLAYER_REWARDS /* cards are Magic Player Rewards */
+    | PLAYERREWARDS /* cards are Magic Player Rewards */
+    | PLAYPROMO /* cards are WPN play promos */
+    | PLAYTEST /* cards are playtest cards */
+    | PORTAL /* cards are Portal cards */
+    | PORTRAIT /* cards are Commander portraits */
+    | POSTER /* cards are poster-frame prints */
+    | PREMIERESHOP /* cards are Magic Premier Shop promos */
+    | PREMIUM /* cards are available in foil */
+    | PREMIUMDECK /* the set type is premiumdeck */
+    | PRERELEASE /* cards are set prerelease event promos */
+    | PRINTEDNAME /* cards have localized names */
+    | PRINTEDTEXT /* cards have their printed text listed */
+    | PROMO /* cards are promotional prints */
+    | PROMOPACK /* cards are promos found in WPN promo packs */
+    | RAINBOWFOIL /* cards are Rainbow foils */
+    | RAISEDFOIL /* cards are raised foils */
+    | REBALANCED /* cards are rebalanced Alchemy cards */
+    | RELATED /* cards have related cards */
+    | RELATEDCARDS /* cards have related cards */
+    | RELATIONSHIPS /* cards have related cards */
+    | RELEASE /* cards are set release event promos */
+    | REPRINT /* cards are reprints */
+    | RESALE /* cards are resale promos */
+    | RESERVED /* cards are on the Reserved List */
+    | REVERSABLE /* cards are reversible cards */
+    | REVERSEABLE /* cards are reversible cards */
+    | REVERSIBLE /* cards are reversible cards */
+    | RIPPLEFOIL /* cards are Ripple foils */
+    | SCANNEEDED /* cards need to be scanned */
+    | SCENE /* cards are panoramic scene pieces */
+    | SCHINESEALTART /* cards are cards with alternate art in S-Chinese */
+    | SCROLL /* cards are scroll-frame prints */
+    | SCRYFALLPREVIEW /* cards are cards that were previewed by Scryfall */
+    | SCRYLAND /* cards are dual lands that scry when they enter the battlefield */
+    | SECSTAMP /* cards have a security stamp */
+    | SECURITYSTAMP /* cards have a security stamp */
+    | SERIALIZED /* cards are marked with serial numbers */
+    | SET_PROMO /* cards are promo cards for a booster product */
+    | SETEXTENSION /* cards are boosterfun cards appended to an older set */
+    | SETPROMO /* cards are promo cards for a booster product */
+    | SHADOWLAND /* cards are dual lands from the land-revealing/snarl cycle */
+    | SHINY /* cards are available in foil */
+    | SHOCKLAND /* cards are dual lands that deal 2 damage to you */
+    | SHOWCASE /* cards are showcases */
+    | SINGULARITYFOIL /* cards are Singularity foils */
+    | SLDBONUS /* cards are Secret Lair bonus cards */
+    | SLOWLAND /* cards are dual lands that check for two other lands */
+    | SNARL /* cards are dual lands from the land-revealing/snarl cycle */
+    | SOURCEMATERIAL /* cards are Source Material cards */
+    | SPECIALBACK /* cards have non-standard backs */
+    | SPELL /* cards are spells */
+    | SPELLBOOK /* cards have spellbooks */
+    | SPIKEY /* cards are cards that have ever been banned or restricted */
+    | SPLIT /* cards are split */
+    | SPLITMANA /* cards have hybrid mana */
+    | SPOTLIGHT /* cards are Story Spotlights */
+    | STAMP /* cards have a security stamp */
+    | STAMPED /* cards are cards with a non-date stamp */
+    | STARTER /* the set type is starter */
+    | STARTERCOLLECTION /* cards are part of a Starter Collection */
+    | STARTERDECK /* cards are exclusive to a Starter deck */
+    | STEPANDCOMPLEAT /* cards are cards with the 'Step-and-Compleat' Phyrexian foil treatment */
+    | STORAGELAND /* cards are lands that allow you to store up mana for later use */
+    | STORECHAMPIONSHIP /* cards are Store Championship promos */
+    | STORY /* cards are Story Spotlights */
+    | SURVEILLAND /* cards are dual lands that surveil when they enter the battlefield */
+    | TANGOLAND /* cards are dual lands from the 'takes-two-to-tango' cycle */
+    | TCGPLAYER /* cards have a TCGplayer ID */
+    | TCGPLAYERID /* cards have a TCGplayer ID */
+    | TDFC /* cards transform */
+    | TEXTLESS /* cards are printed without rules text */
+    | TEXTURED /* cards are cards with a textured foil treatment */
+    | THEMEPACK /* cards are exclusive to Theme Boosters */
+    | THICK /* cards are made with extra-thick stock */
+    | TIMESHIFTED /* cards are timeshifted in Time Spiral */
+    | TOKEN /* cards are tokens */
+    | TOMBSTONE /* cards have the Odyssey tombstone mark */
+    | TOURNEY /* cards are tournament event prizes */
+    | TRADITIONAL /* cards are printed with standard frames and effects */
+    | TRANSFORM /* cards transform */
+    | TRANSFORMINGDFC /* cards transform */
+    | TRANSLUCENT /* cards are cards with a translucent card frame */
+    | TREASURECHEST /* the set type is treasurechest */
+    | TRICYCLELAND /* cards are tricycleland */
+    | TRIKELAND /* cards are tricycleland */
+    | TRILAND /* cards are lands that produce three colors of mana */
+    | TRIOME /* cards are tricycleland */
+    | TRON /* cards are members of the 'Urzatron' */
+    | TWOCOMMANDER /* cards have multi-commander mechanics */
+    | TYPICAL /* cards are printed with standard frames and effects */
+    | UB /* Printings from Universes Beyond products */
+    | UNIQUE /* the card has been printed exactly once */
+    | UNIVERSEBEYOND /* Printings from Universes Beyond products */
+    | UNIVERSESBEYOND /* Printings from Universes Beyond products */
+    | UNSET /* cards are from an Unset */
+    | UPSIDEDOWN /* cards are cards with the front face upside-down */
+    | UPSIDEDOWNBACK /* cards are cards with the back face upside-down */
+    | USELESS /* cards are Jace's useless island */
+    | VANGUARD /* the set type is vanguard */
+    | VANILLA /* cards are vanilla */
+    | VARIATION /* cards are variations of standard printings */
+    | VAULT /* cards are vault frames */
+    | VERT /* cards are a non-standard vertical orientation */
+    | WANTED /* cards are wanted Scryfall scans */
+    | WATERMARK /* cards have watermarks */
+    | WIZARDSPLAYNETWORK /* cards are Wizards Play Network prize */
+    | WM /* cards have watermarks */
     ;
 
 formatTerm: (F | FORMAT) COLON formatValue;
