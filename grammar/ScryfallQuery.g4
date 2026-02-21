@@ -698,7 +698,6 @@ genericKey
     | SET
     | SETS
     | ST
-    | GAME
     | T
     | TYPE
     | TOU
