@@ -214,6 +214,16 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#frameTerm.
+    def visitFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#frameValue.
+    def visitFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#languageTerm.
     def visitLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
         return self.visitChildren(ctx)

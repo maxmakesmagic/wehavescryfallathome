@@ -377,6 +377,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#frameTerm.
+    def enterFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#frameTerm.
+    def exitFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#frameValue.
+    def enterFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#frameValue.
+    def exitFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#languageTerm.
     def enterLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
         pass

@@ -51,6 +51,7 @@ nonDisplayAtom
     | manaTerm
     | colorTerm
     | borderTerm
+    | frameTerm
     | languageTerm
     | stampTerm
     | genericTerm
@@ -567,6 +568,19 @@ borderValue
     | WHITE
     | SILVER
     | BORDERLESS
+    ;
+
+frameTerm: FRAME COLON frameValue;
+frameValue
+    : FRAME_1993
+    | FRAME_1997
+    | FRAME_2003
+    | FRAME_2015
+    | FUTURE
+    | LEGENDARY
+    | COLORSHIFTED
+    | TOMBSTONE
+    | ENCHANTMENT
     ;
 
 languageTerm: (LANG | LANGUAGE) COLON languageValue;
@@ -1302,6 +1316,7 @@ NUMBER_KEY: 'number';
 CUBE: 'cube';
 DATE: 'date';
 DEVOTION: 'devotion';
+FRAME: 'frame';
 E: 'e';
 EDITION: 'edition';
 FO: 'fo';
@@ -1345,6 +1360,13 @@ CHEAPEST: 'cheapest';
 WM: 'wm';
 WATERMARK: 'watermark';
 YEAR: 'year';
+
+FRAME_1993: '1993';
+FRAME_1997: '1997';
+FRAME_2003: '2003';
+FRAME_2015: '2015';
+LEGENDARY: 'legendary';
+ENCHANTMENT: 'enchantment';
 
 //
 // Primitive lexical forms
