@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,594,418,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
+        4,1,648,418,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
         7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,
         13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,
         20,7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,2,26,7,
@@ -47,19 +47,19 @@ def serializedATN():
         60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100,
         102,104,106,108,110,112,114,116,118,120,122,124,126,128,130,132,
         134,136,138,0,33,2,0,29,30,523,523,1,0,31,34,4,0,26,26,73,73,75,
-        83,122,126,1,0,35,36,1,0,127,141,10,0,13,13,73,73,135,140,142,489,
-        491,491,495,495,501,501,541,541,570,570,577,577,1,0,21,22,6,0,125,
+        83,122,126,1,0,35,36,1,0,127,141,10,0,13,13,73,73,135,489,491,491,
+        495,495,501,501,540,541,570,570,576,577,579,632,1,0,21,22,6,0,125,
         125,157,157,183,183,187,187,199,199,490,505,1,0,506,508,1,0,545,
         546,2,0,83,83,529,529,9,0,84,88,90,121,139,139,526,526,529,529,555,
-        555,566,567,585,585,589,589,4,0,84,84,86,86,89,89,215,215,4,0,220,
-        220,294,294,491,491,579,584,1,0,551,552,3,0,38,72,144,144,563,563,
+        555,566,567,639,639,643,643,4,0,84,84,86,86,89,89,215,215,4,0,220,
+        220,294,294,491,491,633,638,1,0,551,552,3,0,38,72,144,144,563,563,
         2,0,508,508,517,521,2,0,26,26,566,566,5,0,509,514,526,526,529,529,
-        555,555,566,567,2,0,76,76,562,562,3,0,77,77,574,574,585,585,2,0,
-        77,77,574,574,3,0,76,76,562,562,585,585,1,0,27,28,2,0,515,516,585,
-        585,1,0,555,556,3,0,526,526,566,567,589,591,1,0,530,531,1,0,585,
-        586,15,0,30,30,73,74,78,82,191,191,522,527,532,534,536,544,547,547,
+        555,555,566,567,2,0,76,76,562,562,3,0,77,77,574,574,639,639,2,0,
+        77,77,574,574,3,0,76,76,562,562,639,639,1,0,27,28,2,0,515,516,639,
+        639,1,0,555,556,3,0,526,526,566,567,643,645,1,0,530,531,1,0,639,
+        640,15,0,30,30,73,74,78,82,191,191,522,527,532,534,536,544,547,547,
         549,550,553,554,557,561,563,565,568,569,571,573,575,578,1,0,5,11,
-        2,0,589,589,592,592,2,0,589,589,593,593,399,0,140,1,0,0,0,2,143,
+        2,0,643,643,646,646,2,0,643,643,647,647,399,0,140,1,0,0,0,2,143,
         1,0,0,0,4,152,1,0,0,0,6,158,1,0,0,0,8,160,1,0,0,0,10,165,1,0,0,0,
         12,169,1,0,0,0,14,178,1,0,0,0,16,184,1,0,0,0,18,186,1,0,0,0,20,191,
         1,0,0,0,22,197,1,0,0,0,24,204,1,0,0,0,26,206,1,0,0,0,28,232,1,0,
@@ -158,8 +158,8 @@ def serializedATN():
         1,0,0,0,407,395,1,0,0,0,407,396,1,0,0,0,407,397,1,0,0,0,407,398,
         1,0,0,0,407,399,1,0,0,0,407,400,1,0,0,0,407,401,1,0,0,0,407,402,
         1,0,0,0,407,403,1,0,0,0,407,404,1,0,0,0,407,405,1,0,0,0,407,406,
-        1,0,0,0,408,131,1,0,0,0,409,410,5,587,0,0,410,133,1,0,0,0,411,412,
-        5,588,0,0,412,135,1,0,0,0,413,414,7,31,0,0,414,137,1,0,0,0,415,416,
+        1,0,0,0,408,131,1,0,0,0,409,410,5,641,0,0,410,133,1,0,0,0,411,412,
+        5,642,0,0,412,135,1,0,0,0,413,414,7,31,0,0,414,137,1,0,0,0,415,416,
         7,32,0,0,416,139,1,0,0,0,14,148,154,158,165,174,180,184,191,197,
         204,232,237,374,407
     ]
@@ -307,8 +307,22 @@ class ScryfallQueryParser ( Parser ):
                      "'pow'", "'pt'", "'powtou'", "'produces'", "'r'", "'u'", 
                      "'s'", "'sets'", "'stamp'", "'st'", "'t'", "'type'", 
                      "'tou'", "'cheapest'", "'wm'", "'watermark'", "'year'", 
-                     "'1993'", "'1997'", "'2003'", "'2015'", "'legendary'", 
-                     "'enchantment'" ]
+                     "'adventurer'", "'alights'", "'artcard'", "'artistid'", 
+                     "'attractionlights'", "'augment'", "'augmenting'", 
+                     "'augments'", "'breaker'", "'cardback'", "'cardmarketid'", 
+                     "'colorindicator'", "'doublefaced'", "'dualcommander'", 
+                     "'etchedfoil'", "'extendedart'", "'ffantasy'", "'fin'", 
+                     "'flavortext'", "'highres'", "'host'", "'hybridmana'", 
+                     "'illustrationid'", "'image'", "'imagedata'", "'keeper'", 
+                     "'modaldfc'", "'multicommander'", "'multiverseid'", 
+                     "'notuniversebeyond'", "'oathkeeper'", "'ob'", "'obreaker'", 
+                     "'ok'", "'okeeper'", "'onlyprinting'", "'outlaws'", 
+                     "'paircommander'", "'pairedcommander'", "'phyrexianmana'", 
+                     "'premium'", "'printedname'", "'relatedcards'", "'relationships'", 
+                     "'reversable'", "'reverseable'", "'secstamp'", "'securitystamp'", 
+                     "'shiny'", "'specialback'", "'tcgplayerid'", "'transformingdfc'", 
+                     "'twocommander'", "'universebeyond'", "'1993'", "'1997'", 
+                     "'2003'", "'2015'", "'legendary'", "'enchantment'" ]
 
     symbolicNames = [ "<INVALID>", "LPAREN", "RPAREN", "NEG", "BANG", "COLON", 
                       "NEQ", "GTE", "LTE", "EQ", "GT", "LT", "OR", "UNIQUE", 
@@ -428,7 +442,20 @@ class ScryfallQueryParser ( Parser ):
                       "PAPERPRINTS", "PAPERSETS", "POW", "PT", "POWTOU", 
                       "PRODUCES", "R", "U", "S", "SETS", "STAMP", "ST", 
                       "T", "TYPE", "TOU", "CHEAPEST", "WM", "WATERMARK", 
-                      "YEAR", "FRAME_1993", "FRAME_1997", "FRAME_2003", 
+                      "YEAR", "ADVENTURER", "ALIGHTS", "ARTCARD", "ARTISTID", 
+                      "ATTRACTIONLIGHTS", "AUGMENT", "AUGMENTING", "AUGMENTS", 
+                      "BREAKER", "CARDBACK", "CARDMARKETID", "COLORINDICATOR", 
+                      "DOUBLEFACED", "DUALCOMMANDER", "ETCHEDFOIL", "EXTENDEDART", 
+                      "FFANTASY", "FIN", "FLAVORTEXT", "HIGHRES", "HOST", 
+                      "HYBRIDMANA", "ILLUSTRATIONID", "IMAGE", "IMAGEDATA", 
+                      "KEEPER", "MODALDFC", "MULTICOMMANDER", "MULTIVERSEID", 
+                      "NOTUNIVERSEBEYOND", "OATHKEEPER", "OB", "OBREAKER", 
+                      "OK", "OKEEPER", "ONLYPRINTING", "OUTLAWS", "PAIRCOMMANDER", 
+                      "PAIREDCOMMANDER", "PHYREXIANMANA", "PREMIUM", "PRINTEDNAME", 
+                      "RELATEDCARDS", "RELATIONSHIPS", "REVERSABLE", "REVERSEABLE", 
+                      "SECSTAMP", "SECURITYSTAMP", "SHINY", "SPECIALBACK", 
+                      "TCGPLAYERID", "TRANSFORMINGDFC", "TWOCOMMANDER", 
+                      "UNIVERSEBEYOND", "FRAME_1993", "FRAME_1997", "FRAME_2003", 
                       "FRAME_2015", "LEGENDARY", "ENCHANTMENT", "NUMBER", 
                       "COLLECTOR_NUMBER", "QUOTED_TEXT", "REGEX", "COLOR_SET", 
                       "MANA_BRACED_SYMBOL", "MANA_UNBRACED_SYMBOL", "WORD", 
@@ -1102,22 +1129,76 @@ class ScryfallQueryParser ( Parser ):
     WM=576
     WATERMARK=577
     YEAR=578
-    FRAME_1993=579
-    FRAME_1997=580
-    FRAME_2003=581
-    FRAME_2015=582
-    LEGENDARY=583
-    ENCHANTMENT=584
-    NUMBER=585
-    COLLECTOR_NUMBER=586
-    QUOTED_TEXT=587
-    REGEX=588
-    COLOR_SET=589
-    MANA_BRACED_SYMBOL=590
-    MANA_UNBRACED_SYMBOL=591
-    WORD=592
-    BARE_VALUE=593
-    WS=594
+    ADVENTURER=579
+    ALIGHTS=580
+    ARTCARD=581
+    ARTISTID=582
+    ATTRACTIONLIGHTS=583
+    AUGMENT=584
+    AUGMENTING=585
+    AUGMENTS=586
+    BREAKER=587
+    CARDBACK=588
+    CARDMARKETID=589
+    COLORINDICATOR=590
+    DOUBLEFACED=591
+    DUALCOMMANDER=592
+    ETCHEDFOIL=593
+    EXTENDEDART=594
+    FFANTASY=595
+    FIN=596
+    FLAVORTEXT=597
+    HIGHRES=598
+    HOST=599
+    HYBRIDMANA=600
+    ILLUSTRATIONID=601
+    IMAGE=602
+    IMAGEDATA=603
+    KEEPER=604
+    MODALDFC=605
+    MULTICOMMANDER=606
+    MULTIVERSEID=607
+    NOTUNIVERSEBEYOND=608
+    OATHKEEPER=609
+    OB=610
+    OBREAKER=611
+    OK=612
+    OKEEPER=613
+    ONLYPRINTING=614
+    OUTLAWS=615
+    PAIRCOMMANDER=616
+    PAIREDCOMMANDER=617
+    PHYREXIANMANA=618
+    PREMIUM=619
+    PRINTEDNAME=620
+    RELATEDCARDS=621
+    RELATIONSHIPS=622
+    REVERSABLE=623
+    REVERSEABLE=624
+    SECSTAMP=625
+    SECURITYSTAMP=626
+    SHINY=627
+    SPECIALBACK=628
+    TCGPLAYERID=629
+    TRANSFORMINGDFC=630
+    TWOCOMMANDER=631
+    UNIVERSEBEYOND=632
+    FRAME_1993=633
+    FRAME_1997=634
+    FRAME_2003=635
+    FRAME_2015=636
+    LEGENDARY=637
+    ENCHANTMENT=638
+    NUMBER=639
+    COLLECTOR_NUMBER=640
+    QUOTED_TEXT=641
+    REGEX=642
+    COLOR_SET=643
+    MANA_BRACED_SYMBOL=644
+    MANA_UNBRACED_SYMBOL=645
+    WORD=646
+    BARE_VALUE=647
+    WS=648
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -1301,7 +1382,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 154 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610604570) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 522)) & ~0x3f) == 0 and ((1 << (_la - 522)) & 144080003703767039) != 0) or ((((_la - 587)) & ~0x3f) == 0 and ((1 << (_la - 587)) & 37) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610604570) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 522)) & ~0x3f) == 0 and ((1 << (_la - 522)) & 144080003703767039) != 0) or ((((_la - 641)) & ~0x3f) == 0 and ((1 << (_la - 641)) & 37) != 0)):
                     break
 
         except RecognitionException as re:
@@ -1361,7 +1442,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 156
                 self.topGroup()
                 pass
-            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 587, 589, 592]:
+            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 641, 643, 646]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 157
                 self.topTerm()
@@ -1616,7 +1697,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 180 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610350618) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 522)) & ~0x3f) == 0 and ((1 << (_la - 522)) & 144080003703767039) != 0) or ((((_la - 587)) & ~0x3f) == 0 and ((1 << (_la - 587)) & 37) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610350618) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 522)) & ~0x3f) == 0 and ((1 << (_la - 522)) & 144080003703767039) != 0) or ((((_la - 641)) & ~0x3f) == 0 and ((1 << (_la - 641)) & 37) != 0)):
                     break
 
         except RecognitionException as re:
@@ -1676,7 +1757,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 182
                 self.parenGroup()
                 pass
-            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 587, 589, 592]:
+            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 641, 643, 646]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 183
                 self.parenTerm()
@@ -1859,7 +1940,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 195
                 self.displayAtom()
                 pass
-            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 587, 589, 592]:
+            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 641, 643, 646]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 196
                 self.nonDisplayAtom()
@@ -2257,12 +2338,12 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 229
                 self.genericTerm()
                 pass
-            elif token in [587]:
+            elif token in [641]:
                 self.enterOuterAlt(localctx, 23)
                 self.state = 230
                 self.quotedText()
                 pass
-            elif token in [589, 592]:
+            elif token in [643, 646]:
                 self.enterOuterAlt(localctx, 24)
                 self.state = 231
                 self.word()
@@ -2328,11 +2409,11 @@ class ScryfallQueryParser ( Parser ):
             self.state = 237
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [587]:
+            if token in [641]:
                 self.state = 235
                 self.quotedText()
                 pass
-            elif token in [589, 592]:
+            elif token in [643, 646]:
                 self.state = 236
                 self.word()
                 pass
@@ -3242,8 +3323,14 @@ class ScryfallQueryParser ( Parser ):
         def ADVENTURE(self):
             return self.getToken(ScryfallQueryParser.ADVENTURE, 0)
 
+        def ADVENTURER(self):
+            return self.getToken(ScryfallQueryParser.ADVENTURER, 0)
+
         def ALCHEMY(self):
             return self.getToken(ScryfallQueryParser.ALCHEMY, 0)
+
+        def ALIGHTS(self):
+            return self.getToken(ScryfallQueryParser.ALIGHTS, 0)
 
         def ALTERNATE(self):
             return self.getToken(ScryfallQueryParser.ALTERNATE, 0)
@@ -3266,8 +3353,14 @@ class ScryfallQueryParser ( Parser ):
         def ARENALEAGUE(self):
             return self.getToken(ScryfallQueryParser.ARENALEAGUE, 0)
 
+        def ARTCARD(self):
+            return self.getToken(ScryfallQueryParser.ARTCARD, 0)
+
         def ARTIST(self):
             return self.getToken(ScryfallQueryParser.ARTIST, 0)
+
+        def ARTISTID(self):
+            return self.getToken(ScryfallQueryParser.ARTISTID, 0)
 
         def ARTISTMISPRINT(self):
             return self.getToken(ScryfallQueryParser.ARTISTMISPRINT, 0)
@@ -3275,11 +3368,23 @@ class ScryfallQueryParser ( Parser ):
         def ARTSERIES(self):
             return self.getToken(ScryfallQueryParser.ARTSERIES, 0)
 
+        def ATTRACTIONLIGHTS(self):
+            return self.getToken(ScryfallQueryParser.ATTRACTIONLIGHTS, 0)
+
         def ATYPICAL(self):
             return self.getToken(ScryfallQueryParser.ATYPICAL, 0)
 
+        def AUGMENT(self):
+            return self.getToken(ScryfallQueryParser.AUGMENT, 0)
+
         def AUGMENTATION(self):
             return self.getToken(ScryfallQueryParser.AUGMENTATION, 0)
+
+        def AUGMENTING(self):
+            return self.getToken(ScryfallQueryParser.AUGMENTING, 0)
+
+        def AUGMENTS(self):
+            return self.getToken(ScryfallQueryParser.AUGMENTS, 0)
 
         def BACK(self):
             return self.getToken(ScryfallQueryParser.BACK, 0)
@@ -3338,6 +3443,9 @@ class ScryfallQueryParser ( Parser ):
         def BRAWLER(self):
             return self.getToken(ScryfallQueryParser.BRAWLER, 0)
 
+        def BREAKER(self):
+            return self.getToken(ScryfallQueryParser.BREAKER, 0)
+
         def BUNDLE(self):
             return self.getToken(ScryfallQueryParser.BUNDLE, 0)
 
@@ -3353,8 +3461,14 @@ class ScryfallQueryParser ( Parser ):
         def CANOPYLAND(self):
             return self.getToken(ScryfallQueryParser.CANOPYLAND, 0)
 
+        def CARDBACK(self):
+            return self.getToken(ScryfallQueryParser.CARDBACK, 0)
+
         def CARDMARKET(self):
             return self.getToken(ScryfallQueryParser.CARDMARKET, 0)
+
+        def CARDMARKETID(self):
+            return self.getToken(ScryfallQueryParser.CARDMARKETID, 0)
 
         def CHECKLAND(self):
             return self.getToken(ScryfallQueryParser.CHECKLAND, 0)
@@ -3370,6 +3484,9 @@ class ScryfallQueryParser ( Parser ):
 
         def CLASS(self):
             return self.getToken(ScryfallQueryParser.CLASS, 0)
+
+        def COLORINDICATOR(self):
+            return self.getToken(ScryfallQueryParser.COLORINDICATOR, 0)
 
         def COLORSHIFTED(self):
             return self.getToken(ScryfallQueryParser.COLORSHIFTED, 0)
@@ -3437,6 +3554,9 @@ class ScryfallQueryParser ( Parser ):
         def DOUBLEEXPOSURE(self):
             return self.getToken(ScryfallQueryParser.DOUBLEEXPOSURE, 0)
 
+        def DOUBLEFACED(self):
+            return self.getToken(ScryfallQueryParser.DOUBLEFACED, 0)
+
         def DOUBLERAINBOW(self):
             return self.getToken(ScryfallQueryParser.DOUBLERAINBOW, 0)
 
@@ -3454,6 +3574,9 @@ class ScryfallQueryParser ( Parser ):
 
         def DUAL(self):
             return self.getToken(ScryfallQueryParser.DUAL, 0)
+
+        def DUALCOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.DUALCOMMANDER, 0)
 
         def DUELCOMMANDER(self):
             return self.getToken(ScryfallQueryParser.DUELCOMMANDER, 0)
@@ -3479,6 +3602,9 @@ class ScryfallQueryParser ( Parser ):
         def ETCHED(self):
             return self.getToken(ScryfallQueryParser.ETCHED, 0)
 
+        def ETCHEDFOIL(self):
+            return self.getToken(ScryfallQueryParser.ETCHEDFOIL, 0)
+
         def EVENT(self):
             return self.getToken(ScryfallQueryParser.EVENT, 0)
 
@@ -3487,6 +3613,9 @@ class ScryfallQueryParser ( Parser ):
 
         def EXTENDED(self):
             return self.getToken(ScryfallQueryParser.EXTENDED, 0)
+
+        def EXTENDEDART(self):
+            return self.getToken(ScryfallQueryParser.EXTENDEDART, 0)
 
         def EXTRA(self):
             return self.getToken(ScryfallQueryParser.EXTRA, 0)
@@ -3551,6 +3680,9 @@ class ScryfallQueryParser ( Parser ):
         def FF9(self):
             return self.getToken(ScryfallQueryParser.FF9, 0)
 
+        def FFANTASY(self):
+            return self.getToken(ScryfallQueryParser.FFANTASY, 0)
+
         def FFI(self):
             return self.getToken(ScryfallQueryParser.FFI, 0)
 
@@ -3601,6 +3733,9 @@ class ScryfallQueryParser ( Parser ):
 
         def FILTERLAND(self):
             return self.getToken(ScryfallQueryParser.FILTERLAND, 0)
+
+        def FIN(self):
+            return self.getToken(ScryfallQueryParser.FIN, 0)
 
         def FINALFANTASY(self):
             return self.getToken(ScryfallQueryParser.FINALFANTASY, 0)
@@ -3722,6 +3857,9 @@ class ScryfallQueryParser ( Parser ):
         def FLAVORNAME(self):
             return self.getToken(ScryfallQueryParser.FLAVORNAME, 0)
 
+        def FLAVORTEXT(self):
+            return self.getToken(ScryfallQueryParser.FLAVORTEXT, 0)
+
         def FLIP(self):
             return self.getToken(ScryfallQueryParser.FLIP, 0)
 
@@ -3742,6 +3880,9 @@ class ScryfallQueryParser ( Parser ):
 
         def FROMTHEVAULT(self):
             return self.getToken(ScryfallQueryParser.FROMTHEVAULT, 0)
+
+        def FT(self):
+            return self.getToken(ScryfallQueryParser.FT, 0)
 
         def FULLART(self):
             return self.getToken(ScryfallQueryParser.FULLART, 0)
@@ -3800,6 +3941,9 @@ class ScryfallQueryParser ( Parser ):
         def HEADLINER(self):
             return self.getToken(ScryfallQueryParser.HEADLINER, 0)
 
+        def HIGHRES(self):
+            return self.getToken(ScryfallQueryParser.HIGHRES, 0)
+
         def HIRES(self):
             return self.getToken(ScryfallQueryParser.HIRES, 0)
 
@@ -3809,11 +3953,26 @@ class ScryfallQueryParser ( Parser ):
         def HORIZ(self):
             return self.getToken(ScryfallQueryParser.HORIZ, 0)
 
+        def HOST(self):
+            return self.getToken(ScryfallQueryParser.HOST, 0)
+
         def HYBRID(self):
             return self.getToken(ScryfallQueryParser.HYBRID, 0)
 
+        def HYBRIDMANA(self):
+            return self.getToken(ScryfallQueryParser.HYBRIDMANA, 0)
+
         def ILLUSTRATION(self):
             return self.getToken(ScryfallQueryParser.ILLUSTRATION, 0)
+
+        def ILLUSTRATIONID(self):
+            return self.getToken(ScryfallQueryParser.ILLUSTRATIONID, 0)
+
+        def IMAGE(self):
+            return self.getToken(ScryfallQueryParser.IMAGE, 0)
+
+        def IMAGEDATA(self):
+            return self.getToken(ScryfallQueryParser.IMAGEDATA, 0)
 
         def IMAGEQA(self):
             return self.getToken(ScryfallQueryParser.IMAGEQA, 0)
@@ -3850,6 +4009,9 @@ class ScryfallQueryParser ( Parser ):
 
         def KAROO(self):
             return self.getToken(ScryfallQueryParser.KAROO, 0)
+
+        def KEEPER(self):
+            return self.getToken(ScryfallQueryParser.KEEPER, 0)
 
         def LEAGUE(self):
             return self.getToken(ScryfallQueryParser.LEAGUE, 0)
@@ -3920,6 +4082,9 @@ class ScryfallQueryParser ( Parser ):
         def MODAL(self):
             return self.getToken(ScryfallQueryParser.MODAL, 0)
 
+        def MODALDFC(self):
+            return self.getToken(ScryfallQueryParser.MODALDFC, 0)
+
         def MODERN(self):
             return self.getToken(ScryfallQueryParser.MODERN, 0)
 
@@ -3932,11 +4097,17 @@ class ScryfallQueryParser ( Parser ):
         def MTGOID(self):
             return self.getToken(ScryfallQueryParser.MTGOID, 0)
 
+        def MULTICOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.MULTICOMMANDER, 0)
+
         def MULTIPLAYER(self):
             return self.getToken(ScryfallQueryParser.MULTIPLAYER, 0)
 
         def MULTIVERSE(self):
             return self.getToken(ScryfallQueryParser.MULTIVERSE, 0)
+
+        def MULTIVERSEID(self):
+            return self.getToken(ScryfallQueryParser.MULTIVERSEID, 0)
 
         def NEONINK(self):
             return self.getToken(ScryfallQueryParser.NEONINK, 0)
@@ -3959,11 +4130,26 @@ class ScryfallQueryParser ( Parser ):
         def NORMAL(self):
             return self.getToken(ScryfallQueryParser.NORMAL, 0)
 
+        def NOTUB(self):
+            return self.getToken(ScryfallQueryParser.NOTUB, 0)
+
+        def NOTUNIVERSEBEYOND(self):
+            return self.getToken(ScryfallQueryParser.NOTUNIVERSEBEYOND, 0)
+
         def NOTUNIVERSESBEYOND(self):
             return self.getToken(ScryfallQueryParser.NOTUNIVERSESBEYOND, 0)
 
         def OATHBREAKER(self):
             return self.getToken(ScryfallQueryParser.OATHBREAKER, 0)
+
+        def OATHKEEPER(self):
+            return self.getToken(ScryfallQueryParser.OATHKEEPER, 0)
+
+        def OB(self):
+            return self.getToken(ScryfallQueryParser.OB, 0)
+
+        def OBREAKER(self):
+            return self.getToken(ScryfallQueryParser.OBREAKER, 0)
 
         def ODDFRAME(self):
             return self.getToken(ScryfallQueryParser.ODDFRAME, 0)
@@ -3971,17 +4157,29 @@ class ScryfallQueryParser ( Parser ):
         def OILSLICK(self):
             return self.getToken(ScryfallQueryParser.OILSLICK, 0)
 
+        def OK(self):
+            return self.getToken(ScryfallQueryParser.OK, 0)
+
+        def OKEEPER(self):
+            return self.getToken(ScryfallQueryParser.OKEEPER, 0)
+
         def OLD(self):
             return self.getToken(ScryfallQueryParser.OLD, 0)
 
         def ONLYPRINT(self):
             return self.getToken(ScryfallQueryParser.ONLYPRINT, 0)
 
+        def ONLYPRINTING(self):
+            return self.getToken(ScryfallQueryParser.ONLYPRINTING, 0)
+
         def OPENHOUSE(self):
             return self.getToken(ScryfallQueryParser.OPENHOUSE, 0)
 
         def OUTLAW(self):
             return self.getToken(ScryfallQueryParser.OUTLAW, 0)
+
+        def OUTLAWS(self):
+            return self.getToken(ScryfallQueryParser.OUTLAWS, 0)
 
         def OVERSIZED(self):
             return self.getToken(ScryfallQueryParser.OVERSIZED, 0)
@@ -3991,6 +4189,12 @@ class ScryfallQueryParser ( Parser ):
 
         def PAINLAND(self):
             return self.getToken(ScryfallQueryParser.PAINLAND, 0)
+
+        def PAIRCOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.PAIRCOMMANDER, 0)
+
+        def PAIREDCOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.PAIREDCOMMANDER, 0)
 
         def PAPERART(self):
             return self.getToken(ScryfallQueryParser.PAPERART, 0)
@@ -4021,6 +4225,9 @@ class ScryfallQueryParser ( Parser ):
 
         def PHYREXIAN(self):
             return self.getToken(ScryfallQueryParser.PHYREXIAN, 0)
+
+        def PHYREXIANMANA(self):
+            return self.getToken(ScryfallQueryParser.PHYREXIANMANA, 0)
 
         def PIKULA(self):
             return self.getToken(ScryfallQueryParser.PIKULA, 0)
@@ -4067,11 +4274,17 @@ class ScryfallQueryParser ( Parser ):
         def PREMIERESHOP(self):
             return self.getToken(ScryfallQueryParser.PREMIERESHOP, 0)
 
+        def PREMIUM(self):
+            return self.getToken(ScryfallQueryParser.PREMIUM, 0)
+
         def PREMIUMDECK(self):
             return self.getToken(ScryfallQueryParser.PREMIUMDECK, 0)
 
         def PRERELEASE(self):
             return self.getToken(ScryfallQueryParser.PRERELEASE, 0)
+
+        def PRINTEDNAME(self):
+            return self.getToken(ScryfallQueryParser.PRINTEDNAME, 0)
 
         def PRINTEDTEXT(self):
             return self.getToken(ScryfallQueryParser.PRINTEDTEXT, 0)
@@ -4094,6 +4307,12 @@ class ScryfallQueryParser ( Parser ):
         def RELATED(self):
             return self.getToken(ScryfallQueryParser.RELATED, 0)
 
+        def RELATEDCARDS(self):
+            return self.getToken(ScryfallQueryParser.RELATEDCARDS, 0)
+
+        def RELATIONSHIPS(self):
+            return self.getToken(ScryfallQueryParser.RELATIONSHIPS, 0)
+
         def RELEASE(self):
             return self.getToken(ScryfallQueryParser.RELEASE, 0)
 
@@ -4105,6 +4324,12 @@ class ScryfallQueryParser ( Parser ):
 
         def RESERVED(self):
             return self.getToken(ScryfallQueryParser.RESERVED, 0)
+
+        def REVERSABLE(self):
+            return self.getToken(ScryfallQueryParser.REVERSABLE, 0)
+
+        def REVERSEABLE(self):
+            return self.getToken(ScryfallQueryParser.REVERSEABLE, 0)
 
         def REVERSIBLE(self):
             return self.getToken(ScryfallQueryParser.REVERSIBLE, 0)
@@ -4130,6 +4355,12 @@ class ScryfallQueryParser ( Parser ):
         def SCRYLAND(self):
             return self.getToken(ScryfallQueryParser.SCRYLAND, 0)
 
+        def SECSTAMP(self):
+            return self.getToken(ScryfallQueryParser.SECSTAMP, 0)
+
+        def SECURITYSTAMP(self):
+            return self.getToken(ScryfallQueryParser.SECURITYSTAMP, 0)
+
         def SERIALIZED(self):
             return self.getToken(ScryfallQueryParser.SERIALIZED, 0)
 
@@ -4144,6 +4375,9 @@ class ScryfallQueryParser ( Parser ):
 
         def SHADOWLAND(self):
             return self.getToken(ScryfallQueryParser.SHADOWLAND, 0)
+
+        def SHINY(self):
+            return self.getToken(ScryfallQueryParser.SHINY, 0)
 
         def SHOCKLAND(self):
             return self.getToken(ScryfallQueryParser.SHOCKLAND, 0)
@@ -4165,6 +4399,9 @@ class ScryfallQueryParser ( Parser ):
 
         def SOURCEMATERIAL(self):
             return self.getToken(ScryfallQueryParser.SOURCEMATERIAL, 0)
+
+        def SPECIALBACK(self):
+            return self.getToken(ScryfallQueryParser.SPECIALBACK, 0)
 
         def SPELL(self):
             return self.getToken(ScryfallQueryParser.SPELL, 0)
@@ -4220,6 +4457,9 @@ class ScryfallQueryParser ( Parser ):
         def TCGPLAYER(self):
             return self.getToken(ScryfallQueryParser.TCGPLAYER, 0)
 
+        def TCGPLAYERID(self):
+            return self.getToken(ScryfallQueryParser.TCGPLAYERID, 0)
+
         def TDFC(self):
             return self.getToken(ScryfallQueryParser.TDFC, 0)
 
@@ -4253,6 +4493,9 @@ class ScryfallQueryParser ( Parser ):
         def TRANSFORM(self):
             return self.getToken(ScryfallQueryParser.TRANSFORM, 0)
 
+        def TRANSFORMINGDFC(self):
+            return self.getToken(ScryfallQueryParser.TRANSFORMINGDFC, 0)
+
         def TRANSLUCENT(self):
             return self.getToken(ScryfallQueryParser.TRANSLUCENT, 0)
 
@@ -4274,6 +4517,9 @@ class ScryfallQueryParser ( Parser ):
         def TRON(self):
             return self.getToken(ScryfallQueryParser.TRON, 0)
 
+        def TWOCOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.TWOCOMMANDER, 0)
+
         def TYPICAL(self):
             return self.getToken(ScryfallQueryParser.TYPICAL, 0)
 
@@ -4282,6 +4528,9 @@ class ScryfallQueryParser ( Parser ):
 
         def UNIQUE(self):
             return self.getToken(ScryfallQueryParser.UNIQUE, 0)
+
+        def UNIVERSEBEYOND(self):
+            return self.getToken(ScryfallQueryParser.UNIVERSEBEYOND, 0)
 
         def UNIVERSESBEYOND(self):
             return self.getToken(ScryfallQueryParser.UNIVERSESBEYOND, 0)
@@ -4322,6 +4571,9 @@ class ScryfallQueryParser ( Parser ):
         def WIZARDSPLAYNETWORK(self):
             return self.getToken(ScryfallQueryParser.WIZARDSPLAYNETWORK, 0)
 
+        def WM(self):
+            return self.getToken(ScryfallQueryParser.WM, 0)
+
         def getRuleIndex(self):
             return ScryfallQueryParser.RULE_isValue
 
@@ -4351,7 +4603,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 283
             _la = self._input.LA(1)
-            if not(_la==13 or _la==73 or ((((_la - 135)) & ~0x3f) == 0 and ((1 << (_la - 135)) & -65) != 0) or ((((_la - 199)) & ~0x3f) == 0 and ((1 << (_la - 199)) & -1) != 0) or ((((_la - 263)) & ~0x3f) == 0 and ((1 << (_la - 263)) & -1) != 0) or ((((_la - 327)) & ~0x3f) == 0 and ((1 << (_la - 327)) & -1) != 0) or ((((_la - 391)) & ~0x3f) == 0 and ((1 << (_la - 391)) & -1) != 0) or ((((_la - 455)) & ~0x3f) == 0 and ((1 << (_la - 455)) & 71571335020543) != 0) or ((((_la - 541)) & ~0x3f) == 0 and ((1 << (_la - 541)) & 69256347649) != 0)):
+            if not(_la==13 or _la==73 or ((((_la - 135)) & ~0x3f) == 0 and ((1 << (_la - 135)) & -1) != 0) or ((((_la - 199)) & ~0x3f) == 0 and ((1 << (_la - 199)) & -1) != 0) or ((((_la - 263)) & ~0x3f) == 0 and ((1 << (_la - 263)) & -1) != 0) or ((((_la - 327)) & ~0x3f) == 0 and ((1 << (_la - 327)) & -1) != 0) or ((((_la - 391)) & ~0x3f) == 0 and ((1 << (_la - 391)) & -1) != 0) or ((((_la - 455)) & ~0x3f) == 0 and ((1 << (_la - 455)) & 71571335020543) != 0) or ((((_la - 540)) & ~0x3f) == 0 and ((1 << (_la - 540)) & -342523641853) != 0) or ((((_la - 604)) & ~0x3f) == 0 and ((1 << (_la - 604)) & 536870911) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5202,7 +5454,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 319
             _la = self._input.LA(1)
-            if not(((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 36029071896870879) != 0) or ((((_la - 526)) & ~0x3f) == 0 and ((1 << (_la - 526)) & -8646907985479598071) != 0)):
+            if not(((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 36029071896870879) != 0) or ((((_la - 526)) & ~0x3f) == 0 and ((1 << (_la - 526)) & 3299071754249) != 0) or _la==639 or _la==643):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5457,7 +5709,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 331
             _la = self._input.LA(1)
-            if not(_la==220 or _la==294 or _la==491 or ((((_la - 579)) & ~0x3f) == 0 and ((1 << (_la - 579)) & 63) != 0)):
+            if not(_la==220 or _la==294 or _la==491 or ((((_la - 633)) & ~0x3f) == 0 and ((1 << (_la - 633)) & 63) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6089,7 +6341,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 355
             _la = self._input.LA(1)
-            if not(_la==77 or _la==574 or _la==585):
+            if not(_la==77 or _la==574 or _la==639):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6216,7 +6468,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 361
             _la = self._input.LA(1)
-            if not(_la==76 or _la==562 or _la==585):
+            if not(_la==76 or _la==562 or _la==639):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6294,7 +6546,7 @@ class ScryfallQueryParser ( Parser ):
             self.compOp()
             self.state = 365
             _la = self._input.LA(1)
-            if not(_la==515 or _la==516 or _la==585):
+            if not(_la==515 or _la==516 or _la==639):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6493,7 +6745,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 376
             _la = self._input.LA(1)
-            if not(((((_la - 526)) & ~0x3f) == 0 and ((1 << (_la - 526)) & -9223368738319892479) != 0) or _la==590 or _la==591):
+            if not(((((_la - 526)) & ~0x3f) == 0 and ((1 << (_la - 526)) & 3298534883329) != 0) or ((((_la - 643)) & ~0x3f) == 0 and ((1 << (_la - 643)) & 7) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6617,7 +6869,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 382
             _la = self._input.LA(1)
-            if not(_la==585 or _la==586):
+            if not(_la==639 or _la==640):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -7290,7 +7542,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 413
             _la = self._input.LA(1)
-            if not(_la==589 or _la==592):
+            if not(_la==643 or _la==646):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -7346,7 +7598,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 415
             _la = self._input.LA(1)
-            if not(_la==589 or _la==593):
+            if not(_la==643 or _la==647):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
