@@ -120,7 +120,9 @@ notTerm: NOT COLON isValue;
 isValue
     : ABNORMAL
     | ADVENTURE
+    | ADVENTURER
     | ALCHEMY
+    | ALIGHTS
     | ALTERNATE
     | AMPERSAND
     | ARCHENEMY
@@ -128,11 +130,17 @@ isValue
     | ARENA_LEAGUE
     | ARENAID
     | ARENALEAGUE
+    | ARTCARD
     | ARTIST
+    | ARTISTID
     | ARTISTMISPRINT
     | ARTSERIES
+    | ATTRACTIONLIGHTS
     | ATYPICAL
+    | AUGMENT
     | AUGMENTATION
+    | AUGMENTING
+    | AUGMENTS
     | BACK
     | BASELINE
     | BATTLELAND
@@ -152,17 +160,21 @@ isValue
     | BRAWLCOMMANDER
     | BRAWLDECK
     | BRAWLER
+    | BREAKER
     | BUNDLE
     | BURSTFOIL
     | BUYABOX
     | CANLAND
     | CANOPYLAND
+    | CARDBACK
     | CARDMARKET
+    | CARDMARKETID
     | CHECKLAND
     | CHOCOBOTRACKFOIL
     | CHRIMBY
     | CI
     | CLASS
+    | COLORINDICATOR
     | COLORSHIFTED
     | COMMANDER
     | COMMANDERPARTY
@@ -185,12 +197,14 @@ isValue
     | DFC
     | DIGITAL
     | DOUBLEEXPOSURE
+    | DOUBLEFACED
     | DOUBLERAINBOW
     | DOUBLESIDED
     | DRACULASERIES
     | DRAFTINNOVATION
     | DRAFTWEEKEND
     | DUAL
+    | DUALCOMMANDER
     | DUELCOMMANDER
     | DUELDECK
     | DUELS
@@ -199,9 +213,11 @@ isValue
     | ETB
     | ETCH
     | ETCHED
+    | ETCHEDFOIL
     | EVENT
     | EXPANSION
     | EXTENDED
+    | EXTENDEDART
     | EXTRA
     | FASTLAND
     | FBB
@@ -223,6 +239,7 @@ isValue
     | FF7
     | FF8
     | FF9
+    | FFANTASY
     | FFI
     | FFII
     | FFIII
@@ -240,6 +257,7 @@ isValue
     | FFXV
     | FFXVI
     | FILTERLAND
+    | FIN
     | FINALFANTASY
     | FINALFANTASY1
     | FINALFANTASY10
@@ -280,6 +298,7 @@ isValue
     | FIXED
     | FLAVOR
     | FLAVORNAME
+    | FLAVORTEXT
     | FLIP
     | FMB1
     | FNM
@@ -287,6 +306,7 @@ isValue
     | FRAMEODDITY
     | FRENCHVANILLA
     | FROMTHEVAULT
+    | FT
     | FULLART
     | FULLTEXT
     | FUNNY
@@ -306,11 +326,17 @@ isValue
     | HALO
     | HALOFOIL
     | HEADLINER
+    | HIGHRES
     | HIRES
     | HISTORIC
     | HORIZ
+    | HOST
     | HYBRID
+    | HYBRIDMANA
     | ILLUSTRATION
+    | ILLUSTRATIONID
+    | IMAGE
+    | IMAGEDATA
     | IMAGEQA
     | IMAGINE
     | INDICATOR
@@ -323,6 +349,7 @@ isValue
     | JUDGEGIFT
     | JUMPSTART
     | KAROO
+    | KEEPER
     | LEAGUE
     | LEVELER
     | LIGHTS
@@ -346,12 +373,15 @@ isValue
     | METAL
     | MISPRINT
     | MODAL
+    | MODALDFC
     | MODERN
     | MOM
     | MOONLITLAND
     | MTGOID
+    | MULTICOMMANDER
     | MULTIPLAYER
     | MULTIVERSE
+    | MULTIVERSEID
     | NEONINK
     | NEW
     | NEWINPAUPER
@@ -359,17 +389,28 @@ isValue
     | NONFOIL
     | NONTRADITIONAL
     | NORMAL
+    | NOTUB
+    | NOTUNIVERSEBEYOND
     | NOTUNIVERSESBEYOND
     | OATHBREAKER
+    | OATHKEEPER
+    | OB
+    | OBREAKER
     | ODDFRAME
     | OILSLICK
+    | OK
+    | OKEEPER
     | OLD
     | ONLYPRINT
+    | ONLYPRINTING
     | OPENHOUSE
     | OUTLAW
+    | OUTLAWS
     | OVERSIZED
     | PAGL
     | PAINLAND
+    | PAIRCOMMANDER
+    | PAIREDCOMMANDER
     | PAPERART
     | PARTNER
     | PARTY
@@ -380,6 +421,7 @@ isValue
     | PHED
     | PHYREXIA
     | PHYREXIAN
+    | PHYREXIANMANA
     | PIKULA
     | PLACEHOLDERIMAGE
     | PLANAR
@@ -395,8 +437,10 @@ isValue
     | PORTRAIT
     | POSTER
     | PREMIERESHOP
+    | PREMIUM
     | PREMIUMDECK
     | PRERELEASE
+    | PRINTEDNAME
     | PRINTEDTEXT
     | PROMO
     | PROMOPACK
@@ -404,10 +448,14 @@ isValue
     | RAISEDFOIL
     | REBALANCED
     | RELATED
+    | RELATEDCARDS
+    | RELATIONSHIPS
     | RELEASE
     | REPRINT
     | RESALE
     | RESERVED
+    | REVERSABLE
+    | REVERSEABLE
     | REVERSIBLE
     | RIPPLEFOIL
     | SCANNEEDED
@@ -416,11 +464,14 @@ isValue
     | SCROLL
     | SCRYFALLPREVIEW
     | SCRYLAND
+    | SECSTAMP
+    | SECURITYSTAMP
     | SERIALIZED
     | SET_PROMO
     | SETEXTENSION
     | SETPROMO
     | SHADOWLAND
+    | SHINY
     | SHOCKLAND
     | SHOWCASE
     | SINGULARITYFOIL
@@ -428,6 +479,7 @@ isValue
     | SLOWLAND
     | SNARL
     | SOURCEMATERIAL
+    | SPECIALBACK
     | SPELL
     | SPELLBOOK
     | SPIKEY
@@ -446,6 +498,7 @@ isValue
     | SURVEILLAND
     | TANGOLAND
     | TCGPLAYER
+    | TCGPLAYERID
     | TDFC
     | TEXTLESS
     | TEXTURED
@@ -457,6 +510,7 @@ isValue
     | TOURNEY
     | TRADITIONAL
     | TRANSFORM
+    | TRANSFORMINGDFC
     | TRANSLUCENT
     | TREASURECHEST
     | TRICYCLELAND
@@ -464,9 +518,11 @@ isValue
     | TRILAND
     | TRIOME
     | TRON
+    | TWOCOMMANDER
     | TYPICAL
     | UB
     | UNIQUE
+    | UNIVERSEBEYOND
     | UNIVERSESBEYOND
     | UNSET
     | UPSIDEDOWN
@@ -480,6 +536,7 @@ isValue
     | WANTED
     | WATERMARK
     | WIZARDSPLAYNETWORK
+    | WM
     ;
 
 formatTerm: (F | FORMAT) COLON formatValue;
@@ -1368,6 +1425,61 @@ CHEAPEST: 'cheapest';
 WM: 'wm';
 WATERMARK: 'watermark';
 YEAR: 'year';
+
+ADVENTURER: 'adventurer';
+ALIGHTS: 'alights';
+ARTCARD: 'artcard';
+ARTISTID: 'artistid';
+ATTRACTIONLIGHTS: 'attractionlights';
+AUGMENT: 'augment';
+AUGMENTING: 'augmenting';
+AUGMENTS: 'augments';
+BREAKER: 'breaker';
+CARDBACK: 'cardback';
+CARDMARKETID: 'cardmarketid';
+COLORINDICATOR: 'colorindicator';
+DOUBLEFACED: 'doublefaced';
+DUALCOMMANDER: 'dualcommander';
+ETCHEDFOIL: 'etchedfoil';
+EXTENDEDART: 'extendedart';
+FFANTASY: 'ffantasy';
+FIN: 'fin';
+FLAVORTEXT: 'flavortext';
+HIGHRES: 'highres';
+HOST: 'host';
+HYBRIDMANA: 'hybridmana';
+ILLUSTRATIONID: 'illustrationid';
+IMAGE: 'image';
+IMAGEDATA: 'imagedata';
+KEEPER: 'keeper';
+MODALDFC: 'modaldfc';
+MULTICOMMANDER: 'multicommander';
+MULTIVERSEID: 'multiverseid';
+NOTUNIVERSEBEYOND: 'notuniversebeyond';
+OATHKEEPER: 'oathkeeper';
+OB: 'ob';
+OBREAKER: 'obreaker';
+OK: 'ok';
+OKEEPER: 'okeeper';
+ONLYPRINTING: 'onlyprinting';
+OUTLAWS: 'outlaws';
+PAIRCOMMANDER: 'paircommander';
+PAIREDCOMMANDER: 'pairedcommander';
+PHYREXIANMANA: 'phyrexianmana';
+PREMIUM: 'premium';
+PRINTEDNAME: 'printedname';
+RELATEDCARDS: 'relatedcards';
+RELATIONSHIPS: 'relationships';
+REVERSABLE: 'reversable';
+REVERSEABLE: 'reverseable';
+SECSTAMP: 'secstamp';
+SECURITYSTAMP: 'securitystamp';
+SHINY: 'shiny';
+SPECIALBACK: 'specialback';
+TCGPLAYERID: 'tcgplayerid';
+TRANSFORMINGDFC: 'transformingdfc';
+TWOCOMMANDER: 'twocommander';
+UNIVERSEBEYOND: 'universebeyond';
 
 FRAME_1993: '1993';
 FRAME_1997: '1997';
