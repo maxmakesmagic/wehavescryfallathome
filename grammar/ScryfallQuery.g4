@@ -50,6 +50,7 @@ nonDisplayAtom
     | colorTerm
     | borderTerm
     | languageTerm
+    | stampTerm
     | genericTerm
     | quotedText
     | word
@@ -607,6 +608,16 @@ languageValue
     | QUENYA
     ;
 
+stampTerm: STAMP COLON stampValue;
+stampValue
+    : OVAL
+    | ACORN
+    | TRIANGLE
+    | ARENA
+    | CIRCLE
+    | HEART
+    ;
+
 rarityTerm: (R | RARITY | IN) compOp rarityValue;
 rarityValue
     : COMMON
@@ -686,7 +697,6 @@ genericKey
     | S
     | SET
     | SETS
-    | STAMP
     | ST
     | GAME
     | T
@@ -1261,6 +1271,12 @@ BONUS: 'bonus';
 
 EVEN: 'even';
 ODD: 'odd';
+
+OVAL: 'oval';
+ACORN: 'acorn';
+TRIANGLE: 'triangle';
+CIRCLE: 'circle';
+HEART: 'heart';
 
 A: 'a';
 ART: 'art';

@@ -224,6 +224,16 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#stampTerm.
+    def visitStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#stampValue.
+    def visitStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#rarityTerm.
     def visitRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         return self.visitChildren(ctx)

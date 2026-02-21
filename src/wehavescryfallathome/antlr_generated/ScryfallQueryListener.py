@@ -395,6 +395,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#stampTerm.
+    def enterStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#stampTerm.
+    def exitStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#stampValue.
+    def enterStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#stampValue.
+    def exitStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#rarityTerm.
     def enterRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         pass
