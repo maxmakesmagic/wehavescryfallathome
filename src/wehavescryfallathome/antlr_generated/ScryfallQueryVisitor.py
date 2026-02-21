@@ -214,6 +214,16 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#languageTerm.
+    def visitLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#languageValue.
+    def visitLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#rarityTerm.
     def visitRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         return self.visitChildren(ctx)
@@ -236,6 +246,11 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
 
     # Visit a parse tree produced by ScryfallQueryParser#manaValue.
     def visitManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def visitManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
         return self.visitChildren(ctx)
 
 

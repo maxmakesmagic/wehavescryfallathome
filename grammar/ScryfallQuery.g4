@@ -49,6 +49,7 @@ nonDisplayAtom
     | manaTerm
     | colorTerm
     | borderTerm
+    | languageTerm
     | genericTerm
     | quotedText
     | word
@@ -565,6 +566,47 @@ borderValue
     | BORDERLESS
     ;
 
+languageTerm: (LANG | LANGUAGE) COLON languageValue;
+languageValue
+    : ANY
+    | EN
+    | ES
+    | FR
+    | DE
+    | IT
+    | PT
+    | JA
+    | KO
+    | RU
+    | ZHS
+    | ZHT
+    | HE
+    | LA
+    | GRC
+    | AR
+    | SA
+    | PH
+    | QYA
+    | ENGLISH
+    | SPANISH
+    | FRENCH
+    | GERMAN
+    | ITALIAN
+    | PORTUGUESE
+    | JAPANESE
+    | KOREAN
+    | RUSSIAN
+    | SIMPLIFIED_CHINESE
+    | TRADITIONAL_CHINESE
+    | HEBREW
+    | LATIN
+    | ANCIENT_GREEK
+    | ARABIC
+    | SANSKRIT
+    | PHYREXIAN
+    | QUENYA
+    ;
+
 rarityTerm: (R | RARITY | IN) compOp rarityValue;
 rarityValue
     : COMMON
@@ -583,7 +625,15 @@ rarityValue
 mvTerm: (MV | MANAVALUE) compOp (EVEN | ODD | NUMBER);
 
 manaTerm: (M | MANA) compOp manaValue;
-manaValue: MANA_VALUE;
+manaValue: manaValuePart+;
+manaValuePart
+    : MANA_BRACED_SYMBOL
+    | MANA_UNBRACED_SYMBOL
+    | COLOR_SET
+    | U
+    | B
+    | R
+    ;
 
 // Generic keyword form: <key><op><value>
 // Example: t:elf, o:"draw", pow>tou, date>=2020-01-01
@@ -618,8 +668,6 @@ genericKey
     | IN
     | KEYWORD
     | KW
-    | LANG
-    | LANGUAGE
     | LOY
     | LOYALTY
     | N
@@ -677,6 +725,7 @@ genericValue
     | uniqueValue
     | displayValue
     | gameValueToken
+    | languageValue
     ;
 quotedText: QUOTED_TEXT;
 regex: REGEX;
@@ -726,6 +775,43 @@ TEXT: 'text';
 ASC: 'asc';
 DESC: 'desc';
 EXTRAS: 'extras';
+ANY: 'any';
+
+ENGLISH: 'english';
+SPANISH: 'spanish';
+FRENCH: 'french';
+GERMAN: 'german';
+ITALIAN: 'italian';
+PORTUGUESE: 'portuguese';
+JAPANESE: 'japanese';
+KOREAN: 'korean';
+RUSSIAN: 'russian';
+SIMPLIFIED_CHINESE: 'simplifiedchinese';
+TRADITIONAL_CHINESE: 'traditionalchinese';
+HEBREW: 'hebrew';
+LATIN: 'latin';
+ANCIENT_GREEK: 'ancientgreek';
+ARABIC: 'arabic';
+SANSKRIT: 'sanskrit';
+QUENYA: 'quenya';
+
+EN: 'en';
+ES: 'es';
+FR: 'fr';
+DE: 'de';
+IT: 'it';
+JA: 'ja';
+KO: 'ko';
+RU: 'ru';
+ZHS: 'zhs';
+ZHT: 'zht';
+HE: 'he';
+LA: 'la';
+GRC: 'grc';
+AR: 'ar';
+SA: 'sa';
+PH: 'ph';
+QYA: 'qya';
 
 ARTIST: 'artist';
 ARTISTS: 'artists';
@@ -1248,9 +1334,14 @@ REGEX: '/' (~[/\\\r\n] | '\\' .)+ '/';
 // Dedicated tokens such as `U`, `B`, `R`, and `UB` may shadow this rule when
 // they tie on length and appear earlier in lexer rule order.
 COLOR_SET: [wWuUbBrRgG]+;
-// MANA_VALUE captures mana-cost text such as 2WW, {R/P}, or {W/U}{W/U}.
-// It is intentionally placed after COLOR_SET so color tokens keep precedence.
-MANA_VALUE: [0-9{}/wWuUbBrRgGcCsSpPxXyYzZ]+;
+// Mana symbol fragments for `m:`/`mana:` value parsing.
+fragment MANA_SYMBOL_CHAR: [wWuUbBrRgGcCsSpPxXyYzZ];
+fragment MANA_SYMBOL_PART: [0-9]+ | MANA_SYMBOL_CHAR;
+// One or more balanced mana symbol blocks, e.g. {R/P}, {2/G}, {W/U}{W/U}.
+MANA_BRACED_SYMBOL: ('{' MANA_SYMBOL_PART ('/' MANA_SYMBOL_PART)? '}')+;
+// Unbraced shorthand mana expression, e.g. 2WW or 3WU.
+// Intentionally after COLOR_SET so color tokens keep precedence where relevant.
+MANA_UNBRACED_SYMBOL: [0-9wWuUbBrRgGcCsSpPxXyYzZ]+;
 // WORD is an unquoted atom token used for names/terms.
 WORD: ~[ \t\r\n()"!:/<>=-] ~[ \t\r\n()"!:/<>=-]*;
 // BARE_VALUE is like WORD but used in value positions.

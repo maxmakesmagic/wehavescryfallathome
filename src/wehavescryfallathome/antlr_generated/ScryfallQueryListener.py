@@ -377,6 +377,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#languageTerm.
+    def enterLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#languageTerm.
+    def exitLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#languageValue.
+    def enterLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#languageValue.
+    def exitLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#rarityTerm.
     def enterRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         pass
@@ -419,6 +437,15 @@ class ScryfallQueryListener(ParseTreeListener):
 
     # Exit a parse tree produced by ScryfallQueryParser#manaValue.
     def exitManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def enterManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def exitManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
         pass
 
 

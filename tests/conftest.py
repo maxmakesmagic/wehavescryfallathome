@@ -37,7 +37,9 @@ class ScryfallQuerier:
                 now = time.monotonic()
             self._next_request_at = now + self._min_interval_seconds
 
-    def accepts_query(self, query: str, timeout_seconds: float = 20.0) -> tuple[bool, str]:
+    def accepts_query(
+        self, query: str, timeout_seconds: float = 20.0
+    ) -> tuple[bool, str]:
         """Check whether live Scryfall accepts the provided query term expression."""
         self._wait_for_turn()
         url = "https://api.scryfall.com/cards/search?" + urllib.parse.urlencode(
@@ -153,6 +155,10 @@ class ScryfallQueryGrammarFile:
 
         return sorted(set(values))
 
+    def get_language_values(self) -> list[str]:
+        """Return known `lang:`/`language:` values from grammar."""
+        return sorted(set(self.get_rule_values_in_order("languageValue")))
+
 
 @pytest.fixture
 def scryfall_query_grammar() -> ScryfallQueryGrammarFile:
@@ -170,6 +176,11 @@ def pytest_generate_tests(metafunc: pytest.Metafunc) -> None:
     if "color_value" in metafunc.fixturenames:
         metafunc.parametrize("color_value", grammar.get_color_values(), indirect=True)
 
+    if "language_value" in metafunc.fixturenames:
+        metafunc.parametrize(
+            "language_value", grammar.get_language_values(), indirect=True
+        )
+
 
 @pytest.fixture
 def is_value(request: pytest.FixtureRequest) -> str:
@@ -180,6 +191,12 @@ def is_value(request: pytest.FixtureRequest) -> str:
 @pytest.fixture
 def color_value(request: pytest.FixtureRequest) -> str:
     """Indirect fixture carrying one `color:` value from grammar parameterization."""
+    return str(request.param)
+
+
+@pytest.fixture
+def language_value(request: pytest.FixtureRequest) -> str:
+    """Indirect fixture carrying one language value from grammar parameterization."""
     return str(request.param)
 
 

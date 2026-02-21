@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,545,326,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
+        4,1,581,345,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
         7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,
         13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,
         20,7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,2,26,7,
@@ -18,114 +18,123 @@ def serializedATN():
         33,7,33,2,34,7,34,2,35,7,35,2,36,7,36,2,37,7,37,2,38,7,38,2,39,7,
         39,2,40,7,40,2,41,7,41,2,42,7,42,2,43,7,43,2,44,7,44,2,45,7,45,2,
         46,7,46,2,47,7,47,2,48,7,48,2,49,7,49,2,50,7,50,2,51,7,51,2,52,7,
-        52,2,53,7,53,1,0,1,0,1,0,1,1,1,1,1,1,5,1,115,8,1,10,1,12,1,118,9,
-        1,1,2,4,2,121,8,2,11,2,12,2,122,1,3,1,3,3,3,127,8,3,1,4,1,4,1,4,
-        1,4,1,5,3,5,134,8,5,1,5,1,5,1,6,1,6,1,6,5,6,141,8,6,10,6,12,6,144,
-        9,6,1,7,4,7,147,8,7,11,7,12,7,148,1,8,1,8,3,8,153,8,8,1,9,1,9,1,
-        9,1,9,1,10,3,10,160,8,10,1,10,1,10,1,11,1,11,3,11,166,8,11,1,12,
-        1,12,1,12,1,12,1,12,3,12,173,8,12,1,13,1,13,1,14,1,14,1,14,1,14,
-        1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,3,14,
-        193,8,14,1,15,1,15,1,15,3,15,198,8,15,1,16,1,16,1,16,1,16,1,17,1,
-        17,1,18,1,18,1,19,1,19,1,19,1,19,1,20,1,20,1,21,1,21,1,21,1,21,1,
-        22,1,22,1,23,1,23,1,23,1,23,1,24,1,24,1,25,1,25,1,25,1,25,1,26,1,
-        26,1,27,1,27,1,27,1,27,1,28,1,28,1,28,1,28,1,29,1,29,1,29,1,29,1,
-        30,1,30,1,31,1,31,1,31,1,31,1,32,1,32,1,32,1,32,1,33,1,33,1,33,1,
-        33,1,34,1,34,1,35,1,35,1,35,1,35,1,36,1,36,1,37,1,37,1,37,1,37,1,
-        38,1,38,1,39,1,39,1,39,1,39,1,40,1,40,1,41,1,41,1,41,1,41,1,42,1,
-        42,1,43,1,43,1,43,1,43,1,44,1,44,1,44,1,44,1,45,1,45,1,46,1,46,1,
-        46,1,46,1,47,1,47,1,48,1,48,1,49,1,49,1,49,1,49,1,49,1,49,1,49,1,
-        49,1,49,1,49,1,49,1,49,1,49,1,49,3,49,316,8,49,1,50,1,50,1,51,1,
-        51,1,52,1,52,1,53,1,53,1,53,0,0,54,0,2,4,6,8,10,12,14,16,18,20,22,
-        24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,
-        68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100,102,104,106,
-        0,21,2,0,29,30,483,483,1,0,31,34,4,0,26,26,38,38,40,48,87,91,1,0,
-        35,36,1,0,92,106,10,0,13,13,38,38,100,105,107,454,456,456,460,460,
-        466,466,500,500,529,529,536,536,1,0,21,22,6,0,90,90,122,122,148,
-        148,152,152,164,164,455,470,1,0,471,473,2,0,48,48,489,489,9,0,49,
-        53,55,86,104,104,486,486,489,489,514,514,525,526,538,538,541,541,
-        4,0,49,49,51,51,54,54,180,180,3,0,26,26,507,507,525,525,5,0,474,
-        479,486,486,489,489,514,514,525,526,1,0,27,28,2,0,480,481,538,538,
-        1,0,514,515,9,0,25,26,30,30,38,39,41,47,156,156,482,487,490,513,
-        516,525,527,537,1,0,5,11,2,0,541,541,543,543,2,0,541,541,544,544,
-        313,0,108,1,0,0,0,2,111,1,0,0,0,4,120,1,0,0,0,6,126,1,0,0,0,8,128,
-        1,0,0,0,10,133,1,0,0,0,12,137,1,0,0,0,14,146,1,0,0,0,16,152,1,0,
-        0,0,18,154,1,0,0,0,20,159,1,0,0,0,22,165,1,0,0,0,24,172,1,0,0,0,
-        26,174,1,0,0,0,28,192,1,0,0,0,30,194,1,0,0,0,32,199,1,0,0,0,34,203,
-        1,0,0,0,36,205,1,0,0,0,38,207,1,0,0,0,40,211,1,0,0,0,42,213,1,0,
-        0,0,44,217,1,0,0,0,46,219,1,0,0,0,48,223,1,0,0,0,50,225,1,0,0,0,
-        52,229,1,0,0,0,54,231,1,0,0,0,56,235,1,0,0,0,58,239,1,0,0,0,60,243,
-        1,0,0,0,62,245,1,0,0,0,64,249,1,0,0,0,66,253,1,0,0,0,68,257,1,0,
-        0,0,70,259,1,0,0,0,72,263,1,0,0,0,74,265,1,0,0,0,76,269,1,0,0,0,
-        78,271,1,0,0,0,80,275,1,0,0,0,82,277,1,0,0,0,84,281,1,0,0,0,86,283,
-        1,0,0,0,88,287,1,0,0,0,90,291,1,0,0,0,92,293,1,0,0,0,94,297,1,0,
-        0,0,96,299,1,0,0,0,98,315,1,0,0,0,100,317,1,0,0,0,102,319,1,0,0,
-        0,104,321,1,0,0,0,106,323,1,0,0,0,108,109,3,2,1,0,109,110,5,0,0,
-        1,110,1,1,0,0,0,111,116,3,4,2,0,112,113,5,12,0,0,113,115,3,4,2,0,
-        114,112,1,0,0,0,115,118,1,0,0,0,116,114,1,0,0,0,116,117,1,0,0,0,
-        117,3,1,0,0,0,118,116,1,0,0,0,119,121,3,6,3,0,120,119,1,0,0,0,121,
-        122,1,0,0,0,122,120,1,0,0,0,122,123,1,0,0,0,123,5,1,0,0,0,124,127,
-        3,8,4,0,125,127,3,10,5,0,126,124,1,0,0,0,126,125,1,0,0,0,127,7,1,
-        0,0,0,128,129,5,1,0,0,129,130,3,12,6,0,130,131,5,2,0,0,131,9,1,0,
-        0,0,132,134,5,3,0,0,133,132,1,0,0,0,133,134,1,0,0,0,134,135,1,0,
-        0,0,135,136,3,22,11,0,136,11,1,0,0,0,137,142,3,14,7,0,138,139,5,
-        12,0,0,139,141,3,14,7,0,140,138,1,0,0,0,141,144,1,0,0,0,142,140,
-        1,0,0,0,142,143,1,0,0,0,143,13,1,0,0,0,144,142,1,0,0,0,145,147,3,
-        16,8,0,146,145,1,0,0,0,147,148,1,0,0,0,148,146,1,0,0,0,148,149,1,
-        0,0,0,149,15,1,0,0,0,150,153,3,18,9,0,151,153,3,20,10,0,152,150,
-        1,0,0,0,152,151,1,0,0,0,153,17,1,0,0,0,154,155,5,1,0,0,155,156,3,
-        12,6,0,156,157,5,2,0,0,157,19,1,0,0,0,158,160,5,3,0,0,159,158,1,
-        0,0,0,159,160,1,0,0,0,160,161,1,0,0,0,161,162,3,26,13,0,162,21,1,
-        0,0,0,163,166,3,24,12,0,164,166,3,28,14,0,165,163,1,0,0,0,165,164,
-        1,0,0,0,166,23,1,0,0,0,167,173,3,32,16,0,168,173,3,38,19,0,169,173,
-        3,42,21,0,170,173,3,46,23,0,171,173,3,50,25,0,172,167,1,0,0,0,172,
-        168,1,0,0,0,172,169,1,0,0,0,172,170,1,0,0,0,172,171,1,0,0,0,173,
-        25,1,0,0,0,174,175,3,28,14,0,175,27,1,0,0,0,176,193,3,30,15,0,177,
-        193,3,54,27,0,178,193,3,56,28,0,179,193,3,58,29,0,180,193,3,62,31,
-        0,181,193,3,64,32,0,182,193,3,66,33,0,183,193,3,70,35,0,184,193,
-        3,82,41,0,185,193,3,86,43,0,186,193,3,88,44,0,187,193,3,74,37,0,
-        188,193,3,78,39,0,189,193,3,92,46,0,190,193,3,100,50,0,191,193,3,
-        104,52,0,192,176,1,0,0,0,192,177,1,0,0,0,192,178,1,0,0,0,192,179,
-        1,0,0,0,192,180,1,0,0,0,192,181,1,0,0,0,192,182,1,0,0,0,192,183,
-        1,0,0,0,192,184,1,0,0,0,192,185,1,0,0,0,192,186,1,0,0,0,192,187,
-        1,0,0,0,192,188,1,0,0,0,192,189,1,0,0,0,192,190,1,0,0,0,192,191,
-        1,0,0,0,193,29,1,0,0,0,194,197,5,4,0,0,195,198,3,100,50,0,196,198,
-        3,104,52,0,197,195,1,0,0,0,197,196,1,0,0,0,198,31,1,0,0,0,199,200,
-        3,34,17,0,200,201,5,5,0,0,201,202,3,36,18,0,202,33,1,0,0,0,203,204,
-        5,13,0,0,204,35,1,0,0,0,205,206,7,0,0,0,206,37,1,0,0,0,207,208,5,
-        14,0,0,208,209,5,5,0,0,209,210,3,40,20,0,210,39,1,0,0,0,211,212,
-        7,1,0,0,212,41,1,0,0,0,213,214,5,15,0,0,214,215,5,5,0,0,215,216,
-        3,44,22,0,216,43,1,0,0,0,217,218,7,2,0,0,218,45,1,0,0,0,219,220,
-        5,16,0,0,220,221,5,5,0,0,221,222,3,48,24,0,222,47,1,0,0,0,223,224,
-        7,3,0,0,224,49,1,0,0,0,225,226,5,17,0,0,226,227,5,5,0,0,227,228,
-        3,52,26,0,228,51,1,0,0,0,229,230,7,4,0,0,230,53,1,0,0,0,231,232,
-        5,18,0,0,232,233,5,5,0,0,233,234,5,37,0,0,234,55,1,0,0,0,235,236,
-        5,19,0,0,236,237,5,5,0,0,237,238,3,60,30,0,238,57,1,0,0,0,239,240,
-        5,20,0,0,240,241,5,5,0,0,241,242,3,60,30,0,242,59,1,0,0,0,243,244,
-        7,5,0,0,244,61,1,0,0,0,245,246,7,6,0,0,246,247,5,5,0,0,247,248,3,
-        68,34,0,248,63,1,0,0,0,249,250,5,23,0,0,250,251,5,5,0,0,251,252,
-        3,68,34,0,252,65,1,0,0,0,253,254,5,24,0,0,254,255,5,5,0,0,255,256,
-        3,68,34,0,256,67,1,0,0,0,257,258,7,7,0,0,258,69,1,0,0,0,259,260,
-        5,25,0,0,260,261,5,5,0,0,261,262,7,8,0,0,262,71,1,0,0,0,263,264,
-        7,8,0,0,264,73,1,0,0,0,265,266,7,9,0,0,266,267,3,96,48,0,267,268,
-        3,76,38,0,268,75,1,0,0,0,269,270,7,10,0,0,270,77,1,0,0,0,271,272,
-        5,488,0,0,272,273,5,5,0,0,273,274,3,80,40,0,274,79,1,0,0,0,275,276,
-        7,11,0,0,276,81,1,0,0,0,277,278,7,12,0,0,278,279,3,96,48,0,279,280,
-        3,84,42,0,280,83,1,0,0,0,281,282,7,13,0,0,282,85,1,0,0,0,283,284,
-        7,14,0,0,284,285,3,96,48,0,285,286,7,15,0,0,286,87,1,0,0,0,287,288,
-        7,16,0,0,288,289,3,96,48,0,289,290,3,90,45,0,290,89,1,0,0,0,291,
-        292,5,542,0,0,292,91,1,0,0,0,293,294,3,94,47,0,294,295,3,96,48,0,
-        295,296,3,98,49,0,296,93,1,0,0,0,297,298,7,17,0,0,298,95,1,0,0,0,
-        299,300,7,18,0,0,300,97,1,0,0,0,301,316,3,102,51,0,302,316,3,100,
-        50,0,303,316,3,106,53,0,304,316,3,104,52,0,305,316,3,94,47,0,306,
-        316,3,84,42,0,307,316,3,68,34,0,308,316,3,60,30,0,309,316,3,44,22,
-        0,310,316,3,52,26,0,311,316,3,48,24,0,312,316,3,36,18,0,313,316,
-        3,40,20,0,314,316,3,72,36,0,315,301,1,0,0,0,315,302,1,0,0,0,315,
-        303,1,0,0,0,315,304,1,0,0,0,315,305,1,0,0,0,315,306,1,0,0,0,315,
-        307,1,0,0,0,315,308,1,0,0,0,315,309,1,0,0,0,315,310,1,0,0,0,315,
-        311,1,0,0,0,315,312,1,0,0,0,315,313,1,0,0,0,315,314,1,0,0,0,316,
-        99,1,0,0,0,317,318,5,539,0,0,318,101,1,0,0,0,319,320,5,540,0,0,320,
-        103,1,0,0,0,321,322,7,19,0,0,322,105,1,0,0,0,323,324,7,20,0,0,324,
-        107,1,0,0,0,13,116,122,126,133,142,148,152,159,165,172,192,197,315
+        52,2,53,7,53,2,54,7,54,2,55,7,55,2,56,7,56,1,0,1,0,1,0,1,1,1,1,1,
+        1,5,1,121,8,1,10,1,12,1,124,9,1,1,2,4,2,127,8,2,11,2,12,2,128,1,
+        3,1,3,3,3,133,8,3,1,4,1,4,1,4,1,4,1,5,3,5,140,8,5,1,5,1,5,1,6,1,
+        6,1,6,5,6,147,8,6,10,6,12,6,150,9,6,1,7,4,7,153,8,7,11,7,12,7,154,
+        1,8,1,8,3,8,159,8,8,1,9,1,9,1,9,1,9,1,10,3,10,166,8,10,1,10,1,10,
+        1,11,1,11,3,11,172,8,11,1,12,1,12,1,12,1,12,1,12,3,12,179,8,12,1,
+        13,1,13,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,14,1,
+        14,1,14,1,14,1,14,1,14,1,14,3,14,200,8,14,1,15,1,15,1,15,3,15,205,
+        8,15,1,16,1,16,1,16,1,16,1,17,1,17,1,18,1,18,1,19,1,19,1,19,1,19,
+        1,20,1,20,1,21,1,21,1,21,1,21,1,22,1,22,1,23,1,23,1,23,1,23,1,24,
+        1,24,1,25,1,25,1,25,1,25,1,26,1,26,1,27,1,27,1,27,1,27,1,28,1,28,
+        1,28,1,28,1,29,1,29,1,29,1,29,1,30,1,30,1,31,1,31,1,31,1,31,1,32,
+        1,32,1,32,1,32,1,33,1,33,1,33,1,33,1,34,1,34,1,35,1,35,1,35,1,35,
+        1,36,1,36,1,37,1,37,1,37,1,37,1,38,1,38,1,39,1,39,1,39,1,39,1,40,
+        1,40,1,41,1,41,1,41,1,41,1,42,1,42,1,43,1,43,1,43,1,43,1,44,1,44,
+        1,45,1,45,1,45,1,45,1,46,1,46,1,46,1,46,1,47,4,47,306,8,47,11,47,
+        12,47,307,1,48,1,48,1,49,1,49,1,49,1,49,1,50,1,50,1,51,1,51,1,52,
+        1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,1,52,
+        1,52,3,52,335,8,52,1,53,1,53,1,54,1,54,1,55,1,55,1,56,1,56,1,56,
+        0,0,57,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,
+        42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,
+        86,88,90,92,94,96,98,100,102,104,106,108,110,112,0,24,2,0,29,30,
+        518,518,1,0,31,34,4,0,26,26,73,73,75,83,122,126,1,0,35,36,1,0,127,
+        141,10,0,13,13,73,73,135,140,142,489,491,491,495,495,501,501,535,
+        535,564,564,571,571,1,0,21,22,6,0,125,125,157,157,183,183,187,187,
+        199,199,490,505,1,0,506,508,2,0,83,83,524,524,9,0,84,88,90,121,139,
+        139,521,521,524,524,549,549,560,561,573,573,576,576,4,0,84,84,86,
+        86,89,89,215,215,1,0,545,546,3,0,38,72,144,144,557,557,3,0,26,26,
+        542,542,560,560,5,0,509,514,521,521,524,524,549,549,560,561,1,0,
+        27,28,2,0,515,516,573,573,1,0,549,550,3,0,521,521,560,561,576,578,
+        10,0,25,26,30,30,73,74,76,82,191,191,517,522,525,544,547,548,551,
+        560,562,572,1,0,5,11,2,0,576,576,579,579,2,0,576,576,580,580,332,
+        0,114,1,0,0,0,2,117,1,0,0,0,4,126,1,0,0,0,6,132,1,0,0,0,8,134,1,
+        0,0,0,10,139,1,0,0,0,12,143,1,0,0,0,14,152,1,0,0,0,16,158,1,0,0,
+        0,18,160,1,0,0,0,20,165,1,0,0,0,22,171,1,0,0,0,24,178,1,0,0,0,26,
+        180,1,0,0,0,28,199,1,0,0,0,30,201,1,0,0,0,32,206,1,0,0,0,34,210,
+        1,0,0,0,36,212,1,0,0,0,38,214,1,0,0,0,40,218,1,0,0,0,42,220,1,0,
+        0,0,44,224,1,0,0,0,46,226,1,0,0,0,48,230,1,0,0,0,50,232,1,0,0,0,
+        52,236,1,0,0,0,54,238,1,0,0,0,56,242,1,0,0,0,58,246,1,0,0,0,60,250,
+        1,0,0,0,62,252,1,0,0,0,64,256,1,0,0,0,66,260,1,0,0,0,68,264,1,0,
+        0,0,70,266,1,0,0,0,72,270,1,0,0,0,74,272,1,0,0,0,76,276,1,0,0,0,
+        78,278,1,0,0,0,80,282,1,0,0,0,82,284,1,0,0,0,84,288,1,0,0,0,86,290,
+        1,0,0,0,88,294,1,0,0,0,90,296,1,0,0,0,92,300,1,0,0,0,94,305,1,0,
+        0,0,96,309,1,0,0,0,98,311,1,0,0,0,100,315,1,0,0,0,102,317,1,0,0,
+        0,104,334,1,0,0,0,106,336,1,0,0,0,108,338,1,0,0,0,110,340,1,0,0,
+        0,112,342,1,0,0,0,114,115,3,2,1,0,115,116,5,0,0,1,116,1,1,0,0,0,
+        117,122,3,4,2,0,118,119,5,12,0,0,119,121,3,4,2,0,120,118,1,0,0,0,
+        121,124,1,0,0,0,122,120,1,0,0,0,122,123,1,0,0,0,123,3,1,0,0,0,124,
+        122,1,0,0,0,125,127,3,6,3,0,126,125,1,0,0,0,127,128,1,0,0,0,128,
+        126,1,0,0,0,128,129,1,0,0,0,129,5,1,0,0,0,130,133,3,8,4,0,131,133,
+        3,10,5,0,132,130,1,0,0,0,132,131,1,0,0,0,133,7,1,0,0,0,134,135,5,
+        1,0,0,135,136,3,12,6,0,136,137,5,2,0,0,137,9,1,0,0,0,138,140,5,3,
+        0,0,139,138,1,0,0,0,139,140,1,0,0,0,140,141,1,0,0,0,141,142,3,22,
+        11,0,142,11,1,0,0,0,143,148,3,14,7,0,144,145,5,12,0,0,145,147,3,
+        14,7,0,146,144,1,0,0,0,147,150,1,0,0,0,148,146,1,0,0,0,148,149,1,
+        0,0,0,149,13,1,0,0,0,150,148,1,0,0,0,151,153,3,16,8,0,152,151,1,
+        0,0,0,153,154,1,0,0,0,154,152,1,0,0,0,154,155,1,0,0,0,155,15,1,0,
+        0,0,156,159,3,18,9,0,157,159,3,20,10,0,158,156,1,0,0,0,158,157,1,
+        0,0,0,159,17,1,0,0,0,160,161,5,1,0,0,161,162,3,12,6,0,162,163,5,
+        2,0,0,163,19,1,0,0,0,164,166,5,3,0,0,165,164,1,0,0,0,165,166,1,0,
+        0,0,166,167,1,0,0,0,167,168,3,26,13,0,168,21,1,0,0,0,169,172,3,24,
+        12,0,170,172,3,28,14,0,171,169,1,0,0,0,171,170,1,0,0,0,172,23,1,
+        0,0,0,173,179,3,32,16,0,174,179,3,38,19,0,175,179,3,42,21,0,176,
+        179,3,46,23,0,177,179,3,50,25,0,178,173,1,0,0,0,178,174,1,0,0,0,
+        178,175,1,0,0,0,178,176,1,0,0,0,178,177,1,0,0,0,179,25,1,0,0,0,180,
+        181,3,28,14,0,181,27,1,0,0,0,182,200,3,30,15,0,183,200,3,54,27,0,
+        184,200,3,56,28,0,185,200,3,58,29,0,186,200,3,62,31,0,187,200,3,
+        64,32,0,188,200,3,66,33,0,189,200,3,70,35,0,190,200,3,86,43,0,191,
+        200,3,90,45,0,192,200,3,92,46,0,193,200,3,74,37,0,194,200,3,78,39,
+        0,195,200,3,82,41,0,196,200,3,98,49,0,197,200,3,106,53,0,198,200,
+        3,110,55,0,199,182,1,0,0,0,199,183,1,0,0,0,199,184,1,0,0,0,199,185,
+        1,0,0,0,199,186,1,0,0,0,199,187,1,0,0,0,199,188,1,0,0,0,199,189,
+        1,0,0,0,199,190,1,0,0,0,199,191,1,0,0,0,199,192,1,0,0,0,199,193,
+        1,0,0,0,199,194,1,0,0,0,199,195,1,0,0,0,199,196,1,0,0,0,199,197,
+        1,0,0,0,199,198,1,0,0,0,200,29,1,0,0,0,201,204,5,4,0,0,202,205,3,
+        106,53,0,203,205,3,110,55,0,204,202,1,0,0,0,204,203,1,0,0,0,205,
+        31,1,0,0,0,206,207,3,34,17,0,207,208,5,5,0,0,208,209,3,36,18,0,209,
+        33,1,0,0,0,210,211,5,13,0,0,211,35,1,0,0,0,212,213,7,0,0,0,213,37,
+        1,0,0,0,214,215,5,14,0,0,215,216,5,5,0,0,216,217,3,40,20,0,217,39,
+        1,0,0,0,218,219,7,1,0,0,219,41,1,0,0,0,220,221,5,15,0,0,221,222,
+        5,5,0,0,222,223,3,44,22,0,223,43,1,0,0,0,224,225,7,2,0,0,225,45,
+        1,0,0,0,226,227,5,16,0,0,227,228,5,5,0,0,228,229,3,48,24,0,229,47,
+        1,0,0,0,230,231,7,3,0,0,231,49,1,0,0,0,232,233,5,17,0,0,233,234,
+        5,5,0,0,234,235,3,52,26,0,235,51,1,0,0,0,236,237,7,4,0,0,237,53,
+        1,0,0,0,238,239,5,18,0,0,239,240,5,5,0,0,240,241,5,37,0,0,241,55,
+        1,0,0,0,242,243,5,19,0,0,243,244,5,5,0,0,244,245,3,60,30,0,245,57,
+        1,0,0,0,246,247,5,20,0,0,247,248,5,5,0,0,248,249,3,60,30,0,249,59,
+        1,0,0,0,250,251,7,5,0,0,251,61,1,0,0,0,252,253,7,6,0,0,253,254,5,
+        5,0,0,254,255,3,68,34,0,255,63,1,0,0,0,256,257,5,23,0,0,257,258,
+        5,5,0,0,258,259,3,68,34,0,259,65,1,0,0,0,260,261,5,24,0,0,261,262,
+        5,5,0,0,262,263,3,68,34,0,263,67,1,0,0,0,264,265,7,7,0,0,265,69,
+        1,0,0,0,266,267,5,25,0,0,267,268,5,5,0,0,268,269,7,8,0,0,269,71,
+        1,0,0,0,270,271,7,8,0,0,271,73,1,0,0,0,272,273,7,9,0,0,273,274,3,
+        102,51,0,274,275,3,76,38,0,275,75,1,0,0,0,276,277,7,10,0,0,277,77,
+        1,0,0,0,278,279,5,523,0,0,279,280,5,5,0,0,280,281,3,80,40,0,281,
+        79,1,0,0,0,282,283,7,11,0,0,283,81,1,0,0,0,284,285,7,12,0,0,285,
+        286,5,5,0,0,286,287,3,84,42,0,287,83,1,0,0,0,288,289,7,13,0,0,289,
+        85,1,0,0,0,290,291,7,14,0,0,291,292,3,102,51,0,292,293,3,88,44,0,
+        293,87,1,0,0,0,294,295,7,15,0,0,295,89,1,0,0,0,296,297,7,16,0,0,
+        297,298,3,102,51,0,298,299,7,17,0,0,299,91,1,0,0,0,300,301,7,18,
+        0,0,301,302,3,102,51,0,302,303,3,94,47,0,303,93,1,0,0,0,304,306,
+        3,96,48,0,305,304,1,0,0,0,306,307,1,0,0,0,307,305,1,0,0,0,307,308,
+        1,0,0,0,308,95,1,0,0,0,309,310,7,19,0,0,310,97,1,0,0,0,311,312,3,
+        100,50,0,312,313,3,102,51,0,313,314,3,104,52,0,314,99,1,0,0,0,315,
+        316,7,20,0,0,316,101,1,0,0,0,317,318,7,21,0,0,318,103,1,0,0,0,319,
+        335,3,108,54,0,320,335,3,106,53,0,321,335,3,112,56,0,322,335,3,110,
+        55,0,323,335,3,100,50,0,324,335,3,88,44,0,325,335,3,68,34,0,326,
+        335,3,60,30,0,327,335,3,44,22,0,328,335,3,52,26,0,329,335,3,48,24,
+        0,330,335,3,36,18,0,331,335,3,40,20,0,332,335,3,72,36,0,333,335,
+        3,84,42,0,334,319,1,0,0,0,334,320,1,0,0,0,334,321,1,0,0,0,334,322,
+        1,0,0,0,334,323,1,0,0,0,334,324,1,0,0,0,334,325,1,0,0,0,334,326,
+        1,0,0,0,334,327,1,0,0,0,334,328,1,0,0,0,334,329,1,0,0,0,334,330,
+        1,0,0,0,334,331,1,0,0,0,334,332,1,0,0,0,334,333,1,0,0,0,335,105,
+        1,0,0,0,336,337,5,574,0,0,337,107,1,0,0,0,338,339,5,575,0,0,339,
+        109,1,0,0,0,340,341,7,22,0,0,341,111,1,0,0,0,342,343,7,23,0,0,343,
+        113,1,0,0,0,14,122,128,132,139,148,154,158,165,171,178,199,204,307,
+        334
     ]
 
 class ScryfallQueryParser ( Parser ):
@@ -144,26 +153,33 @@ class ScryfallQueryParser ( Parser ):
                      "'include'", "'is'", "'not'", "'f'", "'format'", "'banned'", 
                      "'restricted'", "'game'", "'rarity'", "'mv'", "'manavalue'", 
                      "'cards'", "'prints'", "'grid'", "'checklist'", "'full'", 
-                     "'text'", "'asc'", "'desc'", "'extras'", "'artist'", 
-                     "'artists'", "'cmc'", "'power'", "'toughness'", "'set'", 
-                     "'name'", "'usd'", "'tix'", "'eur'", "'color'", "'white'", 
-                     "'blue'", "'black'", "'red'", "'green'", "'silver'", 
-                     "'colorless'", "'multicolor'", "'azorius'", "'dimir'", 
-                     "'rakdos'", "'gruul'", "'selesnya'", "'orzhov'", "'izzet'", 
-                     "'golgari'", "'boros'", "'simic'", "'bant'", "'esper'", 
-                     "'grixis'", "'jund'", "'naya'", "'abzan'", "'jeskai'", 
-                     "'sultai'", "'mardu'", "'temur'", "'quandrix'", "'prismari'", 
-                     "'witherbloom'", "'lorehold'", "'silverquill'", "'chaos'", 
-                     "'aggression'", "'altruism'", "'growth'", "'artifice'", 
-                     "'released'", "'spoiled'", "'edhrec'", "'penny'", "'review'", 
-                     "'oldest'", "'newest'", "'usd-low'", "'usd-high'", 
-                     "'tix-low'", "'tix-high'", "'eur-low'", "'eur-high'", 
-                     "'promo'", "'default'", "'atypical'", "'universesbeyond'", 
-                     "'ub'", "'notuniversesbeyond'", "'notub'", "'indicator'", 
-                     "'hybrid'", "'phyrexian'", "'split'", "'flip'", "'transform'", 
-                     "'tdfc'", "'meld'", "'meldpart'", "'meldresult'", "'leveler'", 
-                     "'dfc'", "'mdfc'", "'spell'", "'permanent'", "'historic'", 
-                     "'party'", "'outlaw'", "'modal'", "'vanilla'", "'frenchvanilla'", 
+                     "'text'", "'asc'", "'desc'", "'extras'", "'any'", "'english'", 
+                     "'spanish'", "'french'", "'german'", "'italian'", "'portuguese'", 
+                     "'japanese'", "'korean'", "'russian'", "'simplifiedchinese'", 
+                     "'traditionalchinese'", "'hebrew'", "'latin'", "'ancientgreek'", 
+                     "'arabic'", "'sanskrit'", "'quenya'", "'en'", "'es'", 
+                     "'fr'", "'de'", "'it'", "'ja'", "'ko'", "'ru'", "'zhs'", 
+                     "'zht'", "'he'", "'la'", "'grc'", "'ar'", "'sa'", "'ph'", 
+                     "'qya'", "'artist'", "'artists'", "'cmc'", "'power'", 
+                     "'toughness'", "'set'", "'name'", "'usd'", "'tix'", 
+                     "'eur'", "'color'", "'white'", "'blue'", "'black'", 
+                     "'red'", "'green'", "'silver'", "'colorless'", "'multicolor'", 
+                     "'azorius'", "'dimir'", "'rakdos'", "'gruul'", "'selesnya'", 
+                     "'orzhov'", "'izzet'", "'golgari'", "'boros'", "'simic'", 
+                     "'bant'", "'esper'", "'grixis'", "'jund'", "'naya'", 
+                     "'abzan'", "'jeskai'", "'sultai'", "'mardu'", "'temur'", 
+                     "'quandrix'", "'prismari'", "'witherbloom'", "'lorehold'", 
+                     "'silverquill'", "'chaos'", "'aggression'", "'altruism'", 
+                     "'growth'", "'artifice'", "'released'", "'spoiled'", 
+                     "'edhrec'", "'penny'", "'review'", "'oldest'", "'newest'", 
+                     "'usd-low'", "'usd-high'", "'tix-low'", "'tix-high'", 
+                     "'eur-low'", "'eur-high'", "'promo'", "'default'", 
+                     "'atypical'", "'universesbeyond'", "'ub'", "'notuniversesbeyond'", 
+                     "'notub'", "'indicator'", "'hybrid'", "'phyrexian'", 
+                     "'split'", "'flip'", "'transform'", "'tdfc'", "'meld'", 
+                     "'meldpart'", "'meldresult'", "'leveler'", "'dfc'", 
+                     "'mdfc'", "'spell'", "'permanent'", "'historic'", "'party'", 
+                     "'outlaw'", "'modal'", "'vanilla'", "'frenchvanilla'", 
                      "'bear'", "'manland'", "'funny'", "'booster'", "'planeswalker_deck'", 
                      "'league'", "'buyabox'", "'giftbox'", "'intro_pack'", 
                      "'gameday'", "'prerelease'", "'release'", "'fnm'", 
@@ -270,7 +286,13 @@ class ScryfallQueryParser ( Parser ):
                       "IS", "NOT", "F", "FORMAT", "BANNED", "RESTRICTED", 
                       "GAME", "RARITY", "MV", "MANAVALUE", "CARDS", "PRINTS", 
                       "GRID", "CHECKLIST", "FULL", "TEXT", "ASC", "DESC", 
-                      "EXTRAS", "ARTIST", "ARTISTS", "CMC", "POWER", "TOUGHNESS", 
+                      "EXTRAS", "ANY", "ENGLISH", "SPANISH", "FRENCH", "GERMAN", 
+                      "ITALIAN", "PORTUGUESE", "JAPANESE", "KOREAN", "RUSSIAN", 
+                      "SIMPLIFIED_CHINESE", "TRADITIONAL_CHINESE", "HEBREW", 
+                      "LATIN", "ANCIENT_GREEK", "ARABIC", "SANSKRIT", "QUENYA", 
+                      "EN", "ES", "FR", "DE", "IT", "JA", "KO", "RU", "ZHS", 
+                      "ZHT", "HE", "LA", "GRC", "AR", "SA", "PH", "QYA", 
+                      "ARTIST", "ARTISTS", "CMC", "POWER", "TOUGHNESS", 
                       "SET", "NAME", "USD", "TIX", "EUR", "COLOR", "WHITE", 
                       "BLUE", "BLACK", "RED", "GREEN", "SILVER", "COLORLESS", 
                       "MULTICOLOR", "AZORIUS", "DIMIR", "RAKDOS", "GRUUL", 
@@ -376,7 +398,8 @@ class ScryfallQueryParser ( Parser ):
                       "PRODUCES", "R", "U", "S", "SETS", "STAMP", "ST", 
                       "T", "TYPE", "TOU", "CHEAPEST", "WM", "WATERMARK", 
                       "YEAR", "NUMBER", "QUOTED_TEXT", "REGEX", "COLOR_SET", 
-                      "MANA_VALUE", "WORD", "BARE_VALUE", "WS" ]
+                      "MANA_BRACED_SYMBOL", "MANA_UNBRACED_SYMBOL", "WORD", 
+                      "BARE_VALUE", "WS" ]
 
     RULE_start = 0
     RULE_topExpr = 1
@@ -419,19 +442,22 @@ class ScryfallQueryParser ( Parser ):
     RULE_colorValue = 38
     RULE_borderTerm = 39
     RULE_borderValue = 40
-    RULE_rarityTerm = 41
-    RULE_rarityValue = 42
-    RULE_mvTerm = 43
-    RULE_manaTerm = 44
-    RULE_manaValue = 45
-    RULE_genericTerm = 46
-    RULE_genericKey = 47
-    RULE_compOp = 48
-    RULE_genericValue = 49
-    RULE_quotedText = 50
-    RULE_regex = 51
-    RULE_word = 52
-    RULE_bareValue = 53
+    RULE_languageTerm = 41
+    RULE_languageValue = 42
+    RULE_rarityTerm = 43
+    RULE_rarityValue = 44
+    RULE_mvTerm = 45
+    RULE_manaTerm = 46
+    RULE_manaValue = 47
+    RULE_manaValuePart = 48
+    RULE_genericTerm = 49
+    RULE_genericKey = 50
+    RULE_compOp = 51
+    RULE_genericValue = 52
+    RULE_quotedText = 53
+    RULE_regex = 54
+    RULE_word = 55
+    RULE_bareValue = 56
 
     ruleNames =  [ "start", "topExpr", "topAndExpr", "topFactor", "topGroup", 
                    "topTerm", "parenExpr", "parenAndExpr", "parenFactor", 
@@ -442,8 +468,9 @@ class ScryfallQueryParser ( Parser ):
                    "preferTerm", "preferValue", "includeTerm", "isTerm", 
                    "notTerm", "isValue", "formatTerm", "bannedTerm", "restrictedTerm", 
                    "formatValue", "gameTerm", "gameValueToken", "colorTerm", 
-                   "colorValue", "borderTerm", "borderValue", "rarityTerm", 
-                   "rarityValue", "mvTerm", "manaTerm", "manaValue", "genericTerm", 
+                   "colorValue", "borderTerm", "borderValue", "languageTerm", 
+                   "languageValue", "rarityTerm", "rarityValue", "mvTerm", 
+                   "manaTerm", "manaValue", "manaValuePart", "genericTerm", 
                    "genericKey", "compOp", "genericValue", "quotedText", 
                    "regex", "word", "bareValue" ]
 
@@ -485,514 +512,550 @@ class ScryfallQueryParser ( Parser ):
     ASC=35
     DESC=36
     EXTRAS=37
-    ARTIST=38
-    ARTISTS=39
-    CMC=40
-    POWER=41
-    TOUGHNESS=42
-    SET=43
-    NAME=44
-    USD=45
-    TIX=46
-    EUR=47
-    COLOR=48
-    WHITE=49
-    BLUE=50
-    BLACK=51
-    RED=52
-    GREEN=53
-    SILVER=54
-    COLORLESS=55
-    MULTICOLOR=56
-    AZORIUS=57
-    DIMIR=58
-    RAKDOS=59
-    GRUUL=60
-    SELESNYA=61
-    ORZHOV=62
-    IZZET=63
-    GOLGARI=64
-    BOROS=65
-    SIMIC=66
-    BANT=67
-    ESPER=68
-    GRIXIS=69
-    JUND=70
-    NAYA=71
-    ABZAN=72
-    JESKAI=73
-    SULTAI=74
-    MARDU=75
-    TEMUR=76
-    QUANDRIX=77
-    PRISMARI=78
-    WITHERBLOOM=79
-    LOREHOLD=80
-    SILVERQUILL=81
-    CHAOS=82
-    AGGRESSION=83
-    ALTRUISM=84
-    GROWTH=85
-    ARTIFICE=86
-    RELEASED=87
-    SPOILED=88
-    EDHREC=89
-    PENNY=90
-    REVIEW=91
-    OLDEST=92
-    NEWEST=93
-    USD_LOW=94
-    USD_HIGH=95
-    TIX_LOW=96
-    TIX_HIGH=97
-    EUR_LOW=98
-    EUR_HIGH=99
-    PROMO=100
-    DEFAULT=101
-    ATYPICAL=102
-    UNIVERSESBEYOND=103
-    UB=104
-    NOTUNIVERSESBEYOND=105
-    NOTUB=106
-    INDICATOR=107
-    HYBRID=108
-    PHYREXIAN=109
-    SPLIT=110
-    FLIP=111
-    TRANSFORM=112
-    TDFC=113
-    MELD=114
-    MELDPART=115
-    MELDRESULT=116
-    LEVELER=117
-    DFC=118
-    MDFC=119
-    SPELL=120
-    PERMANENT=121
-    HISTORIC=122
-    PARTY=123
-    OUTLAW=124
-    MODAL=125
-    VANILLA=126
-    FRENCHVANILLA=127
-    BEAR=128
-    MANLAND=129
-    FUNNY=130
-    BOOSTER=131
-    PLANESWALKER_DECK=132
-    LEAGUE=133
-    BUYABOX=134
-    GIFTBOX=135
-    INTRO_PACK=136
-    GAMEDAY=137
-    PRERELEASE=138
-    RELEASE=139
-    FNM=140
-    JUDGE_GIFT=141
-    ARENA_LEAGUE=142
-    PLAYER_REWARDS=143
-    MEDIA_INSERT=144
-    INSTORE=145
-    CONVENTION=146
-    SET_PROMO=147
-    COMMANDER=148
-    BRAWLER=149
-    COMPANION=150
-    DUELCOMMANDER=151
-    OATHBREAKER=152
-    PARTNER=153
-    GAMECHANGER=154
-    RESERVED=155
-    NEW=156
-    OLD=157
-    NONFOIL=158
-    FOIL=159
-    ETCHED=160
-    GLOSSY=161
-    HIRES=162
-    DIGITAL=163
-    ALCHEMY=164
-    REBALANCED=165
-    SPOTLIGHT=166
-    SCRYFALLPREVIEW=167
-    REPRINT=168
-    FF7=169
-    FF=170
-    NEWINPAUPER=171
-    DATESTAMPED=172
-    ADVENTURE=173
-    ARENAID=174
-    ARTISTMISPRINT=175
-    ARTSERIES=176
-    AUGMENTATION=177
-    BACK=178
-    BEGINNERBOX=179
-    BORDERLESS=180
-    BRAWLCOMMANDER=181
-    CARDMARKET=182
-    CI=183
-    CLASS=184
-    COLORSHIFTED=185
-    CONTENTWARNING=186
-    COVERED=187
-    DOUBLESIDED=188
-    ENGLISHART=189
-    ETB=190
-    ETCH=191
-    EXTENDED=192
-    EXTRA=193
-    FBB=194
-    FIRSTPRINT=195
-    FLAVORNAME=196
-    FULLART=197
-    FWB=198
-    ILLUSTRATION=199
-    FF1=200
-    FF10=201
-    FF11=202
-    FF12=203
-    FF13=204
-    FF14=205
-    FF15=206
-    FF16=207
-    FF2=208
-    FF3=209
-    FF4=210
-    FF5=211
-    FF6=212
-    INTROPACK=213
-    FF8=214
-    FF9=215
-    FFI=216
-    FFII=217
-    FFIII=218
-    FFIV=219
-    FFIX=220
-    FFV=221
-    FFVI=222
-    FFVII=223
-    FFVIII=224
-    FFX=225
-    FFXI=226
-    FFXII=227
-    FFXIII=228
-    FFXIV=229
-    FFXV=230
-    FFXVI=231
-    FINALFANTASY=232
-    INVITATIONAL=233
-    LIGHTS=234
-    LOCALIZEDNAME=235
-    MASTERPIECE=236
-    MTGOID=237
-    MULTIVERSE=238
-    ONLYPRINT=239
-    OVERSIZED=240
-    PAPERART=241
-    PHYREXIA=242
-    PLANAR=243
-    PLANESWALKERDECK=244
-    PRINTEDTEXT=245
-    RELATED=246
-    REVERSIBLE=247
-    SHOWCASE=248
-    SPELLBOOK=249
-    SPIKEY=250
-    SPLITMANA=251
-    STAMPED=252
-    STARTERCOLLECTION=253
-    STARTERDECK=254
-    STORY=255
-    TCGPLAYER=256
-    TEXTLESS=257
-    TOKEN=258
-    TOMBSTONE=259
-    TRANSLUCENT=260
-    VARIATION=261
-    ALTERNATE=262
-    AMPERSAND=263
-    ARCHENEMY=264
-    ARCHIVAL=265
-    ARENALEAGUE=266
-    BOB=267
-    BOOSTERFUN=268
-    BOX=269
-    BOXTOPPER=270
-    BRAWLDECK=271
-    BUNDLE=272
-    BURSTFOIL=273
-    CHOCOBOTRACKFOIL=274
-    CHRIMBY=275
-    COMMANDERPARTY=276
-    COMMANDERPROMO=277
-    CONCEPT=278
-    CONFETTIFOIL=279
-    CONJUREONLY=280
-    COSMICFOIL=281
-    CUTE=282
-    DEN=283
-    DOUBLEEXPOSURE=284
-    DOUBLERAINBOW=285
-    DRACULASERIES=286
-    DRAFTINNOVATION=287
-    DRAFTWEEKEND=288
-    DUELDECK=289
-    DUELS=290
-    ESCAPED=291
-    EVENT=292
-    FINKEL=293
-    FIRSTPLACEFOIL=294
-    FIXED=295
-    FRAMEODDITY=296
-    FROMTHEVAULT=297
-    FULLTEXT=298
-    FUTURESHIFTED=299
-    GALAXYFOIL=300
-    GARY=301
-    GATEWAY=302
-    GILDED=303
-    GODZILLASERIES=304
-    HALOFOIL=305
-    HEADLINER=306
-    HORIZ=307
-    IMAGEQA=308
-    IMAGINE=309
-    JPWALKER=310
-    JUDGEGIFT=311
-    JUMPSTART=312
-    LISTWHITE=313
-    LOCALIZEDIMAGE=314
-    LOSTLEGENDS=315
-    MAGICSPOTLIGHT=316
-    MASTERS=317
-    MB2=318
-    MEDIAINSERT=319
-    MEMORABILIA=320
-    METAL=321
-    MISPRINT=322
-    MOM=323
-    MOONLITLAND=324
-    MULTIPLAYER=325
-    NEONINK=326
-    OILSLICK=327
-    OPENHOUSE=328
-    PIKULA=329
-    PLANECHASE=330
-    PLASTIC=331
-    PLAYERREWARDS=332
-    PLAYPROMO=333
-    PORTAL=334
-    PORTRAIT=335
-    POSTER=336
-    PREMIERESHOP=337
-    PREMIUMDECK=338
-    PROMOPACK=339
-    RAINBOWFOIL=340
-    RAISEDFOIL=341
-    RESALE=342
-    RIPPLEFOIL=343
-    SCANNEEDED=344
-    SCENE=345
-    SCHINESEALTART=346
-    SCROLL=347
-    SERIALIZED=348
-    SETPROMO=349
-    SINGULARITYFOIL=350
-    SLDBONUS=351
-    SOURCEMATERIAL=352
-    STARTER=353
-    STEPANDCOMPLEAT=354
-    STORECHAMPIONSHIP=355
-    TEXTURED=356
-    THEMEPACK=357
-    THICK=358
-    TIMESHIFTED=359
-    TOURNEY=360
-    TREASURECHEST=361
-    TRON=362
-    UNSET=363
-    USELESS=364
-    VANGUARD=365
-    VAULT=366
-    VERT=367
-    WANTED=368
-    WIZARDSPLAYNETWORK=369
-    ABNORMAL=370
-    BASELINE=371
-    BATTLELAND=372
-    BELZENLOK=373
-    BICYCLELAND=374
-    BIKELAND=375
-    BONDLAND=376
-    BOUNCELAND=377
-    CANLAND=378
-    CANOPYLAND=379
-    CHECKLAND=380
-    CORE=381
-    CREATURELAND=382
-    CYCLELAND=383
-    DUAL=384
-    EXPANSION=385
-    FASTLAND=386
-    FETCHLAND=387
-    FILTERLAND=388
-    FINALFANTASY1=389
-    FINALFANTASY10=390
-    FINALFANTASY11=391
-    FINALFANTASY12=392
-    FINALFANTASY13=393
-    FINALFANTASY14=394
-    FINALFANTASY15=395
-    FINALFANTASY16=396
-    FINALFANTASY2=397
-    FINALFANTASY3=398
-    FINALFANTASY4=399
-    FINALFANTASY5=400
-    FINALFANTASY6=401
-    FINALFANTASY7=402
-    FINALFANTASY8=403
-    FINALFANTASY9=404
-    FINALFANTASYI=405
-    FINALFANTASYII=406
-    FINALFANTASYIII=407
-    FINALFANTASYIV=408
-    FINALFANTASYIX=409
-    FINALFANTASYV=410
-    FINALFANTASYVI=411
-    FINALFANTASYVII=412
-    FINALFANTASYVIII=413
-    FINALFANTASYX=414
-    FINALFANTASYXI=415
-    FINALFANTASYXII=416
-    FINALFANTASYXIII=417
-    FINALFANTASYXIV=418
-    FINALFANTASYXV=419
-    FINALFANTASYXVI=420
-    FIRSTPRINTING=421
-    FMB1=422
-    GAINLAND=423
-    HALO=424
-    KAROO=425
-    MB1=426
-    NONDEFAULT=427
-    NONTRADITIONAL=428
-    NORMAL=429
-    ODDFRAME=430
-    PAGL=431
-    PAINLAND=432
-    PATHWAY=433
-    PCTB=434
-    PHED=435
-    PLACEHOLDERIMAGE=436
-    PLAYTEST=437
-    SCRYLAND=438
-    SETEXTENSION=439
-    SHADOWLAND=440
-    SHOCKLAND=441
-    SLOWLAND=442
-    SNARL=443
-    STORAGELAND=444
-    SURVEILLAND=445
-    TANGOLAND=446
-    TRADITIONAL=447
-    TRICYCLELAND=448
-    TRIKELAND=449
-    TRILAND=450
-    TRIOME=451
-    TYPICAL=452
-    UPSIDEDOWN=453
-    UPSIDEDOWNBACK=454
-    STANDARD=455
-    FUTURE=456
-    TIMELESS=457
-    GLADIATOR=458
-    PIONEER=459
-    MODERN=460
-    LEGACY=461
-    PAUPER=462
-    VINTAGE=463
-    STANDARDBRAWL=464
-    BRAWL=465
-    PAUPERCOMMANDER=466
-    DUEL=467
-    OLDSCHOOL=468
-    PREMODERN=469
-    PREDH=470
-    PAPER=471
-    MTGO=472
-    ARENA=473
-    COMMON=474
-    UNCOMMON=475
-    RARE=476
-    SPECIAL=477
-    MYTHIC=478
-    BONUS=479
-    EVEN=480
-    ODD=481
-    A=482
-    ART=483
-    ATAG=484
-    ARTTAG=485
-    B=486
-    BLOCK=487
-    BORDER=488
-    C=489
-    CN=490
-    NUMBER_KEY=491
-    CUBE=492
-    DATE=493
-    DEVOTION=494
-    E=495
-    EDITION=496
-    FO=497
-    FULLORACLE=498
-    FT=499
-    FLAVOR=500
-    FUNCTION=501
-    OTAG=502
-    ORACLETAG=503
-    ID=504
-    IDENTITY=505
-    ILLUSTRATIONS=506
-    IN=507
-    KEYWORD=508
-    KW=509
-    LANG=510
-    LANGUAGE=511
-    LOY=512
-    LOYALTY=513
-    M=514
-    MANA=515
-    N=516
-    O=517
-    ORACLE=518
-    PAPERPRINTS=519
-    PAPERSETS=520
-    POW=521
-    PT=522
-    POWTOU=523
-    PRODUCES=524
-    R=525
-    U=526
-    S=527
-    SETS=528
-    STAMP=529
-    ST=530
-    T=531
-    TYPE=532
-    TOU=533
-    CHEAPEST=534
-    WM=535
-    WATERMARK=536
-    YEAR=537
-    NUMBER=538
-    QUOTED_TEXT=539
-    REGEX=540
-    COLOR_SET=541
-    MANA_VALUE=542
-    WORD=543
-    BARE_VALUE=544
-    WS=545
+    ANY=38
+    ENGLISH=39
+    SPANISH=40
+    FRENCH=41
+    GERMAN=42
+    ITALIAN=43
+    PORTUGUESE=44
+    JAPANESE=45
+    KOREAN=46
+    RUSSIAN=47
+    SIMPLIFIED_CHINESE=48
+    TRADITIONAL_CHINESE=49
+    HEBREW=50
+    LATIN=51
+    ANCIENT_GREEK=52
+    ARABIC=53
+    SANSKRIT=54
+    QUENYA=55
+    EN=56
+    ES=57
+    FR=58
+    DE=59
+    IT=60
+    JA=61
+    KO=62
+    RU=63
+    ZHS=64
+    ZHT=65
+    HE=66
+    LA=67
+    GRC=68
+    AR=69
+    SA=70
+    PH=71
+    QYA=72
+    ARTIST=73
+    ARTISTS=74
+    CMC=75
+    POWER=76
+    TOUGHNESS=77
+    SET=78
+    NAME=79
+    USD=80
+    TIX=81
+    EUR=82
+    COLOR=83
+    WHITE=84
+    BLUE=85
+    BLACK=86
+    RED=87
+    GREEN=88
+    SILVER=89
+    COLORLESS=90
+    MULTICOLOR=91
+    AZORIUS=92
+    DIMIR=93
+    RAKDOS=94
+    GRUUL=95
+    SELESNYA=96
+    ORZHOV=97
+    IZZET=98
+    GOLGARI=99
+    BOROS=100
+    SIMIC=101
+    BANT=102
+    ESPER=103
+    GRIXIS=104
+    JUND=105
+    NAYA=106
+    ABZAN=107
+    JESKAI=108
+    SULTAI=109
+    MARDU=110
+    TEMUR=111
+    QUANDRIX=112
+    PRISMARI=113
+    WITHERBLOOM=114
+    LOREHOLD=115
+    SILVERQUILL=116
+    CHAOS=117
+    AGGRESSION=118
+    ALTRUISM=119
+    GROWTH=120
+    ARTIFICE=121
+    RELEASED=122
+    SPOILED=123
+    EDHREC=124
+    PENNY=125
+    REVIEW=126
+    OLDEST=127
+    NEWEST=128
+    USD_LOW=129
+    USD_HIGH=130
+    TIX_LOW=131
+    TIX_HIGH=132
+    EUR_LOW=133
+    EUR_HIGH=134
+    PROMO=135
+    DEFAULT=136
+    ATYPICAL=137
+    UNIVERSESBEYOND=138
+    UB=139
+    NOTUNIVERSESBEYOND=140
+    NOTUB=141
+    INDICATOR=142
+    HYBRID=143
+    PHYREXIAN=144
+    SPLIT=145
+    FLIP=146
+    TRANSFORM=147
+    TDFC=148
+    MELD=149
+    MELDPART=150
+    MELDRESULT=151
+    LEVELER=152
+    DFC=153
+    MDFC=154
+    SPELL=155
+    PERMANENT=156
+    HISTORIC=157
+    PARTY=158
+    OUTLAW=159
+    MODAL=160
+    VANILLA=161
+    FRENCHVANILLA=162
+    BEAR=163
+    MANLAND=164
+    FUNNY=165
+    BOOSTER=166
+    PLANESWALKER_DECK=167
+    LEAGUE=168
+    BUYABOX=169
+    GIFTBOX=170
+    INTRO_PACK=171
+    GAMEDAY=172
+    PRERELEASE=173
+    RELEASE=174
+    FNM=175
+    JUDGE_GIFT=176
+    ARENA_LEAGUE=177
+    PLAYER_REWARDS=178
+    MEDIA_INSERT=179
+    INSTORE=180
+    CONVENTION=181
+    SET_PROMO=182
+    COMMANDER=183
+    BRAWLER=184
+    COMPANION=185
+    DUELCOMMANDER=186
+    OATHBREAKER=187
+    PARTNER=188
+    GAMECHANGER=189
+    RESERVED=190
+    NEW=191
+    OLD=192
+    NONFOIL=193
+    FOIL=194
+    ETCHED=195
+    GLOSSY=196
+    HIRES=197
+    DIGITAL=198
+    ALCHEMY=199
+    REBALANCED=200
+    SPOTLIGHT=201
+    SCRYFALLPREVIEW=202
+    REPRINT=203
+    FF7=204
+    FF=205
+    NEWINPAUPER=206
+    DATESTAMPED=207
+    ADVENTURE=208
+    ARENAID=209
+    ARTISTMISPRINT=210
+    ARTSERIES=211
+    AUGMENTATION=212
+    BACK=213
+    BEGINNERBOX=214
+    BORDERLESS=215
+    BRAWLCOMMANDER=216
+    CARDMARKET=217
+    CI=218
+    CLASS=219
+    COLORSHIFTED=220
+    CONTENTWARNING=221
+    COVERED=222
+    DOUBLESIDED=223
+    ENGLISHART=224
+    ETB=225
+    ETCH=226
+    EXTENDED=227
+    EXTRA=228
+    FBB=229
+    FIRSTPRINT=230
+    FLAVORNAME=231
+    FULLART=232
+    FWB=233
+    ILLUSTRATION=234
+    FF1=235
+    FF10=236
+    FF11=237
+    FF12=238
+    FF13=239
+    FF14=240
+    FF15=241
+    FF16=242
+    FF2=243
+    FF3=244
+    FF4=245
+    FF5=246
+    FF6=247
+    INTROPACK=248
+    FF8=249
+    FF9=250
+    FFI=251
+    FFII=252
+    FFIII=253
+    FFIV=254
+    FFIX=255
+    FFV=256
+    FFVI=257
+    FFVII=258
+    FFVIII=259
+    FFX=260
+    FFXI=261
+    FFXII=262
+    FFXIII=263
+    FFXIV=264
+    FFXV=265
+    FFXVI=266
+    FINALFANTASY=267
+    INVITATIONAL=268
+    LIGHTS=269
+    LOCALIZEDNAME=270
+    MASTERPIECE=271
+    MTGOID=272
+    MULTIVERSE=273
+    ONLYPRINT=274
+    OVERSIZED=275
+    PAPERART=276
+    PHYREXIA=277
+    PLANAR=278
+    PLANESWALKERDECK=279
+    PRINTEDTEXT=280
+    RELATED=281
+    REVERSIBLE=282
+    SHOWCASE=283
+    SPELLBOOK=284
+    SPIKEY=285
+    SPLITMANA=286
+    STAMPED=287
+    STARTERCOLLECTION=288
+    STARTERDECK=289
+    STORY=290
+    TCGPLAYER=291
+    TEXTLESS=292
+    TOKEN=293
+    TOMBSTONE=294
+    TRANSLUCENT=295
+    VARIATION=296
+    ALTERNATE=297
+    AMPERSAND=298
+    ARCHENEMY=299
+    ARCHIVAL=300
+    ARENALEAGUE=301
+    BOB=302
+    BOOSTERFUN=303
+    BOX=304
+    BOXTOPPER=305
+    BRAWLDECK=306
+    BUNDLE=307
+    BURSTFOIL=308
+    CHOCOBOTRACKFOIL=309
+    CHRIMBY=310
+    COMMANDERPARTY=311
+    COMMANDERPROMO=312
+    CONCEPT=313
+    CONFETTIFOIL=314
+    CONJUREONLY=315
+    COSMICFOIL=316
+    CUTE=317
+    DEN=318
+    DOUBLEEXPOSURE=319
+    DOUBLERAINBOW=320
+    DRACULASERIES=321
+    DRAFTINNOVATION=322
+    DRAFTWEEKEND=323
+    DUELDECK=324
+    DUELS=325
+    ESCAPED=326
+    EVENT=327
+    FINKEL=328
+    FIRSTPLACEFOIL=329
+    FIXED=330
+    FRAMEODDITY=331
+    FROMTHEVAULT=332
+    FULLTEXT=333
+    FUTURESHIFTED=334
+    GALAXYFOIL=335
+    GARY=336
+    GATEWAY=337
+    GILDED=338
+    GODZILLASERIES=339
+    HALOFOIL=340
+    HEADLINER=341
+    HORIZ=342
+    IMAGEQA=343
+    IMAGINE=344
+    JPWALKER=345
+    JUDGEGIFT=346
+    JUMPSTART=347
+    LISTWHITE=348
+    LOCALIZEDIMAGE=349
+    LOSTLEGENDS=350
+    MAGICSPOTLIGHT=351
+    MASTERS=352
+    MB2=353
+    MEDIAINSERT=354
+    MEMORABILIA=355
+    METAL=356
+    MISPRINT=357
+    MOM=358
+    MOONLITLAND=359
+    MULTIPLAYER=360
+    NEONINK=361
+    OILSLICK=362
+    OPENHOUSE=363
+    PIKULA=364
+    PLANECHASE=365
+    PLASTIC=366
+    PLAYERREWARDS=367
+    PLAYPROMO=368
+    PORTAL=369
+    PORTRAIT=370
+    POSTER=371
+    PREMIERESHOP=372
+    PREMIUMDECK=373
+    PROMOPACK=374
+    RAINBOWFOIL=375
+    RAISEDFOIL=376
+    RESALE=377
+    RIPPLEFOIL=378
+    SCANNEEDED=379
+    SCENE=380
+    SCHINESEALTART=381
+    SCROLL=382
+    SERIALIZED=383
+    SETPROMO=384
+    SINGULARITYFOIL=385
+    SLDBONUS=386
+    SOURCEMATERIAL=387
+    STARTER=388
+    STEPANDCOMPLEAT=389
+    STORECHAMPIONSHIP=390
+    TEXTURED=391
+    THEMEPACK=392
+    THICK=393
+    TIMESHIFTED=394
+    TOURNEY=395
+    TREASURECHEST=396
+    TRON=397
+    UNSET=398
+    USELESS=399
+    VANGUARD=400
+    VAULT=401
+    VERT=402
+    WANTED=403
+    WIZARDSPLAYNETWORK=404
+    ABNORMAL=405
+    BASELINE=406
+    BATTLELAND=407
+    BELZENLOK=408
+    BICYCLELAND=409
+    BIKELAND=410
+    BONDLAND=411
+    BOUNCELAND=412
+    CANLAND=413
+    CANOPYLAND=414
+    CHECKLAND=415
+    CORE=416
+    CREATURELAND=417
+    CYCLELAND=418
+    DUAL=419
+    EXPANSION=420
+    FASTLAND=421
+    FETCHLAND=422
+    FILTERLAND=423
+    FINALFANTASY1=424
+    FINALFANTASY10=425
+    FINALFANTASY11=426
+    FINALFANTASY12=427
+    FINALFANTASY13=428
+    FINALFANTASY14=429
+    FINALFANTASY15=430
+    FINALFANTASY16=431
+    FINALFANTASY2=432
+    FINALFANTASY3=433
+    FINALFANTASY4=434
+    FINALFANTASY5=435
+    FINALFANTASY6=436
+    FINALFANTASY7=437
+    FINALFANTASY8=438
+    FINALFANTASY9=439
+    FINALFANTASYI=440
+    FINALFANTASYII=441
+    FINALFANTASYIII=442
+    FINALFANTASYIV=443
+    FINALFANTASYIX=444
+    FINALFANTASYV=445
+    FINALFANTASYVI=446
+    FINALFANTASYVII=447
+    FINALFANTASYVIII=448
+    FINALFANTASYX=449
+    FINALFANTASYXI=450
+    FINALFANTASYXII=451
+    FINALFANTASYXIII=452
+    FINALFANTASYXIV=453
+    FINALFANTASYXV=454
+    FINALFANTASYXVI=455
+    FIRSTPRINTING=456
+    FMB1=457
+    GAINLAND=458
+    HALO=459
+    KAROO=460
+    MB1=461
+    NONDEFAULT=462
+    NONTRADITIONAL=463
+    NORMAL=464
+    ODDFRAME=465
+    PAGL=466
+    PAINLAND=467
+    PATHWAY=468
+    PCTB=469
+    PHED=470
+    PLACEHOLDERIMAGE=471
+    PLAYTEST=472
+    SCRYLAND=473
+    SETEXTENSION=474
+    SHADOWLAND=475
+    SHOCKLAND=476
+    SLOWLAND=477
+    SNARL=478
+    STORAGELAND=479
+    SURVEILLAND=480
+    TANGOLAND=481
+    TRADITIONAL=482
+    TRICYCLELAND=483
+    TRIKELAND=484
+    TRILAND=485
+    TRIOME=486
+    TYPICAL=487
+    UPSIDEDOWN=488
+    UPSIDEDOWNBACK=489
+    STANDARD=490
+    FUTURE=491
+    TIMELESS=492
+    GLADIATOR=493
+    PIONEER=494
+    MODERN=495
+    LEGACY=496
+    PAUPER=497
+    VINTAGE=498
+    STANDARDBRAWL=499
+    BRAWL=500
+    PAUPERCOMMANDER=501
+    DUEL=502
+    OLDSCHOOL=503
+    PREMODERN=504
+    PREDH=505
+    PAPER=506
+    MTGO=507
+    ARENA=508
+    COMMON=509
+    UNCOMMON=510
+    RARE=511
+    SPECIAL=512
+    MYTHIC=513
+    BONUS=514
+    EVEN=515
+    ODD=516
+    A=517
+    ART=518
+    ATAG=519
+    ARTTAG=520
+    B=521
+    BLOCK=522
+    BORDER=523
+    C=524
+    CN=525
+    NUMBER_KEY=526
+    CUBE=527
+    DATE=528
+    DEVOTION=529
+    E=530
+    EDITION=531
+    FO=532
+    FULLORACLE=533
+    FT=534
+    FLAVOR=535
+    FUNCTION=536
+    OTAG=537
+    ORACLETAG=538
+    ID=539
+    IDENTITY=540
+    ILLUSTRATIONS=541
+    IN=542
+    KEYWORD=543
+    KW=544
+    LANG=545
+    LANGUAGE=546
+    LOY=547
+    LOYALTY=548
+    M=549
+    MANA=550
+    N=551
+    O=552
+    ORACLE=553
+    PAPERPRINTS=554
+    PAPERSETS=555
+    POW=556
+    PT=557
+    POWTOU=558
+    PRODUCES=559
+    R=560
+    U=561
+    S=562
+    SETS=563
+    STAMP=564
+    ST=565
+    T=566
+    TYPE=567
+    TOU=568
+    CHEAPEST=569
+    WM=570
+    WATERMARK=571
+    YEAR=572
+    NUMBER=573
+    QUOTED_TEXT=574
+    REGEX=575
+    COLOR_SET=576
+    MANA_BRACED_SYMBOL=577
+    MANA_UNBRACED_SYMBOL=578
+    WORD=579
+    BARE_VALUE=580
+    WS=581
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -1043,9 +1106,9 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 0, self.RULE_start)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 108
+            self.state = 114
             self.topExpr()
-            self.state = 109
+            self.state = 115
             self.match(ScryfallQueryParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -1103,17 +1166,17 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 111
+            self.state = 117
             self.topAndExpr()
-            self.state = 116
+            self.state = 122
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==12:
-                self.state = 112
-                self.match(ScryfallQueryParser.OR)
-                self.state = 113
-                self.topAndExpr()
                 self.state = 118
+                self.match(ScryfallQueryParser.OR)
+                self.state = 119
+                self.topAndExpr()
+                self.state = 124
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1167,16 +1230,16 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 120 
+            self.state = 126 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 119
+                self.state = 125
                 self.topFactor()
-                self.state = 122 
+                self.state = 128 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174491162) != 0) or _la==156 or ((((_la - 482)) & ~0x3f) == 0 and ((1 << (_la - 482)) & 3098458951444856831) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610604570) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 517)) & ~0x3f) == 0 and ((1 << (_la - 517)) & 5404301960658550783) != 0)):
                     break
 
         except RecognitionException as re:
@@ -1228,17 +1291,17 @@ class ScryfallQueryParser ( Parser ):
         localctx = ScryfallQueryParser.TopFactorContext(self, self._ctx, self.state)
         self.enterRule(localctx, 6, self.RULE_topFactor)
         try:
-            self.state = 126
+            self.state = 132
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [1]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 124
+                self.state = 130
                 self.topGroup()
                 pass
-            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 156, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 541, 543]:
+            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 574, 576, 579]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 125
+                self.state = 131
                 self.topTerm()
                 pass
             else:
@@ -1296,11 +1359,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 8, self.RULE_topGroup)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
+            self.state = 134
             self.match(ScryfallQueryParser.LPAREN)
-            self.state = 129
+            self.state = 135
             self.parenExpr()
-            self.state = 130
+            self.state = 136
             self.match(ScryfallQueryParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -1352,15 +1415,15 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 133
+            self.state = 139
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==3:
-                self.state = 132
+                self.state = 138
                 self.match(ScryfallQueryParser.NEG)
 
 
-            self.state = 135
+            self.state = 141
             self.topAtom()
         except RecognitionException as re:
             localctx.exception = re
@@ -1418,17 +1481,17 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 137
+            self.state = 143
             self.parenAndExpr()
-            self.state = 142
+            self.state = 148
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==12:
-                self.state = 138
-                self.match(ScryfallQueryParser.OR)
-                self.state = 139
-                self.parenAndExpr()
                 self.state = 144
+                self.match(ScryfallQueryParser.OR)
+                self.state = 145
+                self.parenAndExpr()
+                self.state = 150
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1482,16 +1545,16 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 146 
+            self.state = 152 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 145
+                self.state = 151
                 self.parenFactor()
-                self.state = 148 
+                self.state = 154 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174237210) != 0) or _la==156 or ((((_la - 482)) & ~0x3f) == 0 and ((1 << (_la - 482)) & 3098458951444856831) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 1610350618) != 0) or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 2043) != 0) or _la==191 or ((((_la - 517)) & ~0x3f) == 0 and ((1 << (_la - 517)) & 5404301960658550783) != 0)):
                     break
 
         except RecognitionException as re:
@@ -1543,17 +1606,17 @@ class ScryfallQueryParser ( Parser ):
         localctx = ScryfallQueryParser.ParenFactorContext(self, self._ctx, self.state)
         self.enterRule(localctx, 16, self.RULE_parenFactor)
         try:
-            self.state = 152
+            self.state = 158
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [1]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 150
+                self.state = 156
                 self.parenGroup()
                 pass
-            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 156, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 541, 543]:
+            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 574, 576, 579]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 151
+                self.state = 157
                 self.parenTerm()
                 pass
             else:
@@ -1611,11 +1674,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 18, self.RULE_parenGroup)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 154
+            self.state = 160
             self.match(ScryfallQueryParser.LPAREN)
-            self.state = 155
+            self.state = 161
             self.parenExpr()
-            self.state = 156
+            self.state = 162
             self.match(ScryfallQueryParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
@@ -1667,15 +1730,15 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 159
+            self.state = 165
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==3:
-                self.state = 158
+                self.state = 164
                 self.match(ScryfallQueryParser.NEG)
 
 
-            self.state = 161
+            self.state = 167
             self.parenAtom()
         except RecognitionException as re:
             localctx.exception = re
@@ -1726,17 +1789,17 @@ class ScryfallQueryParser ( Parser ):
         localctx = ScryfallQueryParser.TopAtomContext(self, self._ctx, self.state)
         self.enterRule(localctx, 22, self.RULE_topAtom)
         try:
-            self.state = 165
+            self.state = 171
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [13, 14, 15, 16, 17]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 163
+                self.state = 169
                 self.displayAtom()
                 pass
-            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 156, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 541, 543]:
+            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 191, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 574, 576, 579]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 164
+                self.state = 170
                 self.nonDisplayAtom()
                 pass
             else:
@@ -1803,32 +1866,32 @@ class ScryfallQueryParser ( Parser ):
         localctx = ScryfallQueryParser.DisplayAtomContext(self, self._ctx, self.state)
         self.enterRule(localctx, 24, self.RULE_displayAtom)
         try:
-            self.state = 172
+            self.state = 178
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [13]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 167
+                self.state = 173
                 self.uniqueTerm()
                 pass
             elif token in [14]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 168
+                self.state = 174
                 self.displayTerm()
                 pass
             elif token in [15]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 169
+                self.state = 175
                 self.orderTerm()
                 pass
             elif token in [16]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 170
+                self.state = 176
                 self.directionTerm()
                 pass
             elif token in [17]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 171
+                self.state = 177
                 self.preferTerm()
                 pass
             else:
@@ -1880,7 +1943,7 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 26, self.RULE_parenAtom)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 174
+            self.state = 180
             self.nonDisplayAtom()
         except RecognitionException as re:
             localctx.exception = re
@@ -1950,6 +2013,10 @@ class ScryfallQueryParser ( Parser ):
             return self.getTypedRuleContext(ScryfallQueryParser.BorderTermContext,0)
 
 
+        def languageTerm(self):
+            return self.getTypedRuleContext(ScryfallQueryParser.LanguageTermContext,0)
+
+
         def genericTerm(self):
             return self.getTypedRuleContext(ScryfallQueryParser.GenericTermContext,0)
 
@@ -1987,102 +2054,108 @@ class ScryfallQueryParser ( Parser ):
         localctx = ScryfallQueryParser.NonDisplayAtomContext(self, self._ctx, self.state)
         self.enterRule(localctx, 28, self.RULE_nonDisplayAtom)
         try:
-            self.state = 192
+            self.state = 199
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 176
+                self.state = 182
                 self.exactName()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 177
+                self.state = 183
                 self.includeTerm()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 178
+                self.state = 184
                 self.isTerm()
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 179
+                self.state = 185
                 self.notTerm()
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 180
+                self.state = 186
                 self.formatTerm()
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 181
+                self.state = 187
                 self.bannedTerm()
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 182
+                self.state = 188
                 self.restrictedTerm()
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 183
+                self.state = 189
                 self.gameTerm()
                 pass
 
             elif la_ == 9:
                 self.enterOuterAlt(localctx, 9)
-                self.state = 184
+                self.state = 190
                 self.rarityTerm()
                 pass
 
             elif la_ == 10:
                 self.enterOuterAlt(localctx, 10)
-                self.state = 185
+                self.state = 191
                 self.mvTerm()
                 pass
 
             elif la_ == 11:
                 self.enterOuterAlt(localctx, 11)
-                self.state = 186
+                self.state = 192
                 self.manaTerm()
                 pass
 
             elif la_ == 12:
                 self.enterOuterAlt(localctx, 12)
-                self.state = 187
+                self.state = 193
                 self.colorTerm()
                 pass
 
             elif la_ == 13:
                 self.enterOuterAlt(localctx, 13)
-                self.state = 188
+                self.state = 194
                 self.borderTerm()
                 pass
 
             elif la_ == 14:
                 self.enterOuterAlt(localctx, 14)
-                self.state = 189
-                self.genericTerm()
+                self.state = 195
+                self.languageTerm()
                 pass
 
             elif la_ == 15:
                 self.enterOuterAlt(localctx, 15)
-                self.state = 190
-                self.quotedText()
+                self.state = 196
+                self.genericTerm()
                 pass
 
             elif la_ == 16:
                 self.enterOuterAlt(localctx, 16)
-                self.state = 191
+                self.state = 197
+                self.quotedText()
+                pass
+
+            elif la_ == 17:
+                self.enterOuterAlt(localctx, 17)
+                self.state = 198
                 self.word()
                 pass
 
@@ -2140,17 +2213,17 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 30, self.RULE_exactName)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 194
+            self.state = 201
             self.match(ScryfallQueryParser.BANG)
-            self.state = 197
+            self.state = 204
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [539]:
-                self.state = 195
+            if token in [574]:
+                self.state = 202
                 self.quotedText()
                 pass
-            elif token in [541, 543]:
-                self.state = 196
+            elif token in [576, 579]:
+                self.state = 203
                 self.word()
                 pass
             else:
@@ -2209,11 +2282,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 32, self.RULE_uniqueTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 199
+            self.state = 206
             self.uniqueKey()
-            self.state = 200
+            self.state = 207
             self.match(ScryfallQueryParser.COLON)
-            self.state = 201
+            self.state = 208
             self.uniqueValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2260,7 +2333,7 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 34, self.RULE_uniqueKey)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 203
+            self.state = 210
             self.match(ScryfallQueryParser.UNIQUE)
         except RecognitionException as re:
             localctx.exception = re
@@ -2314,9 +2387,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 205
+            self.state = 212
             _la = self._input.LA(1)
-            if not(_la==29 or _la==30 or _la==483):
+            if not(_la==29 or _la==30 or _la==518):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2373,11 +2446,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 38, self.RULE_displayTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 207
+            self.state = 214
             self.match(ScryfallQueryParser.DISPLAY)
-            self.state = 208
+            self.state = 215
             self.match(ScryfallQueryParser.COLON)
-            self.state = 209
+            self.state = 216
             self.displayValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2434,7 +2507,7 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 211
+            self.state = 218
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 32212254720) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2493,11 +2566,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 42, self.RULE_orderTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 213
+            self.state = 220
             self.match(ScryfallQueryParser.ORDER)
-            self.state = 214
+            self.state = 221
             self.match(ScryfallQueryParser.COLON)
-            self.state = 215
+            self.state = 222
             self.orderValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2590,9 +2663,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 217
+            self.state = 224
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 562125386809344) != 0) or ((((_la - 87)) & ~0x3f) == 0 and ((1 << (_la - 87)) & 31) != 0)):
+            if not(_la==26 or ((((_la - 73)) & ~0x3f) == 0 and ((1 << (_la - 73)) & 17451448556062717) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2649,11 +2722,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 46, self.RULE_directionTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 219
+            self.state = 226
             self.match(ScryfallQueryParser.DIRECTION)
-            self.state = 220
+            self.state = 227
             self.match(ScryfallQueryParser.COLON)
-            self.state = 221
+            self.state = 228
             self.directionValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2704,7 +2777,7 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 223
+            self.state = 230
             _la = self._input.LA(1)
             if not(_la==35 or _la==36):
                 self._errHandler.recoverInline(self)
@@ -2763,11 +2836,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 50, self.RULE_preferTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 225
+            self.state = 232
             self.match(ScryfallQueryParser.PREFER)
-            self.state = 226
+            self.state = 233
             self.match(ScryfallQueryParser.COLON)
-            self.state = 227
+            self.state = 234
             self.preferValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -2857,9 +2930,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 229
+            self.state = 236
             _la = self._input.LA(1)
-            if not(((((_la - 92)) & ~0x3f) == 0 and ((1 << (_la - 92)) & 32767) != 0)):
+            if not(((((_la - 127)) & ~0x3f) == 0 and ((1 << (_la - 127)) & 32767) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2915,11 +2988,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 54, self.RULE_includeTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 231
+            self.state = 238
             self.match(ScryfallQueryParser.INCLUDE)
-            self.state = 232
+            self.state = 239
             self.match(ScryfallQueryParser.COLON)
-            self.state = 233
+            self.state = 240
             self.match(ScryfallQueryParser.EXTRAS)
         except RecognitionException as re:
             localctx.exception = re
@@ -2973,11 +3046,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 56, self.RULE_isTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 235
+            self.state = 242
             self.match(ScryfallQueryParser.IS)
-            self.state = 236
+            self.state = 243
             self.match(ScryfallQueryParser.COLON)
-            self.state = 237
+            self.state = 244
             self.isValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -3031,11 +3104,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 58, self.RULE_notTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 239
+            self.state = 246
             self.match(ScryfallQueryParser.NOT)
-            self.state = 240
+            self.state = 247
             self.match(ScryfallQueryParser.COLON)
-            self.state = 241
+            self.state = 248
             self.isValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4166,9 +4239,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 243
+            self.state = 250
             _la = self._input.LA(1)
-            if not(_la==13 or _la==38 or ((((_la - 100)) & ~0x3f) == 0 and ((1 << (_la - 100)) & -65) != 0) or ((((_la - 164)) & ~0x3f) == 0 and ((1 << (_la - 164)) & -1) != 0) or ((((_la - 228)) & ~0x3f) == 0 and ((1 << (_la - 228)) & -1) != 0) or ((((_la - 292)) & ~0x3f) == 0 and ((1 << (_la - 292)) & -1) != 0) or ((((_la - 356)) & ~0x3f) == 0 and ((1 << (_la - 356)) & -1) != 0) or ((((_la - 420)) & ~0x3f) == 0 and ((1 << (_la - 420)) & 71571335020543) != 0) or ((((_la - 500)) & ~0x3f) == 0 and ((1 << (_la - 500)) & 69256347649) != 0)):
+            if not(_la==13 or _la==73 or ((((_la - 135)) & ~0x3f) == 0 and ((1 << (_la - 135)) & -65) != 0) or ((((_la - 199)) & ~0x3f) == 0 and ((1 << (_la - 199)) & -1) != 0) or ((((_la - 263)) & ~0x3f) == 0 and ((1 << (_la - 263)) & -1) != 0) or ((((_la - 327)) & ~0x3f) == 0 and ((1 << (_la - 327)) & -1) != 0) or ((((_la - 391)) & ~0x3f) == 0 and ((1 << (_la - 391)) & -1) != 0) or ((((_la - 455)) & ~0x3f) == 0 and ((1 << (_la - 455)) & 71571335020543) != 0) or ((((_la - 535)) & ~0x3f) == 0 and ((1 << (_la - 535)) & 69256347649) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4229,16 +4302,16 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 245
+            self.state = 252
             _la = self._input.LA(1)
             if not(_la==21 or _la==22):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 246
+            self.state = 253
             self.match(ScryfallQueryParser.COLON)
-            self.state = 247
+            self.state = 254
             self.formatValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4292,11 +4365,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 64, self.RULE_bannedTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 249
+            self.state = 256
             self.match(ScryfallQueryParser.BANNED)
-            self.state = 250
+            self.state = 257
             self.match(ScryfallQueryParser.COLON)
-            self.state = 251
+            self.state = 258
             self.formatValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4350,11 +4423,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 66, self.RULE_restrictedTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 253
+            self.state = 260
             self.match(ScryfallQueryParser.RESTRICTED)
-            self.state = 254
+            self.state = 261
             self.match(ScryfallQueryParser.COLON)
-            self.state = 255
+            self.state = 262
             self.formatValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4462,9 +4535,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 257
+            self.state = 264
             _la = self._input.LA(1)
-            if not(((((_la - 90)) & ~0x3f) == 0 and ((1 << (_la - 90)) & 4899916398874066945) != 0) or _la==164 or ((((_la - 455)) & ~0x3f) == 0 and ((1 << (_la - 455)) & 65535) != 0)):
+            if not(((((_la - 125)) & ~0x3f) == 0 and ((1 << (_la - 125)) & 4899916398874066945) != 0) or _la==199 or ((((_la - 490)) & ~0x3f) == 0 and ((1 << (_la - 490)) & 65535) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4527,13 +4600,13 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 259
+            self.state = 266
             self.match(ScryfallQueryParser.GAME)
-            self.state = 260
+            self.state = 267
             self.match(ScryfallQueryParser.COLON)
-            self.state = 261
+            self.state = 268
             _la = self._input.LA(1)
-            if not(((((_la - 471)) & ~0x3f) == 0 and ((1 << (_la - 471)) & 7) != 0)):
+            if not(((((_la - 506)) & ~0x3f) == 0 and ((1 << (_la - 506)) & 7) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4590,9 +4663,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 263
+            self.state = 270
             _la = self._input.LA(1)
-            if not(((((_la - 471)) & ~0x3f) == 0 and ((1 << (_la - 471)) & 7) != 0)):
+            if not(((((_la - 506)) & ~0x3f) == 0 and ((1 << (_la - 506)) & 7) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4654,16 +4727,16 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 265
+            self.state = 272
             _la = self._input.LA(1)
-            if not(_la==48 or _la==489):
+            if not(_la==83 or _la==524):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 266
+            self.state = 273
             self.compOp()
-            self.state = 267
+            self.state = 274
             self.colorValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4843,9 +4916,9 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 269
+            self.state = 276
             _la = self._input.LA(1)
-            if not(((((_la - 49)) & ~0x3f) == 0 and ((1 << (_la - 49)) & 36029071896870879) != 0) or ((((_la - 486)) & ~0x3f) == 0 and ((1 << (_la - 486)) & 40534046182211593) != 0)):
+            if not(((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 36029071896870879) != 0) or ((((_la - 521)) & ~0x3f) == 0 and ((1 << (_la - 521)) & 40534046182211593) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4902,11 +4975,11 @@ class ScryfallQueryParser ( Parser ):
         self.enterRule(localctx, 78, self.RULE_borderTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 271
+            self.state = 278
             self.match(ScryfallQueryParser.BORDER)
-            self.state = 272
+            self.state = 279
             self.match(ScryfallQueryParser.COLON)
-            self.state = 273
+            self.state = 280
             self.borderValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -4963,9 +5036,237 @@ class ScryfallQueryParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 275
+            self.state = 282
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 20829148276588544) != 0) or _la==180):
+            if not(((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 37) != 0) or _la==215):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class LanguageTermContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def COLON(self):
+            return self.getToken(ScryfallQueryParser.COLON, 0)
+
+        def languageValue(self):
+            return self.getTypedRuleContext(ScryfallQueryParser.LanguageValueContext,0)
+
+
+        def LANG(self):
+            return self.getToken(ScryfallQueryParser.LANG, 0)
+
+        def LANGUAGE(self):
+            return self.getToken(ScryfallQueryParser.LANGUAGE, 0)
+
+        def getRuleIndex(self):
+            return ScryfallQueryParser.RULE_languageTerm
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLanguageTerm" ):
+                listener.enterLanguageTerm(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLanguageTerm" ):
+                listener.exitLanguageTerm(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLanguageTerm" ):
+                return visitor.visitLanguageTerm(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def languageTerm(self):
+
+        localctx = ScryfallQueryParser.LanguageTermContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 82, self.RULE_languageTerm)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 284
+            _la = self._input.LA(1)
+            if not(_la==545 or _la==546):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+            self.state = 285
+            self.match(ScryfallQueryParser.COLON)
+            self.state = 286
+            self.languageValue()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class LanguageValueContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ANY(self):
+            return self.getToken(ScryfallQueryParser.ANY, 0)
+
+        def EN(self):
+            return self.getToken(ScryfallQueryParser.EN, 0)
+
+        def ES(self):
+            return self.getToken(ScryfallQueryParser.ES, 0)
+
+        def FR(self):
+            return self.getToken(ScryfallQueryParser.FR, 0)
+
+        def DE(self):
+            return self.getToken(ScryfallQueryParser.DE, 0)
+
+        def IT(self):
+            return self.getToken(ScryfallQueryParser.IT, 0)
+
+        def PT(self):
+            return self.getToken(ScryfallQueryParser.PT, 0)
+
+        def JA(self):
+            return self.getToken(ScryfallQueryParser.JA, 0)
+
+        def KO(self):
+            return self.getToken(ScryfallQueryParser.KO, 0)
+
+        def RU(self):
+            return self.getToken(ScryfallQueryParser.RU, 0)
+
+        def ZHS(self):
+            return self.getToken(ScryfallQueryParser.ZHS, 0)
+
+        def ZHT(self):
+            return self.getToken(ScryfallQueryParser.ZHT, 0)
+
+        def HE(self):
+            return self.getToken(ScryfallQueryParser.HE, 0)
+
+        def LA(self):
+            return self.getToken(ScryfallQueryParser.LA, 0)
+
+        def GRC(self):
+            return self.getToken(ScryfallQueryParser.GRC, 0)
+
+        def AR(self):
+            return self.getToken(ScryfallQueryParser.AR, 0)
+
+        def SA(self):
+            return self.getToken(ScryfallQueryParser.SA, 0)
+
+        def PH(self):
+            return self.getToken(ScryfallQueryParser.PH, 0)
+
+        def QYA(self):
+            return self.getToken(ScryfallQueryParser.QYA, 0)
+
+        def ENGLISH(self):
+            return self.getToken(ScryfallQueryParser.ENGLISH, 0)
+
+        def SPANISH(self):
+            return self.getToken(ScryfallQueryParser.SPANISH, 0)
+
+        def FRENCH(self):
+            return self.getToken(ScryfallQueryParser.FRENCH, 0)
+
+        def GERMAN(self):
+            return self.getToken(ScryfallQueryParser.GERMAN, 0)
+
+        def ITALIAN(self):
+            return self.getToken(ScryfallQueryParser.ITALIAN, 0)
+
+        def PORTUGUESE(self):
+            return self.getToken(ScryfallQueryParser.PORTUGUESE, 0)
+
+        def JAPANESE(self):
+            return self.getToken(ScryfallQueryParser.JAPANESE, 0)
+
+        def KOREAN(self):
+            return self.getToken(ScryfallQueryParser.KOREAN, 0)
+
+        def RUSSIAN(self):
+            return self.getToken(ScryfallQueryParser.RUSSIAN, 0)
+
+        def SIMPLIFIED_CHINESE(self):
+            return self.getToken(ScryfallQueryParser.SIMPLIFIED_CHINESE, 0)
+
+        def TRADITIONAL_CHINESE(self):
+            return self.getToken(ScryfallQueryParser.TRADITIONAL_CHINESE, 0)
+
+        def HEBREW(self):
+            return self.getToken(ScryfallQueryParser.HEBREW, 0)
+
+        def LATIN(self):
+            return self.getToken(ScryfallQueryParser.LATIN, 0)
+
+        def ANCIENT_GREEK(self):
+            return self.getToken(ScryfallQueryParser.ANCIENT_GREEK, 0)
+
+        def ARABIC(self):
+            return self.getToken(ScryfallQueryParser.ARABIC, 0)
+
+        def SANSKRIT(self):
+            return self.getToken(ScryfallQueryParser.SANSKRIT, 0)
+
+        def PHYREXIAN(self):
+            return self.getToken(ScryfallQueryParser.PHYREXIAN, 0)
+
+        def QUENYA(self):
+            return self.getToken(ScryfallQueryParser.QUENYA, 0)
+
+        def getRuleIndex(self):
+            return ScryfallQueryParser.RULE_languageValue
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLanguageValue" ):
+                listener.enterLanguageValue(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLanguageValue" ):
+                listener.exitLanguageValue(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitLanguageValue" ):
+                return visitor.visitLanguageValue(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def languageValue(self):
+
+        localctx = ScryfallQueryParser.LanguageValueContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 84, self.RULE_languageValue)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 288
+            _la = self._input.LA(1)
+            if not(((((_la - 38)) & ~0x3f) == 0 and ((1 << (_la - 38)) & 34359738367) != 0) or _la==144 or _la==557):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5026,20 +5327,20 @@ class ScryfallQueryParser ( Parser ):
     def rarityTerm(self):
 
         localctx = ScryfallQueryParser.RarityTermContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 82, self.RULE_rarityTerm)
+        self.enterRule(localctx, 86, self.RULE_rarityTerm)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 277
+            self.state = 290
             _la = self._input.LA(1)
-            if not(_la==26 or _la==507 or _la==525):
+            if not(_la==26 or _la==542 or _la==560):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 278
+            self.state = 291
             self.compOp()
-            self.state = 279
+            self.state = 292
             self.rarityValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -5113,13 +5414,13 @@ class ScryfallQueryParser ( Parser ):
     def rarityValue(self):
 
         localctx = ScryfallQueryParser.RarityValueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 84, self.RULE_rarityValue)
+        self.enterRule(localctx, 88, self.RULE_rarityValue)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 281
+            self.state = 294
             _la = self._input.LA(1)
-            if not(((((_la - 474)) & ~0x3f) == 0 and ((1 << (_la - 474)) & 6756498952720447) != 0)):
+            if not(((((_la - 509)) & ~0x3f) == 0 and ((1 << (_la - 509)) & 6756498952720447) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5182,22 +5483,22 @@ class ScryfallQueryParser ( Parser ):
     def mvTerm(self):
 
         localctx = ScryfallQueryParser.MvTermContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 86, self.RULE_mvTerm)
+        self.enterRule(localctx, 90, self.RULE_mvTerm)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 283
+            self.state = 296
             _la = self._input.LA(1)
             if not(_la==27 or _la==28):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 284
+            self.state = 297
             self.compOp()
-            self.state = 285
+            self.state = 298
             _la = self._input.LA(1)
-            if not(((((_la - 480)) & ~0x3f) == 0 and ((1 << (_la - 480)) & 288230376151711747) != 0)):
+            if not(((((_la - 515)) & ~0x3f) == 0 and ((1 << (_la - 515)) & 288230376151711747) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5255,20 +5556,20 @@ class ScryfallQueryParser ( Parser ):
     def manaTerm(self):
 
         localctx = ScryfallQueryParser.ManaTermContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 88, self.RULE_manaTerm)
+        self.enterRule(localctx, 92, self.RULE_manaTerm)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 287
+            self.state = 300
             _la = self._input.LA(1)
-            if not(_la==514 or _la==515):
+            if not(_la==549 or _la==550):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 288
+            self.state = 301
             self.compOp()
-            self.state = 289
+            self.state = 302
             self.manaValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -5286,8 +5587,12 @@ class ScryfallQueryParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def MANA_VALUE(self):
-            return self.getToken(ScryfallQueryParser.MANA_VALUE, 0)
+        def manaValuePart(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(ScryfallQueryParser.ManaValuePartContext)
+            else:
+                return self.getTypedRuleContext(ScryfallQueryParser.ManaValuePartContext,i)
+
 
         def getRuleIndex(self):
             return ScryfallQueryParser.RULE_manaValue
@@ -5312,11 +5617,91 @@ class ScryfallQueryParser ( Parser ):
     def manaValue(self):
 
         localctx = ScryfallQueryParser.ManaValueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 90, self.RULE_manaValue)
+        self.enterRule(localctx, 94, self.RULE_manaValue)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 291
-            self.match(ScryfallQueryParser.MANA_VALUE)
+            self.state = 305 
+            self._errHandler.sync(self)
+            _alt = 1
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt == 1:
+                    self.state = 304
+                    self.manaValuePart()
+
+                else:
+                    raise NoViableAltException(self)
+                self.state = 307 
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,12,self._ctx)
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ManaValuePartContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def MANA_BRACED_SYMBOL(self):
+            return self.getToken(ScryfallQueryParser.MANA_BRACED_SYMBOL, 0)
+
+        def MANA_UNBRACED_SYMBOL(self):
+            return self.getToken(ScryfallQueryParser.MANA_UNBRACED_SYMBOL, 0)
+
+        def COLOR_SET(self):
+            return self.getToken(ScryfallQueryParser.COLOR_SET, 0)
+
+        def U(self):
+            return self.getToken(ScryfallQueryParser.U, 0)
+
+        def B(self):
+            return self.getToken(ScryfallQueryParser.B, 0)
+
+        def R(self):
+            return self.getToken(ScryfallQueryParser.R, 0)
+
+        def getRuleIndex(self):
+            return ScryfallQueryParser.RULE_manaValuePart
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterManaValuePart" ):
+                listener.enterManaValuePart(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitManaValuePart" ):
+                listener.exitManaValuePart(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitManaValuePart" ):
+                return visitor.visitManaValuePart(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+
+
+    def manaValuePart(self):
+
+        localctx = ScryfallQueryParser.ManaValuePartContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 96, self.RULE_manaValuePart)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 309
+            _la = self._input.LA(1)
+            if not(((((_la - 521)) & ~0x3f) == 0 and ((1 << (_la - 521)) & 252203228400189441) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -5368,14 +5753,14 @@ class ScryfallQueryParser ( Parser ):
     def genericTerm(self):
 
         localctx = ScryfallQueryParser.GenericTermContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 92, self.RULE_genericTerm)
+        self.enterRule(localctx, 98, self.RULE_genericTerm)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 293
+            self.state = 311
             self.genericKey()
-            self.state = 294
+            self.state = 312
             self.compOp()
-            self.state = 295
+            self.state = 313
             self.genericValue()
         except RecognitionException as re:
             localctx.exception = re
@@ -5476,12 +5861,6 @@ class ScryfallQueryParser ( Parser ):
 
         def KW(self):
             return self.getToken(ScryfallQueryParser.KW, 0)
-
-        def LANG(self):
-            return self.getToken(ScryfallQueryParser.LANG, 0)
-
-        def LANGUAGE(self):
-            return self.getToken(ScryfallQueryParser.LANGUAGE, 0)
 
         def LOY(self):
             return self.getToken(ScryfallQueryParser.LOY, 0)
@@ -5608,13 +5987,13 @@ class ScryfallQueryParser ( Parser ):
     def genericKey(self):
 
         localctx = ScryfallQueryParser.GenericKeyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 94, self.RULE_genericKey)
+        self.enterRule(localctx, 100, self.RULE_genericKey)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 297
+            self.state = 315
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 280101761581056) != 0) or _la==156 or ((((_la - 482)) & ~0x3f) == 0 and ((1 << (_la - 482)) & 72039988966981439) != 0)):
+            if not(((((_la - 25)) & ~0x3f) == 0 and ((1 << (_la - 25)) & 286823001268158499) != 0) or _la==191 or ((((_la - 517)) & ~0x3f) == 0 and ((1 << (_la - 517)) & 72039988161675071) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -5679,11 +6058,11 @@ class ScryfallQueryParser ( Parser ):
     def compOp(self):
 
         localctx = ScryfallQueryParser.CompOpContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 96, self.RULE_compOp)
+        self.enterRule(localctx, 102, self.RULE_compOp)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 299
+            self.state = 317
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4064) != 0)):
                 self._errHandler.recoverInline(self)
@@ -5762,6 +6141,10 @@ class ScryfallQueryParser ( Parser ):
             return self.getTypedRuleContext(ScryfallQueryParser.GameValueTokenContext,0)
 
 
+        def languageValue(self):
+            return self.getTypedRuleContext(ScryfallQueryParser.LanguageValueContext,0)
+
+
         def getRuleIndex(self):
             return ScryfallQueryParser.RULE_genericValue
 
@@ -5785,93 +6168,99 @@ class ScryfallQueryParser ( Parser ):
     def genericValue(self):
 
         localctx = ScryfallQueryParser.GenericValueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 98, self.RULE_genericValue)
+        self.enterRule(localctx, 104, self.RULE_genericValue)
         try:
-            self.state = 315
+            self.state = 334
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,12,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 301
+                self.state = 319
                 self.regex()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 302
+                self.state = 320
                 self.quotedText()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 303
+                self.state = 321
                 self.bareValue()
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 304
+                self.state = 322
                 self.word()
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 305
+                self.state = 323
                 self.genericKey()
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 306
+                self.state = 324
                 self.rarityValue()
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 307
+                self.state = 325
                 self.formatValue()
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 308
+                self.state = 326
                 self.isValue()
                 pass
 
             elif la_ == 9:
                 self.enterOuterAlt(localctx, 9)
-                self.state = 309
+                self.state = 327
                 self.orderValue()
                 pass
 
             elif la_ == 10:
                 self.enterOuterAlt(localctx, 10)
-                self.state = 310
+                self.state = 328
                 self.preferValue()
                 pass
 
             elif la_ == 11:
                 self.enterOuterAlt(localctx, 11)
-                self.state = 311
+                self.state = 329
                 self.directionValue()
                 pass
 
             elif la_ == 12:
                 self.enterOuterAlt(localctx, 12)
-                self.state = 312
+                self.state = 330
                 self.uniqueValue()
                 pass
 
             elif la_ == 13:
                 self.enterOuterAlt(localctx, 13)
-                self.state = 313
+                self.state = 331
                 self.displayValue()
                 pass
 
             elif la_ == 14:
                 self.enterOuterAlt(localctx, 14)
-                self.state = 314
+                self.state = 332
                 self.gameValueToken()
+                pass
+
+            elif la_ == 15:
+                self.enterOuterAlt(localctx, 15)
+                self.state = 333
+                self.languageValue()
                 pass
 
 
@@ -5917,10 +6306,10 @@ class ScryfallQueryParser ( Parser ):
     def quotedText(self):
 
         localctx = ScryfallQueryParser.QuotedTextContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 100, self.RULE_quotedText)
+        self.enterRule(localctx, 106, self.RULE_quotedText)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 317
+            self.state = 336
             self.match(ScryfallQueryParser.QUOTED_TEXT)
         except RecognitionException as re:
             localctx.exception = re
@@ -5964,10 +6353,10 @@ class ScryfallQueryParser ( Parser ):
     def regex(self):
 
         localctx = ScryfallQueryParser.RegexContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 102, self.RULE_regex)
+        self.enterRule(localctx, 108, self.RULE_regex)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 319
+            self.state = 338
             self.match(ScryfallQueryParser.REGEX)
         except RecognitionException as re:
             localctx.exception = re
@@ -6014,13 +6403,13 @@ class ScryfallQueryParser ( Parser ):
     def word(self):
 
         localctx = ScryfallQueryParser.WordContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 104, self.RULE_word)
+        self.enterRule(localctx, 110, self.RULE_word)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 321
+            self.state = 340
             _la = self._input.LA(1)
-            if not(_la==541 or _la==543):
+            if not(_la==576 or _la==579):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -6070,13 +6459,13 @@ class ScryfallQueryParser ( Parser ):
     def bareValue(self):
 
         localctx = ScryfallQueryParser.BareValueContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 106, self.RULE_bareValue)
+        self.enterRule(localctx, 112, self.RULE_bareValue)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 323
+            self.state = 342
             _la = self._input.LA(1)
-            if not(_la==541 or _la==544):
+            if not(_la==576 or _la==580):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)

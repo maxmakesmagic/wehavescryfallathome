@@ -14,11 +14,11 @@ from wehavescryfallathome import (
 @pytest.mark.parametrize(
     "query,key,value",
     [
-        ("m:{R/P}", "m", "{R/P}"),
-        ("m:2WW", "m", "2WW"),
-        ("mana:{2/G}", "mana", "{2/G}"),
-        ("m>3WU", "m", "3WU"),
-        ("mana:{W/U}{W/U}", "mana", "{W/U}{W/U}"),
+        ("m:{R/P}", "mana", "{r/p}"),
+        ("m:2WW", "mana", "2ww"),
+        ("mana:{2/G}", "mana", "{2/g}"),
+        ("m>3WU", "mana", "3wu"),
+        ("mana:{W/U}{W/U}", "mana", "{w/u}{w/u}"),
     ],
 )
 def test_parser_accepts_known_mana_values(query: str, key: str, value: str) -> None:
