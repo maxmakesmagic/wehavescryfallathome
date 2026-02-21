@@ -341,6 +341,123 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#inTerm.
+    def enterInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#inTerm.
+    def exitInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#identityTerm.
+    def enterIdentityTerm(self, ctx:ScryfallQueryParser.IdentityTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#identityTerm.
+    def exitIdentityTerm(self, ctx:ScryfallQueryParser.IdentityTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#identityValue.
+    def enterIdentityValue(self, ctx:ScryfallQueryParser.IdentityValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#identityValue.
+    def exitIdentityValue(self, ctx:ScryfallQueryParser.IdentityValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#colorTerm.
+    def enterColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#colorTerm.
+    def exitColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#colorValue.
+    def enterColorValue(self, ctx:ScryfallQueryParser.ColorValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#colorValue.
+    def exitColorValue(self, ctx:ScryfallQueryParser.ColorValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#borderTerm.
+    def enterBorderTerm(self, ctx:ScryfallQueryParser.BorderTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#borderTerm.
+    def exitBorderTerm(self, ctx:ScryfallQueryParser.BorderTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#borderValue.
+    def enterBorderValue(self, ctx:ScryfallQueryParser.BorderValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#borderValue.
+    def exitBorderValue(self, ctx:ScryfallQueryParser.BorderValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#frameTerm.
+    def enterFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#frameTerm.
+    def exitFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#frameValue.
+    def enterFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#frameValue.
+    def exitFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#languageTerm.
+    def enterLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#languageTerm.
+    def exitLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#languageValue.
+    def enterLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#languageValue.
+    def exitLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#stampTerm.
+    def enterStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#stampTerm.
+    def exitStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#stampValue.
+    def enterStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#stampValue.
+    def exitStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#rarityTerm.
     def enterRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         pass
@@ -359,12 +476,93 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#powerTerm.
+    def enterPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#powerTerm.
+    def exitPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#powerValue.
+    def enterPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#powerValue.
+    def exitPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def enterToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def exitToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def enterToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def exitToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#mvTerm.
     def enterMvTerm(self, ctx:ScryfallQueryParser.MvTermContext):
         pass
 
     # Exit a parse tree produced by ScryfallQueryParser#mvTerm.
     def exitMvTerm(self, ctx:ScryfallQueryParser.MvTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#manaTerm.
+    def enterManaTerm(self, ctx:ScryfallQueryParser.ManaTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaTerm.
+    def exitManaTerm(self, ctx:ScryfallQueryParser.ManaTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#manaValue.
+    def enterManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaValue.
+    def exitManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def enterManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def exitManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#cnTerm.
+    def enterCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#cnTerm.
+    def exitCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#cnValue.
+    def enterCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#cnValue.
+    def exitCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
         pass
 
 

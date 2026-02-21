@@ -37,12 +37,11 @@ class ScryfallQuerier:
                 now = time.monotonic()
             self._next_request_at = now + self._min_interval_seconds
 
-    def accepts_is_value(
-        self, is_value: str, timeout_seconds: float = 20.0
+    def accepts_query(
+        self, query: str, timeout_seconds: float = 20.0
     ) -> tuple[bool, str]:
-        """Check whether live Scryfall accepts `is:<value>` as a valid query term."""
+        """Check whether live Scryfall accepts the provided query term expression."""
         self._wait_for_turn()
-        query = f"is:{is_value}"
         url = "https://api.scryfall.com/cards/search?" + urllib.parse.urlencode(
             {"q": query}
         )
@@ -63,6 +62,20 @@ class ScryfallQuerier:
             return False, f"HTTP {exc.code}: {details}"
         except urllib.error.URLError as exc:
             return False, f"network error: {exc}"
+
+    def accepts_is_value(
+        self, is_value: str, timeout_seconds: float = 20.0
+    ) -> tuple[bool, str]:
+        """Check whether live Scryfall accepts `is:<value>` as a valid query term."""
+        return self.accepts_query(f"is:{is_value}", timeout_seconds=timeout_seconds)
+
+    def accepts_color_value(
+        self, color_value: str, timeout_seconds: float = 20.0
+    ) -> tuple[bool, str]:
+        """Check whether live Scryfall accepts `color:<value>` as a valid query term."""
+        return self.accepts_query(
+            f"color:{color_value}", timeout_seconds=timeout_seconds
+        )
 
 
 @dataclass(frozen=True)
@@ -124,6 +137,28 @@ class ScryfallQueryGrammarFile:
         """Return `is:` values in the exact order declared in grammar."""
         return self.get_rule_values_in_order("isValue")
 
+    def get_color_values(self) -> list[str]:
+        """Return representative valid `color:` values for test parameterization."""
+        symbols = self.get_rule_symbols_in_order("colorValue")
+        literal_map = self.get_lexer_literal_map()
+        values: list[str] = []
+
+        for symbol in symbols:
+            if symbol in literal_map:
+                values.append(literal_map[symbol])
+            elif symbol == "NUMBER":
+                values.append("2")
+            elif symbol == "COLOR_SET":
+                values.extend(["w", "ub", "wubrg"])
+            else:
+                raise AssertionError(f"Unsupported colorValue symbol: {symbol}")
+
+        return sorted(set(values))
+
+    def get_language_values(self) -> list[str]:
+        """Return known `lang:`/`language:` values from grammar."""
+        return sorted(set(self.get_rule_values_in_order("languageValue")))
+
 
 @pytest.fixture
 def scryfall_query_grammar() -> ScryfallQueryGrammarFile:
@@ -133,16 +168,35 @@ def scryfall_query_grammar() -> ScryfallQueryGrammarFile:
 
 def pytest_generate_tests(metafunc: pytest.Metafunc) -> None:
     """Parameterize `is_value` indirectly from grammar-defined `isValue` entries."""
-    if "is_value" not in metafunc.fixturenames:
-        return
-
     grammar = ScryfallQueryGrammarFile.default()
-    metafunc.parametrize("is_value", grammar.get_is_values(), indirect=True)
+
+    if "is_value" in metafunc.fixturenames:
+        metafunc.parametrize("is_value", grammar.get_is_values(), indirect=True)
+
+    if "color_value" in metafunc.fixturenames:
+        metafunc.parametrize("color_value", grammar.get_color_values(), indirect=True)
+
+    if "language_value" in metafunc.fixturenames:
+        metafunc.parametrize(
+            "language_value", grammar.get_language_values(), indirect=True
+        )
 
 
 @pytest.fixture
 def is_value(request: pytest.FixtureRequest) -> str:
     """Indirect fixture carrying one `is:` value from grammar-driven parameterization."""
+    return str(request.param)
+
+
+@pytest.fixture
+def color_value(request: pytest.FixtureRequest) -> str:
+    """Indirect fixture carrying one `color:` value from grammar parameterization."""
+    return str(request.param)
+
+
+@pytest.fixture
+def language_value(request: pytest.FixtureRequest) -> str:
+    """Indirect fixture carrying one language value from grammar parameterization."""
     return str(request.param)
 
 

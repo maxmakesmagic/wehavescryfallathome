@@ -194,6 +194,71 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#inTerm.
+    def visitInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#identityTerm.
+    def visitIdentityTerm(self, ctx:ScryfallQueryParser.IdentityTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#identityValue.
+    def visitIdentityValue(self, ctx:ScryfallQueryParser.IdentityValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#colorTerm.
+    def visitColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#colorValue.
+    def visitColorValue(self, ctx:ScryfallQueryParser.ColorValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#borderTerm.
+    def visitBorderTerm(self, ctx:ScryfallQueryParser.BorderTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#borderValue.
+    def visitBorderValue(self, ctx:ScryfallQueryParser.BorderValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#frameTerm.
+    def visitFrameTerm(self, ctx:ScryfallQueryParser.FrameTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#frameValue.
+    def visitFrameValue(self, ctx:ScryfallQueryParser.FrameValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#languageTerm.
+    def visitLanguageTerm(self, ctx:ScryfallQueryParser.LanguageTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#languageValue.
+    def visitLanguageValue(self, ctx:ScryfallQueryParser.LanguageValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#stampTerm.
+    def visitStampTerm(self, ctx:ScryfallQueryParser.StampTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#stampValue.
+    def visitStampValue(self, ctx:ScryfallQueryParser.StampValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#rarityTerm.
     def visitRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         return self.visitChildren(ctx)
@@ -204,8 +269,53 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#powerTerm.
+    def visitPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#powerValue.
+    def visitPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def visitToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def visitToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#mvTerm.
     def visitMvTerm(self, ctx:ScryfallQueryParser.MvTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#manaTerm.
+    def visitManaTerm(self, ctx:ScryfallQueryParser.ManaTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#manaValue.
+    def visitManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#manaValuePart.
+    def visitManaValuePart(self, ctx:ScryfallQueryParser.ManaValuePartContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#cnTerm.
+    def visitCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#cnValue.
+    def visitCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
         return self.visitChildren(ctx)
 
 

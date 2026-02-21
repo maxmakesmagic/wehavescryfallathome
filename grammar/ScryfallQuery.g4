@@ -44,8 +44,19 @@ nonDisplayAtom
     | bannedTerm
     | restrictedTerm
     | gameTerm
+    | inTerm
     | rarityTerm
+    | powerTerm
+    | toughnessTerm
     | mvTerm
+    | manaTerm
+    | identityTerm
+    | colorTerm
+    | borderTerm
+    | frameTerm
+    | languageTerm
+    | stampTerm
+    | cnTerm
     | genericTerm
     | quotedText
     | word
@@ -500,8 +511,137 @@ formatValue
 
 gameTerm: GAME COLON (PAPER | MTGO | ARENA);
 gameValueToken: PAPER | MTGO | ARENA;
+inTerm: IN COLON gameValueToken;
 
-rarityTerm: (R | RARITY | IN) compOp rarityValue;
+identityTerm: (ID | IDENTITY) compOp identityValue;
+identityValue: colorValue;
+
+colorTerm: (C | COLOR) compOp colorValue;
+colorValue
+    : NUMBER
+    // U/B/R are explicit here because those literals are tokenized as
+    // dedicated lexer tokens (`U`, `B`, `R`) before `COLOR_SET` is considered.
+    | C
+    | M
+    | U
+    | B
+    | R
+    | COLOR_SET
+    | WHITE
+    | BLUE
+    | BLACK
+    | RED
+    | GREEN
+    | COLORLESS
+    | MULTICOLOR
+    // `ub` is tokenized as dedicated `UB` (rule-order tie with COLOR_SET),
+    // so we must allow `UB` explicitly in this parser rule.
+    | UB
+    | AZORIUS
+    | DIMIR
+    | RAKDOS
+    | GRUUL
+    | SELESNYA
+    | ORZHOV
+    | IZZET
+    | GOLGARI
+    | BOROS
+    | SIMIC
+    | BANT
+    | ESPER
+    | GRIXIS
+    | JUND
+    | NAYA
+    | ABZAN
+    | JESKAI
+    | SULTAI
+    | MARDU
+    | TEMUR
+    | QUANDRIX
+    | PRISMARI
+    | WITHERBLOOM
+    | LOREHOLD
+    | SILVERQUILL
+    | CHAOS
+    | AGGRESSION
+    | ALTRUISM
+    | GROWTH
+    | ARTIFICE
+    ;
+
+borderTerm: BORDER COLON borderValue;
+borderValue
+    : BLACK
+    | WHITE
+    | SILVER
+    | BORDERLESS
+    ;
+
+frameTerm: FRAME COLON frameValue;
+frameValue
+    : FRAME_1993
+    | FRAME_1997
+    | FRAME_2003
+    | FRAME_2015
+    | FUTURE
+    | LEGENDARY
+    | COLORSHIFTED
+    | TOMBSTONE
+    | ENCHANTMENT
+    ;
+
+languageTerm: (LANG | LANGUAGE) COLON languageValue;
+languageValue
+    : ANY
+    | EN
+    | ES
+    | FR
+    | DE
+    | IT
+    | PT
+    | JA
+    | KO
+    | RU
+    | ZHS
+    | ZHT
+    | HE
+    | LA
+    | GRC
+    | AR
+    | SA
+    | PH
+    | QYA
+    | ENGLISH
+    | SPANISH
+    | FRENCH
+    | GERMAN
+    | ITALIAN
+    | PORTUGUESE
+    | JAPANESE
+    | KOREAN
+    | RUSSIAN
+    | SIMPLIFIED_CHINESE
+    | TRADITIONAL_CHINESE
+    | HEBREW
+    | LATIN
+    | ANCIENT_GREEK
+    | ARABIC
+    | SANSKRIT
+    | PHYREXIAN
+    | QUENYA
+    ;
+
+stampTerm: STAMP COLON stampValue;
+stampValue
+    : OVAL
+    | ACORN
+    | TRIANGLE
+    | ARENA
+    | CIRCLE
+    | HEART
+    ;
+
+rarityTerm: (R | RARITY) compOp rarityValue;
 rarityValue
     : COMMON
     | UNCOMMON
@@ -516,7 +656,38 @@ rarityValue
     | B
     ;
 
+powerTerm: (POW | POWER) compOp powerValue;
+powerValue
+    : NUMBER
+    | TOU
+    | TOUGHNESS
+    ;
+
+toughnessTerm: (TOU | TOUGHNESS) compOp toughnessValue;
+toughnessValue
+    : NUMBER
+    | POW
+    | POWER
+    ;
+
 mvTerm: (MV | MANAVALUE) compOp (EVEN | ODD | NUMBER);
+
+manaTerm: (M | MANA) compOp manaValue;
+manaValue: manaValuePart+;
+manaValuePart
+    : MANA_BRACED_SYMBOL
+    | MANA_UNBRACED_SYMBOL
+    | COLOR_SET
+    | U
+    | B
+    | R
+    ;
+
+cnTerm: (CN | NUMBER_KEY) compOp cnValue;
+cnValue
+    : NUMBER
+    | COLLECTOR_NUMBER
+    ;
 
 // Generic keyword form: <key><op><value>
 // Example: t:elf, o:"draw", pow>tou, date>=2020-01-01
@@ -531,11 +702,6 @@ genericKey
     | ARTTAG
     | B
     | BLOCK
-    | BORDER
-    | C
-    | COLOR
-    | CN
-    | NUMBER_KEY
     | CUBE
     | DATE
     | DEVOTION
@@ -548,18 +714,11 @@ genericKey
     | FUNCTION
     | OTAG
     | ORACLETAG
-    | ID
-    | IDENTITY
     | ILLUSTRATIONS
-    | IN
     | KEYWORD
     | KW
-    | LANG
-    | LANGUAGE
     | LOY
     | LOYALTY
-    | M
-    | MANA
     | N
     | NAME
     | NEW
@@ -567,24 +726,16 @@ genericKey
     | ORACLE
     | PAPERPRINTS
     | PAPERSETS
-    | POW
-    | POWER
     | PT
     | POWTOU
     | PRINTS
     | PRODUCES
-    | R
-    | RARITY
     | S
     | SET
     | SETS
-    | STAMP
     | ST
-    | GAME
     | T
     | TYPE
-    | TOU
-    | TOUGHNESS
     | USD
     | EUR
     | TIX
@@ -615,11 +766,12 @@ genericValue
     | uniqueValue
     | displayValue
     | gameValueToken
+    | languageValue
     ;
 quotedText: QUOTED_TEXT;
 regex: REGEX;
-word: WORD;
-bareValue: BARE_VALUE;
+word: WORD | COLOR_SET;
+bareValue: BARE_VALUE | COLOR_SET;
 
 //
 // Lexer rules (fixed symbols and keywords)
@@ -664,6 +816,43 @@ TEXT: 'text';
 ASC: 'asc';
 DESC: 'desc';
 EXTRAS: 'extras';
+ANY: 'any';
+
+ENGLISH: 'english';
+SPANISH: 'spanish';
+FRENCH: 'french';
+GERMAN: 'german';
+ITALIAN: 'italian';
+PORTUGUESE: 'portuguese';
+JAPANESE: 'japanese';
+KOREAN: 'korean';
+RUSSIAN: 'russian';
+SIMPLIFIED_CHINESE: 'simplifiedchinese';
+TRADITIONAL_CHINESE: 'traditionalchinese';
+HEBREW: 'hebrew';
+LATIN: 'latin';
+ANCIENT_GREEK: 'ancientgreek';
+ARABIC: 'arabic';
+SANSKRIT: 'sanskrit';
+QUENYA: 'quenya';
+
+EN: 'en';
+ES: 'es';
+FR: 'fr';
+DE: 'de';
+IT: 'it';
+JA: 'ja';
+KO: 'ko';
+RU: 'ru';
+ZHS: 'zhs';
+ZHT: 'zht';
+HE: 'he';
+LA: 'la';
+GRC: 'grc';
+AR: 'ar';
+SA: 'sa';
+PH: 'ph';
+QYA: 'qya';
 
 ARTIST: 'artist';
 ARTISTS: 'artists';
@@ -676,6 +865,44 @@ USD: 'usd';
 TIX: 'tix';
 EUR: 'eur';
 COLOR: 'color';
+WHITE: 'white';
+BLUE: 'blue';
+BLACK: 'black';
+RED: 'red';
+GREEN: 'green';
+SILVER: 'silver';
+COLORLESS: 'colorless';
+MULTICOLOR: 'multicolor';
+AZORIUS: 'azorius';
+DIMIR: 'dimir';
+RAKDOS: 'rakdos';
+GRUUL: 'gruul';
+SELESNYA: 'selesnya';
+ORZHOV: 'orzhov';
+IZZET: 'izzet';
+GOLGARI: 'golgari';
+BOROS: 'boros';
+SIMIC: 'simic';
+BANT: 'bant';
+ESPER: 'esper';
+GRIXIS: 'grixis';
+JUND: 'jund';
+NAYA: 'naya';
+ABZAN: 'abzan';
+JESKAI: 'jeskai';
+SULTAI: 'sultai';
+MARDU: 'mardu';
+TEMUR: 'temur';
+QUANDRIX: 'quandrix';
+PRISMARI: 'prismari';
+WITHERBLOOM: 'witherbloom';
+LOREHOLD: 'lorehold';
+SILVERQUILL: 'silverquill';
+CHAOS: 'chaos';
+AGGRESSION: 'aggression';
+ALTRUISM: 'altruism';
+GROWTH: 'growth';
+ARTIFICE: 'artifice';
 RELEASED: 'released';
 SPOILED: 'spoiled';
 EDHREC: 'edhrec';
@@ -1078,6 +1305,12 @@ BONUS: 'bonus';
 EVEN: 'even';
 ODD: 'odd';
 
+OVAL: 'oval';
+ACORN: 'acorn';
+TRIANGLE: 'triangle';
+CIRCLE: 'circle';
+HEART: 'heart';
+
 A: 'a';
 ART: 'art';
 ATAG: 'atag';
@@ -1091,6 +1324,7 @@ NUMBER_KEY: 'number';
 CUBE: 'cube';
 DATE: 'date';
 DEVOTION: 'devotion';
+FRAME: 'frame';
 E: 'e';
 EDITION: 'edition';
 FO: 'fo';
@@ -1135,15 +1369,41 @@ WM: 'wm';
 WATERMARK: 'watermark';
 YEAR: 'year';
 
+FRAME_1993: '1993';
+FRAME_1997: '1997';
+FRAME_2003: '2003';
+FRAME_2015: '2015';
+LEGENDARY: 'legendary';
+ENCHANTMENT: 'enchantment';
+
 //
 // Primitive lexical forms
 //
 // NUMBER supports integers and decimal numeric literals.
 NUMBER: [0-9]+ ('.' [0-9]+)?;
+// Collector number token forms that include alphabetic components, e.g.
+// 123a, a-268, u30.
+COLLECTOR_NUMBER
+    : [0-9]+ [a-z]
+    | [a-z] '-' [0-9]+ [a-z]?
+    | [a-z]+ [0-9]+ [a-z]?
+    ;
 // QUOTED_TEXT allows escaped characters in double-quoted strings.
 QUOTED_TEXT: '"' (~["\\\r\n] | '\\' .)* '"';
 // REGEX supports slash-delimited expressions with escaped slash support.
 REGEX: '/' (~[/\\\r\n] | '\\' .)+ '/';
+// COLOR_SET supports compact color letter combinations like "rg" or "wub".
+// Dedicated tokens such as `U`, `B`, `R`, and `UB` may shadow this rule when
+// they tie on length and appear earlier in lexer rule order.
+COLOR_SET: [wWuUbBrRgG]+;
+// Mana symbol fragments for `m:`/`mana:` value parsing.
+fragment MANA_SYMBOL_CHAR: [wWuUbBrRgGcCsSpPxXyYzZ];
+fragment MANA_SYMBOL_PART: [0-9]+ | MANA_SYMBOL_CHAR;
+// One or more balanced mana symbol blocks, e.g. {R/P}, {2/G}, {W/U}{W/U}.
+MANA_BRACED_SYMBOL: ('{' MANA_SYMBOL_PART ('/' MANA_SYMBOL_PART)? '}')+;
+// Unbraced shorthand mana expression, e.g. 2WW or 3WU.
+// Intentionally after COLOR_SET so color tokens keep precedence where relevant.
+MANA_UNBRACED_SYMBOL: [0-9wWuUbBrRgGcCsSpPxXyYzZ]+;
 // WORD is an unquoted atom token used for names/terms.
 WORD: ~[ \t\r\n()"!:/<>=-] ~[ \t\r\n()"!:/<>=-]*;
 // BARE_VALUE is like WORD but used in value positions.
