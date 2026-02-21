@@ -359,6 +359,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#borderTerm.
+    def enterBorderTerm(self, ctx:ScryfallQueryParser.BorderTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#borderTerm.
+    def exitBorderTerm(self, ctx:ScryfallQueryParser.BorderTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#borderValue.
+    def enterBorderValue(self, ctx:ScryfallQueryParser.BorderValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#borderValue.
+    def exitBorderValue(self, ctx:ScryfallQueryParser.BorderValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#rarityTerm.
     def enterRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         pass

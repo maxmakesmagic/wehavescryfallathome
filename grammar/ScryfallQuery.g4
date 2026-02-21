@@ -47,6 +47,7 @@ nonDisplayAtom
     | rarityTerm
     | mvTerm
     | colorTerm
+    | borderTerm
     | genericTerm
     | quotedText
     | word
@@ -555,6 +556,14 @@ colorValue
     | ARTIFICE
     ;
 
+borderTerm: BORDER COLON borderValue;
+borderValue
+    : BLACK
+    | WHITE
+    | SILVER
+    | BORDERLESS
+    ;
+
 rarityTerm: (R | RARITY | IN) compOp rarityValue;
 rarityValue
     : COMMON
@@ -585,7 +594,6 @@ genericKey
     | ARTTAG
     | B
     | BLOCK
-    | BORDER
     | CN
     | NUMBER_KEY
     | CUBE
@@ -733,6 +741,7 @@ BLUE: 'blue';
 BLACK: 'black';
 RED: 'red';
 GREEN: 'green';
+SILVER: 'silver';
 COLORLESS: 'colorless';
 MULTICOLOR: 'multicolor';
 AZORIUS: 'azorius';
