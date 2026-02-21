@@ -166,11 +166,9 @@ isValue
     | COSMICFOIL
     | COVERED
     | CREATURELAND
-    | CUSTOM
     | CUTE
     | CYCLELAND
     | DATESTAMPED
-    | DECIDUOUS
     | DEFAULT
     | DEN
     | DFC
@@ -186,8 +184,6 @@ isValue
     | DUELDECK
     | DUELS
     | ENGLISHART
-    | ERRATATEXT
-    | ERRATATYPE
     | ESCAPED
     | ETB
     | ETCH
@@ -296,7 +292,6 @@ isValue
     | GILDED
     | GLOSSY
     | GODZILLASERIES
-    | GOLD
     | HALO
     | HALOFOIL
     | HEADLINER
@@ -352,7 +347,6 @@ isValue
     | NONDEFAULT
     | NONFOIL
     | NONTRADITIONAL
-    | NOORIGINALTEXT
     | NORMAL
     | NOTUNIVERSESBEYOND
     | OATHBREAKER
@@ -395,7 +389,6 @@ isValue
     | PRINTEDTEXT
     | PROMO
     | PROMOPACK
-    | PROMOTYPE
     | RAINBOWFOIL
     | RAISEDFOIL
     | REBALANCED
@@ -432,7 +425,6 @@ isValue
     | SPOTLIGHT
     | STAMP
     | STAMPED
-    | STAR
     | STARTER
     | STARTERCOLLECTION
     | STARTERDECK
@@ -982,12 +974,8 @@ CANOPYLAND: 'canopyland';
 CHECKLAND: 'checkland';
 CORE: 'core';
 CREATURELAND: 'creatureland';
-CUSTOM: 'custom';
 CYCLELAND: 'cycleland';
-DECIDUOUS: 'deciduous';
 DUAL: 'dual';
-ERRATATEXT: 'erratatext';
-ERRATATYPE: 'erratatype';
 EXPANSION: 'expansion';
 FASTLAND: 'fastland';
 FETCHLAND: 'fetchland';
@@ -1027,13 +1015,11 @@ FINALFANTASYXVI: 'finalfantasyxvi';
 FIRSTPRINTING: 'firstprinting';
 FMB1: 'fmb1';
 GAINLAND: 'gainland';
-GOLD: 'gold';
 HALO: 'halo';
 KAROO: 'karoo';
 MB1: 'mb1';
 NONDEFAULT: 'nondefault';
 NONTRADITIONAL: 'nontraditional';
-NOORIGINALTEXT: 'nooriginaltext';
 NORMAL: 'normal';
 ODDFRAME: 'oddframe';
 PAGL: 'pagl';
@@ -1043,14 +1029,12 @@ PCTB: 'pctb';
 PHED: 'phed';
 PLACEHOLDERIMAGE: 'placeholderimage';
 PLAYTEST: 'playtest';
-PROMOTYPE: 'promotype';
 SCRYLAND: 'scryland';
 SETEXTENSION: 'setextension';
 SHADOWLAND: 'shadowland';
 SHOCKLAND: 'shockland';
 SLOWLAND: 'slowland';
 SNARL: 'snarl';
-STAR: 'star';
 STORAGELAND: 'storageland';
 SURVEILLAND: 'surveilland';
 TANGOLAND: 'tangoland';
