@@ -50,6 +50,7 @@ nonDisplayAtom
     | toughnessTerm
     | mvTerm
     | manaTerm
+    | identityTerm
     | colorTerm
     | borderTerm
     | frameTerm
@@ -512,6 +513,9 @@ gameTerm: GAME COLON (PAPER | MTGO | ARENA);
 gameValueToken: PAPER | MTGO | ARENA;
 inTerm: IN COLON gameValueToken;
 
+identityTerm: (ID | IDENTITY) compOp identityValue;
+identityValue: colorValue;
+
 colorTerm: (C | COLOR) compOp colorValue;
 colorValue
     : NUMBER
@@ -710,8 +714,6 @@ genericKey
     | FUNCTION
     | OTAG
     | ORACLETAG
-    | ID
-    | IDENTITY
     | ILLUSTRATIONS
     | KEYWORD
     | KW

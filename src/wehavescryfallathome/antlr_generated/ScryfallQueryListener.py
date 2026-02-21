@@ -350,6 +350,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#identityTerm.
+    def enterIdentityTerm(self, ctx:ScryfallQueryParser.IdentityTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#identityTerm.
+    def exitIdentityTerm(self, ctx:ScryfallQueryParser.IdentityTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#identityValue.
+    def enterIdentityValue(self, ctx:ScryfallQueryParser.IdentityValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#identityValue.
+    def exitIdentityValue(self, ctx:ScryfallQueryParser.IdentityValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#colorTerm.
     def enterColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
         pass
