@@ -46,6 +46,7 @@ nonDisplayAtom
     | gameTerm
     | rarityTerm
     | mvTerm
+    | manaTerm
     | colorTerm
     | borderTerm
     | genericTerm
@@ -581,6 +582,9 @@ rarityValue
 
 mvTerm: (MV | MANAVALUE) compOp (EVEN | ODD | NUMBER);
 
+manaTerm: (M | MANA) compOp manaValue;
+manaValue: MANA_VALUE;
+
 // Generic keyword form: <key><op><value>
 // Example: t:elf, o:"draw", pow>tou, date>=2020-01-01
 genericTerm: genericKey compOp genericValue;
@@ -618,8 +622,6 @@ genericKey
     | LANGUAGE
     | LOY
     | LOYALTY
-    | M
-    | MANA
     | N
     | NAME
     | NEW
@@ -1246,6 +1248,9 @@ REGEX: '/' (~[/\\\r\n] | '\\' .)+ '/';
 // Dedicated tokens such as `U`, `B`, `R`, and `UB` may shadow this rule when
 // they tie on length and appear earlier in lexer rule order.
 COLOR_SET: [wWuUbBrRgG]+;
+// MANA_VALUE captures mana-cost text such as 2WW, {R/P}, or {W/U}{W/U}.
+// It is intentionally placed after COLOR_SET so color tokens keep precedence.
+MANA_VALUE: [0-9{}/wWuUbBrRgGcCsSpPxXyYzZ]+;
 // WORD is an unquoted atom token used for names/terms.
 WORD: ~[ \t\r\n()"!:/<>=-] ~[ \t\r\n()"!:/<>=-]*;
 // BARE_VALUE is like WORD but used in value positions.

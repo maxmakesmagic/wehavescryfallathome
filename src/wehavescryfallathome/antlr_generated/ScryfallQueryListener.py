@@ -404,6 +404,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#manaTerm.
+    def enterManaTerm(self, ctx:ScryfallQueryParser.ManaTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaTerm.
+    def exitManaTerm(self, ctx:ScryfallQueryParser.ManaTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#manaValue.
+    def enterManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#manaValue.
+    def exitManaValue(self, ctx:ScryfallQueryParser.ManaValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#genericTerm.
     def enterGenericTerm(self, ctx:ScryfallQueryParser.GenericTermContext):
         pass
