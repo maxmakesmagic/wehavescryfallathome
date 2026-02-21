@@ -530,6 +530,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#cnTerm.
+    def enterCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#cnTerm.
+    def exitCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#cnValue.
+    def enterCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#cnValue.
+    def exitCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#genericTerm.
     def enterGenericTerm(self, ctx:ScryfallQueryParser.GenericTermContext):
         pass

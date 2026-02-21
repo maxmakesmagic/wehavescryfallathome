@@ -55,6 +55,7 @@ nonDisplayAtom
     | frameTerm
     | languageTerm
     | stampTerm
+    | cnTerm
     | genericTerm
     | quotedText
     | word
@@ -678,6 +679,12 @@ manaValuePart
     | R
     ;
 
+cnTerm: (CN | NUMBER_KEY) compOp cnValue;
+cnValue
+    : NUMBER
+    | COLLECTOR_NUMBER
+    ;
+
 // Generic keyword form: <key><op><value>
 // Example: t:elf, o:"draw", pow>tou, date>=2020-01-01
 genericTerm: genericKey compOp genericValue;
@@ -691,8 +698,6 @@ genericKey
     | ARTTAG
     | B
     | BLOCK
-    | CN
-    | NUMBER_KEY
     | CUBE
     | DATE
     | DEVOTION
@@ -1374,6 +1379,13 @@ ENCHANTMENT: 'enchantment';
 //
 // NUMBER supports integers and decimal numeric literals.
 NUMBER: [0-9]+ ('.' [0-9]+)?;
+// Collector number token forms that include alphabetic components, e.g.
+// 123a, a-268, u30.
+COLLECTOR_NUMBER
+    : [0-9]+ [a-z]
+    | [a-z] '-' [0-9]+ [a-z]?
+    | [a-z]+ [0-9]+ [a-z]?
+    ;
 // QUOTED_TEXT allows escaped characters in double-quoted strings.
 QUOTED_TEXT: '"' (~["\\\r\n] | '\\' .)* '"';
 // REGEX supports slash-delimited expressions with escaped slash support.

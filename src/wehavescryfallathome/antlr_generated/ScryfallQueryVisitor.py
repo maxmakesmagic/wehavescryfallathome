@@ -299,6 +299,16 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#cnTerm.
+    def visitCnTerm(self, ctx:ScryfallQueryParser.CnTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#cnValue.
+    def visitCnValue(self, ctx:ScryfallQueryParser.CnValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#genericTerm.
     def visitGenericTerm(self, ctx:ScryfallQueryParser.GenericTermContext):
         return self.visitChildren(ctx)
