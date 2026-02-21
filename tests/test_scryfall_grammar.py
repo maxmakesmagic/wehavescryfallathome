@@ -32,6 +32,7 @@ KNOWN_GOOD = [
 KNOWN_BAD = [
     "(unique:prints)",  # display keyword inside grouping
     "woo:bar",  # unknown/unsupported pre-colon operator
+    "color:pink",  # unsupported color value
     "t:land (a:titus or a:avon",  # missing closing parenthesis
     "((t:elf)",  # unbalanced parentheses (extra opening paren)
     "t::elf",  # malformed operator (double colon)

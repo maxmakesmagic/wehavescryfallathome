@@ -46,6 +46,7 @@ nonDisplayAtom
     | gameTerm
     | rarityTerm
     | mvTerm
+    | colorTerm
     | genericTerm
     | quotedText
     | word
@@ -501,6 +502,59 @@ formatValue
 gameTerm: GAME COLON (PAPER | MTGO | ARENA);
 gameValueToken: PAPER | MTGO | ARENA;
 
+colorTerm: (C | COLOR) compOp colorValue;
+colorValue
+    : NUMBER
+    // U/B/R are explicit here because those literals are tokenized as
+    // dedicated lexer tokens (`U`, `B`, `R`) before `COLOR_SET` is considered.
+    | C
+    | M
+    | U
+    | B
+    | R
+    | COLOR_SET
+    | WHITE
+    | BLUE
+    | BLACK
+    | RED
+    | GREEN
+    | COLORLESS
+    | MULTICOLOR
+    // `ub` is tokenized as dedicated `UB` (rule-order tie with COLOR_SET),
+    // so we must allow `UB` explicitly in this parser rule.
+    | UB
+    | AZORIUS
+    | DIMIR
+    | RAKDOS
+    | GRUUL
+    | SELESNYA
+    | ORZHOV
+    | IZZET
+    | GOLGARI
+    | BOROS
+    | SIMIC
+    | BANT
+    | ESPER
+    | GRIXIS
+    | JUND
+    | NAYA
+    | ABZAN
+    | JESKAI
+    | SULTAI
+    | MARDU
+    | TEMUR
+    | QUANDRIX
+    | PRISMARI
+    | WITHERBLOOM
+    | LOREHOLD
+    | SILVERQUILL
+    | CHAOS
+    | AGGRESSION
+    | ALTRUISM
+    | GROWTH
+    | ARTIFICE
+    ;
+
 rarityTerm: (R | RARITY | IN) compOp rarityValue;
 rarityValue
     : COMMON
@@ -532,8 +586,6 @@ genericKey
     | B
     | BLOCK
     | BORDER
-    | C
-    | COLOR
     | CN
     | NUMBER_KEY
     | CUBE
@@ -618,8 +670,8 @@ genericValue
     ;
 quotedText: QUOTED_TEXT;
 regex: REGEX;
-word: WORD;
-bareValue: BARE_VALUE;
+word: WORD | COLOR_SET;
+bareValue: BARE_VALUE | COLOR_SET;
 
 //
 // Lexer rules (fixed symbols and keywords)
@@ -676,6 +728,43 @@ USD: 'usd';
 TIX: 'tix';
 EUR: 'eur';
 COLOR: 'color';
+WHITE: 'white';
+BLUE: 'blue';
+BLACK: 'black';
+RED: 'red';
+GREEN: 'green';
+COLORLESS: 'colorless';
+MULTICOLOR: 'multicolor';
+AZORIUS: 'azorius';
+DIMIR: 'dimir';
+RAKDOS: 'rakdos';
+GRUUL: 'gruul';
+SELESNYA: 'selesnya';
+ORZHOV: 'orzhov';
+IZZET: 'izzet';
+GOLGARI: 'golgari';
+BOROS: 'boros';
+SIMIC: 'simic';
+BANT: 'bant';
+ESPER: 'esper';
+GRIXIS: 'grixis';
+JUND: 'jund';
+NAYA: 'naya';
+ABZAN: 'abzan';
+JESKAI: 'jeskai';
+SULTAI: 'sultai';
+MARDU: 'mardu';
+TEMUR: 'temur';
+QUANDRIX: 'quandrix';
+PRISMARI: 'prismari';
+WITHERBLOOM: 'witherbloom';
+LOREHOLD: 'lorehold';
+SILVERQUILL: 'silverquill';
+CHAOS: 'chaos';
+AGGRESSION: 'aggression';
+ALTRUISM: 'altruism';
+GROWTH: 'growth';
+ARTIFICE: 'artifice';
 RELEASED: 'released';
 SPOILED: 'spoiled';
 EDHREC: 'edhrec';
@@ -1144,6 +1233,10 @@ NUMBER: [0-9]+ ('.' [0-9]+)?;
 QUOTED_TEXT: '"' (~["\\\r\n] | '\\' .)* '"';
 // REGEX supports slash-delimited expressions with escaped slash support.
 REGEX: '/' (~[/\\\r\n] | '\\' .)+ '/';
+// COLOR_SET supports compact color letter combinations like "rg" or "wub".
+// Dedicated tokens such as `U`, `B`, `R`, and `UB` may shadow this rule when
+// they tie on length and appear earlier in lexer rule order.
+COLOR_SET: [wWuUbBrRgG]+;
 // WORD is an unquoted atom token used for names/terms.
 WORD: ~[ \t\r\n()"!:/<>=-] ~[ \t\r\n()"!:/<>=-]*;
 // BARE_VALUE is like WORD but used in value positions.

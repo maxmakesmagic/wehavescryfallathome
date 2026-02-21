@@ -341,6 +341,24 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#colorTerm.
+    def enterColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#colorTerm.
+    def exitColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#colorValue.
+    def enterColorValue(self, ctx:ScryfallQueryParser.ColorValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#colorValue.
+    def exitColorValue(self, ctx:ScryfallQueryParser.ColorValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#rarityTerm.
     def enterRarityTerm(self, ctx:ScryfallQueryParser.RarityTermContext):
         pass
