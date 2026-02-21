@@ -1,0 +1,42 @@
+[project]
+name = "wehavescryfallathome"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+	"antlr4-python3-runtime>=4.13.2",
+]
+
+[dependency-groups]
+dev = [
+	"antlr4-tools>=0.2.2",
+	"mypy>=1.19.1",
+	"pytest>=8.4.2",
+	"ruff>=0.15.2",
+	"scrython>=2.0.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src", "tests"]
+exclude = "^src/wehavescryfallathome/antlr_generated/"
+
+[[tool.mypy.overrides]]
+module = [
+	"wehavescryfallathome.antlr_generated",
+	"wehavescryfallathome.antlr_generated.*",
+]
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = ["antlr4", "antlr4.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["scrython", "scrython.*", "scrython.cards"]
+ignore_missing_imports = true
+follow_untyped_imports = true
