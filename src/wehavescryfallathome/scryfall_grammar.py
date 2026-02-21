@@ -166,9 +166,16 @@ class GameQueryToken(KeywordQueryToken):
 
 @dataclass(frozen=True)
 class RarityQueryToken(KeywordQueryToken):
-    """Specialized token for `rarity`/`r`/`in` operations."""
+    """Specialized token for `rarity`/`r` operations."""
 
-    keys: ClassVar[tuple[str, ...]] = ("rarity", "r", "in")
+    keys: ClassVar[tuple[str, ...]] = ("rarity", "r")
+
+
+@dataclass(frozen=True)
+class InQueryToken(KeywordQueryToken):
+    """Specialized token for `in:<value>` operations."""
+
+    keys: ClassVar[tuple[str, ...]] = ("in",)
 
 
 @dataclass(frozen=True)

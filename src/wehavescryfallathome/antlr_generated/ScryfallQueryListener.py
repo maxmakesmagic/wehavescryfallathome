@@ -341,6 +341,15 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#inTerm.
+    def enterInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#inTerm.
+    def exitInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#colorTerm.
     def enterColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
         pass

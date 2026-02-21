@@ -44,6 +44,7 @@ nonDisplayAtom
     | bannedTerm
     | restrictedTerm
     | gameTerm
+    | inTerm
     | rarityTerm
     | powerTerm
     | toughnessTerm
@@ -508,6 +509,7 @@ formatValue
 
 gameTerm: GAME COLON (PAPER | MTGO | ARENA);
 gameValueToken: PAPER | MTGO | ARENA;
+inTerm: IN COLON gameValueToken;
 
 colorTerm: (C | COLOR) compOp colorValue;
 colorValue
@@ -634,7 +636,7 @@ stampValue
     | HEART
     ;
 
-rarityTerm: (R | RARITY | IN) compOp rarityValue;
+rarityTerm: (R | RARITY) compOp rarityValue;
 rarityValue
     : COMMON
     | UNCOMMON
@@ -706,7 +708,6 @@ genericKey
     | ID
     | IDENTITY
     | ILLUSTRATIONS
-    | IN
     | KEYWORD
     | KW
     | LOY

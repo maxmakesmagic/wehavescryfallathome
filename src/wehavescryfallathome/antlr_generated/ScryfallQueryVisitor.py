@@ -194,6 +194,11 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#inTerm.
+    def visitInTerm(self, ctx:ScryfallQueryParser.InTermContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#colorTerm.
     def visitColorTerm(self, ctx:ScryfallQueryParser.ColorTermContext):
         return self.visitChildren(ctx)
