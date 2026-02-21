@@ -431,6 +431,42 @@ class ScryfallQueryListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by ScryfallQueryParser#powerTerm.
+    def enterPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#powerTerm.
+    def exitPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#powerValue.
+    def enterPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#powerValue.
+    def exitPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def enterToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def exitToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        pass
+
+
+    # Enter a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def enterToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        pass
+
+    # Exit a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def exitToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        pass
+
+
     # Enter a parse tree produced by ScryfallQueryParser#mvTerm.
     def enterMvTerm(self, ctx:ScryfallQueryParser.MvTermContext):
         pass

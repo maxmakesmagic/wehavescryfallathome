@@ -244,6 +244,26 @@ class ScryfallQueryVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
+    # Visit a parse tree produced by ScryfallQueryParser#powerTerm.
+    def visitPowerTerm(self, ctx:ScryfallQueryParser.PowerTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#powerValue.
+    def visitPowerValue(self, ctx:ScryfallQueryParser.PowerValueContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#toughnessTerm.
+    def visitToughnessTerm(self, ctx:ScryfallQueryParser.ToughnessTermContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by ScryfallQueryParser#toughnessValue.
+    def visitToughnessValue(self, ctx:ScryfallQueryParser.ToughnessValueContext):
+        return self.visitChildren(ctx)
+
+
     # Visit a parse tree produced by ScryfallQueryParser#mvTerm.
     def visitMvTerm(self, ctx:ScryfallQueryParser.MvTermContext):
         return self.visitChildren(ctx)

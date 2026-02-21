@@ -45,6 +45,8 @@ nonDisplayAtom
     | restrictedTerm
     | gameTerm
     | rarityTerm
+    | powerTerm
+    | toughnessTerm
     | mvTerm
     | manaTerm
     | colorTerm
@@ -633,6 +635,20 @@ rarityValue
     | B
     ;
 
+powerTerm: (POW | POWER) compOp powerValue;
+powerValue
+    : NUMBER
+    | TOU
+    | TOUGHNESS
+    ;
+
+toughnessTerm: (TOU | TOUGHNESS) compOp toughnessValue;
+toughnessValue
+    : NUMBER
+    | POW
+    | POWER
+    ;
+
 mvTerm: (MV | MANAVALUE) compOp (EVEN | ODD | NUMBER);
 
 manaTerm: (M | MANA) compOp manaValue;
@@ -688,8 +704,6 @@ genericKey
     | ORACLE
     | PAPERPRINTS
     | PAPERSETS
-    | POW
-    | POWER
     | PT
     | POWTOU
     | PRINTS
@@ -700,8 +714,6 @@ genericKey
     | ST
     | T
     | TYPE
-    | TOU
-    | TOUGHNESS
     | USD
     | EUR
     | TIX
