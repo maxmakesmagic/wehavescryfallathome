@@ -48,8 +48,8 @@ def serializedATN():
         86,89,89,215,215,1,0,545,546,3,0,38,72,144,144,557,557,3,0,26,26,
         542,542,560,560,5,0,509,514,521,521,524,524,549,549,560,561,1,0,
         27,28,2,0,515,516,573,573,1,0,549,550,3,0,521,521,560,561,576,578,
-        10,0,25,26,30,30,73,74,76,82,191,191,517,522,525,544,547,548,551,
-        560,562,572,1,0,5,11,2,0,576,576,579,579,2,0,576,576,580,580,332,
+        10,0,25,25,30,30,73,74,76,82,191,191,517,522,525,544,547,548,551,
+        559,562,572,1,0,5,11,2,0,576,576,579,579,2,0,576,576,580,580,332,
         0,114,1,0,0,0,2,117,1,0,0,0,4,126,1,0,0,0,6,132,1,0,0,0,8,134,1,
         0,0,0,10,139,1,0,0,0,12,143,1,0,0,0,14,152,1,0,0,0,16,158,1,0,0,
         0,18,160,1,0,0,0,20,165,1,0,0,0,22,171,1,0,0,0,24,178,1,0,0,0,26,
@@ -5907,12 +5907,6 @@ class ScryfallQueryParser ( Parser ):
         def PRODUCES(self):
             return self.getToken(ScryfallQueryParser.PRODUCES, 0)
 
-        def R(self):
-            return self.getToken(ScryfallQueryParser.R, 0)
-
-        def RARITY(self):
-            return self.getToken(ScryfallQueryParser.RARITY, 0)
-
         def S(self):
             return self.getToken(ScryfallQueryParser.S, 0)
 
@@ -5993,7 +5987,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 315
             _la = self._input.LA(1)
-            if not(((((_la - 25)) & ~0x3f) == 0 and ((1 << (_la - 25)) & 286823001268158499) != 0) or _la==191 or ((((_la - 517)) & ~0x3f) == 0 and ((1 << (_la - 517)) & 72039988161675071) != 0)):
+            if not(((((_la - 25)) & ~0x3f) == 0 and ((1 << (_la - 25)) & 286823001268158497) != 0) or _la==191 or ((((_la - 517)) & ~0x3f) == 0 and ((1 << (_la - 517)) & 72031192068652863) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)

@@ -683,8 +683,6 @@ genericKey
     | POWTOU
     | PRINTS
     | PRODUCES
-    | R
-    | RARITY
     | S
     | SET
     | SETS
