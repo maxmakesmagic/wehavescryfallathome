@@ -107,45 +107,94 @@ includeTerm: INCLUDE COLON EXTRAS;
 isTerm: IS COLON isValue;
 notTerm: NOT COLON isValue;
 isValue
-    : ADVENTURE
+    : ABNORMAL
+    | ADVENTURE
     | ALCHEMY
+    | ALTERNATE
+    | AMPERSAND
+    | ARCHENEMY
+    | ARCHIVAL
     | ARENA_LEAGUE
     | ARENAID
+    | ARENALEAGUE
     | ARTIST
     | ARTISTMISPRINT
     | ARTSERIES
     | ATYPICAL
     | AUGMENTATION
     | BACK
+    | BASELINE
+    | BATTLELAND
     | BEAR
     | BEGINNERBOX
+    | BELZENLOK
+    | BICYCLELAND
+    | BIKELAND
+    | BOB
+    | BONDLAND
     | BOOSTER
+    | BOOSTERFUN
     | BORDERLESS
+    | BOUNCELAND
+    | BOX
+    | BOXTOPPER
     | BRAWLCOMMANDER
+    | BRAWLDECK
     | BRAWLER
+    | BUNDLE
+    | BURSTFOIL
     | BUYABOX
+    | CANLAND
+    | CANOPYLAND
     | CARDMARKET
+    | CHECKLAND
+    | CHOCOBOTRACKFOIL
+    | CHRIMBY
     | CI
     | CLASS
     | COLORSHIFTED
     | COMMANDER
+    | COMMANDERPARTY
+    | COMMANDERPROMO
     | COMPANION
+    | CONCEPT
+    | CONFETTIFOIL
+    | CONJUREONLY
     | CONTENTWARNING
     | CONVENTION
+    | CORE
+    | COSMICFOIL
     | COVERED
+    | CREATURELAND
+    | CUTE
+    | CYCLELAND
     | DATESTAMPED
     | DEFAULT
+    | DEN
     | DFC
     | DIGITAL
+    | DOUBLEEXPOSURE
+    | DOUBLERAINBOW
     | DOUBLESIDED
+    | DRACULASERIES
+    | DRAFTINNOVATION
+    | DRAFTWEEKEND
+    | DUAL
     | DUELCOMMANDER
+    | DUELDECK
+    | DUELS
     | ENGLISHART
+    | ESCAPED
     | ETB
     | ETCH
     | ETCHED
+    | EVENT
+    | EXPANSION
     | EXTENDED
     | EXTRA
+    | FASTLAND
     | FBB
+    | FETCHLAND
     | FF
     | FF1
     | FF10
@@ -179,78 +228,195 @@ isValue
     | FFXIV
     | FFXV
     | FFXVI
+    | FILTERLAND
     | FINALFANTASY
+    | FINALFANTASY1
+    | FINALFANTASY10
+    | FINALFANTASY11
+    | FINALFANTASY12
+    | FINALFANTASY13
+    | FINALFANTASY14
+    | FINALFANTASY15
+    | FINALFANTASY16
+    | FINALFANTASY2
+    | FINALFANTASY3
+    | FINALFANTASY4
+    | FINALFANTASY5
+    | FINALFANTASY6
+    | FINALFANTASY7
+    | FINALFANTASY8
+    | FINALFANTASY9
+    | FINALFANTASYI
+    | FINALFANTASYII
+    | FINALFANTASYIII
+    | FINALFANTASYIV
+    | FINALFANTASYIX
+    | FINALFANTASYV
+    | FINALFANTASYVI
+    | FINALFANTASYVII
+    | FINALFANTASYVIII
+    | FINALFANTASYX
+    | FINALFANTASYXI
+    | FINALFANTASYXII
+    | FINALFANTASYXIII
+    | FINALFANTASYXIV
+    | FINALFANTASYXV
+    | FINALFANTASYXVI
+    | FINKEL
+    | FIRSTPLACEFOIL
     | FIRSTPRINT
+    | FIRSTPRINTING
+    | FIXED
     | FLAVOR
     | FLAVORNAME
     | FLIP
+    | FMB1
     | FNM
     | FOIL
+    | FRAMEODDITY
     | FRENCHVANILLA
+    | FROMTHEVAULT
     | FULLART
+    | FULLTEXT
     | FUNNY
     | FUTURE
+    | FUTURESHIFTED
     | FWB
+    | GAINLAND
+    | GALAXYFOIL
     | GAMECHANGER
     | GAMEDAY
+    | GARY
+    | GATEWAY
     | GIFTBOX
+    | GILDED
     | GLOSSY
+    | GODZILLASERIES
+    | HALO
+    | HALOFOIL
+    | HEADLINER
     | HIRES
     | HISTORIC
+    | HORIZ
     | HYBRID
     | ILLUSTRATION
+    | IMAGEQA
+    | IMAGINE
     | INDICATOR
     | INSTORE
     | INTRO_PACK
     | INTROPACK
     | INVITATIONAL
+    | JPWALKER
     | JUDGE_GIFT
+    | JUDGEGIFT
+    | JUMPSTART
+    | KAROO
     | LEAGUE
     | LEVELER
     | LIGHTS
+    | LISTWHITE
+    | LOCALIZEDIMAGE
     | LOCALIZEDNAME
+    | LOSTLEGENDS
+    | MAGICSPOTLIGHT
     | MANLAND
     | MASTERPIECE
+    | MASTERS
+    | MB1
+    | MB2
     | MDFC
     | MEDIA_INSERT
+    | MEDIAINSERT
     | MELD
     | MELDPART
     | MELDRESULT
+    | MEMORABILIA
+    | METAL
+    | MISPRINT
     | MODAL
     | MODERN
+    | MOM
+    | MOONLITLAND
     | MTGOID
+    | MULTIPLAYER
     | MULTIVERSE
+    | NEONINK
     | NEW
     | NEWINPAUPER
+    | NONDEFAULT
     | NONFOIL
+    | NONTRADITIONAL
+    | NORMAL
     | NOTUNIVERSESBEYOND
     | OATHBREAKER
+    | ODDFRAME
+    | OILSLICK
     | OLD
     | ONLYPRINT
+    | OPENHOUSE
     | OUTLAW
     | OVERSIZED
+    | PAGL
+    | PAINLAND
     | PAPERART
     | PARTNER
     | PARTY
+    | PATHWAY
+    | PAUPERCOMMANDER
+    | PCTB
     | PERMANENT
+    | PHED
     | PHYREXIA
     | PHYREXIAN
+    | PIKULA
+    | PLACEHOLDERIMAGE
     | PLANAR
+    | PLANECHASE
     | PLANESWALKER_DECK
     | PLANESWALKERDECK
+    | PLASTIC
     | PLAYER_REWARDS
+    | PLAYERREWARDS
+    | PLAYPROMO
+    | PLAYTEST
+    | PORTAL
+    | PORTRAIT
+    | POSTER
+    | PREMIERESHOP
+    | PREMIUMDECK
     | PRERELEASE
     | PRINTEDTEXT
     | PROMO
+    | PROMOPACK
+    | RAINBOWFOIL
+    | RAISEDFOIL
     | REBALANCED
     | RELATED
     | RELEASE
     | REPRINT
+    | RESALE
     | RESERVED
     | REVERSIBLE
+    | RIPPLEFOIL
+    | SCANNEEDED
+    | SCENE
+    | SCHINESEALTART
+    | SCROLL
     | SCRYFALLPREVIEW
+    | SCRYLAND
+    | SERIALIZED
     | SET_PROMO
+    | SETEXTENSION
+    | SETPROMO
+    | SHADOWLAND
+    | SHOCKLAND
     | SHOWCASE
+    | SINGULARITYFOIL
+    | SLDBONUS
+    | SLOWLAND
+    | SNARL
+    | SOURCEMATERIAL
     | SPELL
     | SPELLBOOK
     | SPIKEY
@@ -259,21 +425,50 @@ isValue
     | SPOTLIGHT
     | STAMP
     | STAMPED
+    | STARTER
     | STARTERCOLLECTION
     | STARTERDECK
+    | STEPANDCOMPLEAT
+    | STORAGELAND
+    | STORECHAMPIONSHIP
     | STORY
+    | SURVEILLAND
+    | TANGOLAND
     | TCGPLAYER
     | TDFC
     | TEXTLESS
+    | TEXTURED
+    | THEMEPACK
+    | THICK
+    | TIMESHIFTED
     | TOKEN
     | TOMBSTONE
+    | TOURNEY
+    | TRADITIONAL
     | TRANSFORM
     | TRANSLUCENT
+    | TREASURECHEST
+    | TRICYCLELAND
+    | TRIKELAND
+    | TRILAND
+    | TRIOME
+    | TRON
+    | TYPICAL
+    | UB
     | UNIQUE
     | UNIVERSESBEYOND
+    | UNSET
+    | UPSIDEDOWN
+    | UPSIDEDOWNBACK
+    | USELESS
+    | VANGUARD
     | VANILLA
     | VARIATION
+    | VAULT
+    | VERT
+    | WANTED
     | WATERMARK
+    | WIZARDSPLAYNETWORK
     ;
 
 formatTerm: (F | FORMAT) COLON formatValue;
@@ -658,6 +853,199 @@ TOKEN: 'token';
 TOMBSTONE: 'tombstone';
 TRANSLUCENT: 'translucent';
 VARIATION: 'variation';
+ALTERNATE: 'alternate';
+AMPERSAND: 'ampersand';
+ARCHENEMY: 'archenemy';
+ARCHIVAL: 'archival';
+ARENALEAGUE: 'arenaleague';
+BOB: 'bob';
+BOOSTERFUN: 'boosterfun';
+BOX: 'box';
+BOXTOPPER: 'boxtopper';
+BRAWLDECK: 'brawldeck';
+BUNDLE: 'bundle';
+BURSTFOIL: 'burstfoil';
+CHOCOBOTRACKFOIL: 'chocobotrackfoil';
+CHRIMBY: 'chrimby';
+COMMANDERPARTY: 'commanderparty';
+COMMANDERPROMO: 'commanderpromo';
+CONCEPT: 'concept';
+CONFETTIFOIL: 'confettifoil';
+CONJUREONLY: 'conjureonly';
+COSMICFOIL: 'cosmicfoil';
+CUTE: 'cute';
+DEN: 'den';
+DOUBLEEXPOSURE: 'doubleexposure';
+DOUBLERAINBOW: 'doublerainbow';
+DRACULASERIES: 'draculaseries';
+DRAFTINNOVATION: 'draftinnovation';
+DRAFTWEEKEND: 'draftweekend';
+DUELDECK: 'dueldeck';
+DUELS: 'duels';
+ESCAPED: 'escaped';
+EVENT: 'event';
+FINKEL: 'finkel';
+FIRSTPLACEFOIL: 'firstplacefoil';
+FIXED: 'fixed';
+FRAMEODDITY: 'frameoddity';
+FROMTHEVAULT: 'fromthevault';
+FULLTEXT: 'fulltext';
+FUTURESHIFTED: 'futureshifted';
+GALAXYFOIL: 'galaxyfoil';
+GARY: 'gary';
+GATEWAY: 'gateway';
+GILDED: 'gilded';
+GODZILLASERIES: 'godzillaseries';
+HALOFOIL: 'halofoil';
+HEADLINER: 'headliner';
+HORIZ: 'horiz';
+IMAGEQA: 'imageqa';
+IMAGINE: 'imagine';
+JPWALKER: 'jpwalker';
+JUDGEGIFT: 'judgegift';
+JUMPSTART: 'jumpstart';
+LISTWHITE: 'listwhite';
+LOCALIZEDIMAGE: 'localizedimage';
+LOSTLEGENDS: 'lostlegends';
+MAGICSPOTLIGHT: 'magicspotlight';
+MASTERS: 'masters';
+MB2: 'mb2';
+MEDIAINSERT: 'mediainsert';
+MEMORABILIA: 'memorabilia';
+METAL: 'metal';
+MISPRINT: 'misprint';
+MOM: 'mom';
+MOONLITLAND: 'moonlitland';
+MULTIPLAYER: 'multiplayer';
+NEONINK: 'neonink';
+OILSLICK: 'oilslick';
+OPENHOUSE: 'openhouse';
+PIKULA: 'pikula';
+PLANECHASE: 'planechase';
+PLASTIC: 'plastic';
+PLAYERREWARDS: 'playerrewards';
+PLAYPROMO: 'playpromo';
+PORTAL: 'portal';
+PORTRAIT: 'portrait';
+POSTER: 'poster';
+PREMIERESHOP: 'premiereshop';
+PREMIUMDECK: 'premiumdeck';
+PROMOPACK: 'promopack';
+RAINBOWFOIL: 'rainbowfoil';
+RAISEDFOIL: 'raisedfoil';
+RESALE: 'resale';
+RIPPLEFOIL: 'ripplefoil';
+SCANNEEDED: 'scanneeded';
+SCENE: 'scene';
+SCHINESEALTART: 'schinesealtart';
+SCROLL: 'scroll';
+SERIALIZED: 'serialized';
+SETPROMO: 'setpromo';
+SINGULARITYFOIL: 'singularityfoil';
+SLDBONUS: 'sldbonus';
+SOURCEMATERIAL: 'sourcematerial';
+STARTER: 'starter';
+STEPANDCOMPLEAT: 'stepandcompleat';
+STORECHAMPIONSHIP: 'storechampionship';
+TEXTURED: 'textured';
+THEMEPACK: 'themepack';
+THICK: 'thick';
+TIMESHIFTED: 'timeshifted';
+TOURNEY: 'tourney';
+TREASURECHEST: 'treasurechest';
+TRON: 'tron';
+UNSET: 'unset';
+USELESS: 'useless';
+VANGUARD: 'vanguard';
+VAULT: 'vault';
+VERT: 'vert';
+WANTED: 'wanted';
+WIZARDSPLAYNETWORK: 'wizardsplaynetwork';
+ABNORMAL: 'abnormal';
+BASELINE: 'baseline';
+BATTLELAND: 'battleland';
+BELZENLOK: 'belzenlok';
+BICYCLELAND: 'bicycleland';
+BIKELAND: 'bikeland';
+BONDLAND: 'bondland';
+BOUNCELAND: 'bounceland';
+CANLAND: 'canland';
+CANOPYLAND: 'canopyland';
+CHECKLAND: 'checkland';
+CORE: 'core';
+CREATURELAND: 'creatureland';
+CYCLELAND: 'cycleland';
+DUAL: 'dual';
+EXPANSION: 'expansion';
+FASTLAND: 'fastland';
+FETCHLAND: 'fetchland';
+FILTERLAND: 'filterland';
+FINALFANTASY1: 'finalfantasy1';
+FINALFANTASY10: 'finalfantasy10';
+FINALFANTASY11: 'finalfantasy11';
+FINALFANTASY12: 'finalfantasy12';
+FINALFANTASY13: 'finalfantasy13';
+FINALFANTASY14: 'finalfantasy14';
+FINALFANTASY15: 'finalfantasy15';
+FINALFANTASY16: 'finalfantasy16';
+FINALFANTASY2: 'finalfantasy2';
+FINALFANTASY3: 'finalfantasy3';
+FINALFANTASY4: 'finalfantasy4';
+FINALFANTASY5: 'finalfantasy5';
+FINALFANTASY6: 'finalfantasy6';
+FINALFANTASY7: 'finalfantasy7';
+FINALFANTASY8: 'finalfantasy8';
+FINALFANTASY9: 'finalfantasy9';
+FINALFANTASYI: 'finalfantasyi';
+FINALFANTASYII: 'finalfantasyii';
+FINALFANTASYIII: 'finalfantasyiii';
+FINALFANTASYIV: 'finalfantasyiv';
+FINALFANTASYIX: 'finalfantasyix';
+FINALFANTASYV: 'finalfantasyv';
+FINALFANTASYVI: 'finalfantasyvi';
+FINALFANTASYVII: 'finalfantasyvii';
+FINALFANTASYVIII: 'finalfantasyviii';
+FINALFANTASYX: 'finalfantasyx';
+FINALFANTASYXI: 'finalfantasyxi';
+FINALFANTASYXII: 'finalfantasyxii';
+FINALFANTASYXIII: 'finalfantasyxiii';
+FINALFANTASYXIV: 'finalfantasyxiv';
+FINALFANTASYXV: 'finalfantasyxv';
+FINALFANTASYXVI: 'finalfantasyxvi';
+FIRSTPRINTING: 'firstprinting';
+FMB1: 'fmb1';
+GAINLAND: 'gainland';
+HALO: 'halo';
+KAROO: 'karoo';
+MB1: 'mb1';
+NONDEFAULT: 'nondefault';
+NONTRADITIONAL: 'nontraditional';
+NORMAL: 'normal';
+ODDFRAME: 'oddframe';
+PAGL: 'pagl';
+PAINLAND: 'painland';
+PATHWAY: 'pathway';
+PCTB: 'pctb';
+PHED: 'phed';
+PLACEHOLDERIMAGE: 'placeholderimage';
+PLAYTEST: 'playtest';
+SCRYLAND: 'scryland';
+SETEXTENSION: 'setextension';
+SHADOWLAND: 'shadowland';
+SHOCKLAND: 'shockland';
+SLOWLAND: 'slowland';
+SNARL: 'snarl';
+STORAGELAND: 'storageland';
+SURVEILLAND: 'surveilland';
+TANGOLAND: 'tangoland';
+TRADITIONAL: 'traditional';
+TRICYCLELAND: 'tricycleland';
+TRIKELAND: 'trikeland';
+TRILAND: 'triland';
+TRIOME: 'triome';
+TYPICAL: 'typical';
+UPSIDEDOWN: 'upsidedown';
+UPSIDEDOWNBACK: 'upsidedownback';
 
 STANDARD: 'standard';
 FUTURE: 'future';

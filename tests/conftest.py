@@ -1,10 +1,68 @@
 """Shared pytest fixtures and grammar introspection helpers for test modules."""
 
+import json
 import re
+import threading
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
 import pytest
+
+
+class ScryfallQuerier:
+    """Thread-safe Scryfall query helper with global request pacing."""
+
+    _headers = {
+        "User-Agent": "wehavescryfallathome/0.1 (pytest live validation)",
+        "Accept": "application/json",
+    }
+
+    def __init__(self, min_interval_seconds: float = 0.12) -> None:
+        """Initialize a querier with a minimum interval between all requests."""
+        self._min_interval_seconds = min_interval_seconds
+        self._lock = threading.Lock()
+        self._next_request_at = 0.0
+
+    def _wait_for_turn(self) -> None:
+        """Block until this caller can issue the next request globally."""
+        with self._lock:
+            now = time.monotonic()
+            wait_seconds = self._next_request_at - now
+            if wait_seconds > 0:
+                time.sleep(wait_seconds)
+                now = time.monotonic()
+            self._next_request_at = now + self._min_interval_seconds
+
+    def accepts_is_value(
+        self, is_value: str, timeout_seconds: float = 20.0
+    ) -> tuple[bool, str]:
+        """Check whether live Scryfall accepts `is:<value>` as a valid query term."""
+        self._wait_for_turn()
+        query = f"is:{is_value}"
+        url = "https://api.scryfall.com/cards/search?" + urllib.parse.urlencode(
+            {"q": query}
+        )
+        request = urllib.request.Request(url, headers=self._headers)
+
+        try:
+            with urllib.request.urlopen(request, timeout=timeout_seconds):
+                return True, "ok"
+        except urllib.error.HTTPError as exc:
+            payload = json.loads(exc.read().decode("utf-8"))
+            details = str(payload.get("details", ""))
+            if exc.code == 404:
+                return True, details
+            if exc.code == 400:
+                return False, details
+            if exc.code == 429:
+                return False, "rate-limited"
+            return False, f"HTTP {exc.code}: {details}"
+        except urllib.error.URLError as exc:
+            return False, f"network error: {exc}"
 
 
 @dataclass(frozen=True)
@@ -86,3 +144,19 @@ def pytest_generate_tests(metafunc: pytest.Metafunc) -> None:
 def is_value(request: pytest.FixtureRequest) -> str:
     """Indirect fixture carrying one `is:` value from grammar-driven parameterization."""
     return str(request.param)
+
+
+def pytest_addoption(parser: pytest.Parser) -> None:
+    """Register CLI flags used by this test suite."""
+    parser.addoption(
+        "--live-scryfall",
+        action="store_true",
+        default=False,
+        help="Run live Scryfall API validation tests.",
+    )
+
+
+@pytest.fixture(scope="session")
+def scryfall_querier() -> ScryfallQuerier:
+    """Provide a thread-safe, rate-limited querier for live Scryfall tests."""
+    return ScryfallQuerier()

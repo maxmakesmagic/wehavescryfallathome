@@ -73,12 +73,14 @@ def test_local_parser_rejects_known_bad(query: str) -> None:
 
 
 @pytest.mark.parametrize("query", KNOWN_GOOD[:5])
+@pytest.mark.live_scryfall
 def test_live_scrython_accepts_good_queries(query: str) -> None:
     """Sanity-check that known-good samples are accepted by live Scryfall."""
     assert _scrython_accepts(query)
 
 
 @pytest.mark.parametrize("query", ["(unique:prints)", "t:land (a:titus or a:avon"])
+@pytest.mark.live_scryfall
 def test_live_scrython_rejects_bad_queries(query: str) -> None:
     """Sanity-check that known-bad samples are rejected by live Scryfall."""
     assert not _scrython_accepts(query)

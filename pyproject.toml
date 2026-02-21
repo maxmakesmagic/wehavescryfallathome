@@ -8,6 +8,10 @@ dependencies = [
 	"antlr4-python3-runtime>=4.13.2",
 ]
 
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
 [dependency-groups]
 dev = [
 	"antlr4-tools>=0.2.2",
@@ -19,6 +23,12 @@ dev = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+	"live_scryfall: tests that call live Scryfall API",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wehavescryfallathome"]
 
 [tool.mypy]
 python_version = "3.12"
