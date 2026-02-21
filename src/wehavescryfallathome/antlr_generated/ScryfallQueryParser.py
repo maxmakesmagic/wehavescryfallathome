@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,312,293,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
+        4,1,405,293,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,
         7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,
         13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,
         20,7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,2,26,7,
@@ -35,12 +35,12 @@ def serializedATN():
         3,43,283,8,43,1,44,1,44,1,45,1,45,1,46,1,46,1,47,1,47,1,47,0,0,48,
         0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,
         46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,
-        90,92,94,0,15,2,0,29,30,252,252,1,0,31,34,3,0,26,26,38,38,40,53,
-        1,0,35,36,1,0,54,68,10,0,13,13,38,38,62,65,67,67,69,223,225,225,
-        229,229,269,269,298,298,305,305,1,0,21,22,6,0,52,52,84,84,110,110,
-        114,114,126,126,224,239,1,0,240,242,3,0,26,26,276,276,294,294,5,
-        0,243,248,255,255,258,258,283,283,294,295,1,0,27,28,2,0,249,250,
-        307,307,7,0,25,26,30,30,38,39,41,48,118,118,251,294,296,306,1,0,
+        90,92,94,0,15,2,0,29,30,345,345,1,0,31,34,3,0,26,26,38,38,40,53,
+        1,0,35,36,1,0,54,68,10,0,13,13,38,38,62,67,69,316,318,318,322,322,
+        328,328,362,362,391,391,398,398,1,0,21,22,6,0,52,52,84,84,110,110,
+        114,114,126,126,317,332,1,0,333,335,3,0,26,26,369,369,387,387,5,
+        0,336,341,348,348,351,351,376,376,387,388,1,0,27,28,2,0,342,343,
+        400,400,7,0,25,26,30,30,38,39,41,48,118,118,344,387,389,399,1,0,
         5,11,283,0,96,1,0,0,0,2,99,1,0,0,0,4,108,1,0,0,0,6,114,1,0,0,0,8,
         116,1,0,0,0,10,121,1,0,0,0,12,125,1,0,0,0,14,134,1,0,0,0,16,140,
         1,0,0,0,18,142,1,0,0,0,20,147,1,0,0,0,22,153,1,0,0,0,24,160,1,0,
@@ -109,9 +109,9 @@ def serializedATN():
         0,282,269,1,0,0,0,282,270,1,0,0,0,282,271,1,0,0,0,282,272,1,0,0,
         0,282,273,1,0,0,0,282,274,1,0,0,0,282,275,1,0,0,0,282,276,1,0,0,
         0,282,277,1,0,0,0,282,278,1,0,0,0,282,279,1,0,0,0,282,280,1,0,0,
-        0,282,281,1,0,0,0,283,87,1,0,0,0,284,285,5,308,0,0,285,89,1,0,0,
-        0,286,287,5,309,0,0,287,91,1,0,0,0,288,289,5,310,0,0,289,93,1,0,
-        0,0,290,291,5,311,0,0,291,95,1,0,0,0,13,104,110,114,121,130,136,
+        0,282,281,1,0,0,0,283,87,1,0,0,0,284,285,5,401,0,0,285,89,1,0,0,
+        0,286,287,5,402,0,0,287,91,1,0,0,0,288,289,5,403,0,0,289,93,1,0,
+        0,0,290,291,5,404,0,0,291,95,1,0,0,0,13,104,110,114,121,130,136,
         140,147,153,160,177,182,282
     ]
 
@@ -174,23 +174,48 @@ class ScryfallQueryParser ( Parser ):
                      "'spikey'", "'splitmana'", "'stamped'", "'startercollection'", 
                      "'starterdeck'", "'story'", "'tcgplayer'", "'textless'", 
                      "'token'", "'tombstone'", "'translucent'", "'variation'", 
-                     "'standard'", "'future'", "'timeless'", "'gladiator'", 
-                     "'pioneer'", "'modern'", "'legacy'", "'pauper'", "'vintage'", 
-                     "'standardbrawl'", "'brawl'", "'paupercommander'", 
-                     "'duel'", "'oldschool'", "'premodern'", "'predh'", 
-                     "'paper'", "'mtgo'", "'arena'", "'common'", "'uncommon'", 
-                     "'rare'", "'special'", "'mythic'", "'bonus'", "'even'", 
-                     "'odd'", "'a'", "'art'", "'atag'", "'arttag'", "'b'", 
-                     "'block'", "'border'", "'c'", "'cn'", "'number'", "'cube'", 
-                     "'date'", "'devotion'", "'e'", "'edition'", "'fo'", 
-                     "'fulloracle'", "'ft'", "'flavor'", "'function'", "'otag'", 
-                     "'oracletag'", "'id'", "'identity'", "'illustrations'", 
-                     "'in'", "'keyword'", "'kw'", "'lang'", "'language'", 
-                     "'loy'", "'loyalty'", "'m'", "'mana'", "'n'", "'o'", 
-                     "'oracle'", "'paperprints'", "'papersets'", "'pow'", 
-                     "'pt'", "'powtou'", "'produces'", "'r'", "'u'", "'s'", 
-                     "'sets'", "'stamp'", "'st'", "'t'", "'type'", "'tou'", 
-                     "'cheapest'", "'wm'", "'watermark'", "'year'" ]
+                     "'abnormal'", "'baseline'", "'battleland'", "'belzenlok'", 
+                     "'bicycleland'", "'bikeland'", "'bondland'", "'bounceland'", 
+                     "'canland'", "'canopyland'", "'checkland'", "'core'", 
+                     "'creatureland'", "'custom'", "'cycleland'", "'deciduous'", 
+                     "'dual'", "'erratatext'", "'erratatype'", "'expansion'", 
+                     "'fastland'", "'fetchland'", "'filterland'", "'finalfantasy1'", 
+                     "'finalfantasy10'", "'finalfantasy11'", "'finalfantasy12'", 
+                     "'finalfantasy13'", "'finalfantasy14'", "'finalfantasy15'", 
+                     "'finalfantasy16'", "'finalfantasy2'", "'finalfantasy3'", 
+                     "'finalfantasy4'", "'finalfantasy5'", "'finalfantasy6'", 
+                     "'finalfantasy7'", "'finalfantasy8'", "'finalfantasy9'", 
+                     "'finalfantasyi'", "'finalfantasyii'", "'finalfantasyiii'", 
+                     "'finalfantasyiv'", "'finalfantasyix'", "'finalfantasyv'", 
+                     "'finalfantasyvi'", "'finalfantasyvii'", "'finalfantasyviii'", 
+                     "'finalfantasyx'", "'finalfantasyxi'", "'finalfantasyxii'", 
+                     "'finalfantasyxiii'", "'finalfantasyxiv'", "'finalfantasyxv'", 
+                     "'finalfantasyxvi'", "'firstprinting'", "'fmb1'", "'gainland'", 
+                     "'gold'", "'halo'", "'karoo'", "'mb1'", "'nondefault'", 
+                     "'nontraditional'", "'nooriginaltext'", "'normal'", 
+                     "'oddframe'", "'pagl'", "'painland'", "'pathway'", 
+                     "'pctb'", "'phed'", "'placeholderimage'", "'playtest'", 
+                     "'promotype'", "'scryland'", "'setextension'", "'shadowland'", 
+                     "'shockland'", "'slowland'", "'snarl'", "'star'", "'storageland'", 
+                     "'surveilland'", "'tangoland'", "'traditional'", "'tricycleland'", 
+                     "'trikeland'", "'triland'", "'triome'", "'typical'", 
+                     "'upsidedown'", "'upsidedownback'", "'standard'", "'future'", 
+                     "'timeless'", "'gladiator'", "'pioneer'", "'modern'", 
+                     "'legacy'", "'pauper'", "'vintage'", "'standardbrawl'", 
+                     "'brawl'", "'paupercommander'", "'duel'", "'oldschool'", 
+                     "'premodern'", "'predh'", "'paper'", "'mtgo'", "'arena'", 
+                     "'common'", "'uncommon'", "'rare'", "'special'", "'mythic'", 
+                     "'bonus'", "'even'", "'odd'", "'a'", "'art'", "'atag'", 
+                     "'arttag'", "'b'", "'block'", "'border'", "'c'", "'cn'", 
+                     "'number'", "'cube'", "'date'", "'devotion'", "'e'", 
+                     "'edition'", "'fo'", "'fulloracle'", "'ft'", "'flavor'", 
+                     "'function'", "'otag'", "'oracletag'", "'id'", "'identity'", 
+                     "'illustrations'", "'in'", "'keyword'", "'kw'", "'lang'", 
+                     "'language'", "'loy'", "'loyalty'", "'m'", "'mana'", 
+                     "'n'", "'o'", "'oracle'", "'paperprints'", "'papersets'", 
+                     "'pow'", "'pt'", "'powtou'", "'produces'", "'r'", "'u'", 
+                     "'s'", "'sets'", "'stamp'", "'st'", "'t'", "'type'", 
+                     "'tou'", "'cheapest'", "'wm'", "'watermark'", "'year'" ]
 
     symbolicNames = [ "<INVALID>", "LPAREN", "RPAREN", "NEG", "BANG", "COLON", 
                       "NEQ", "GTE", "LTE", "EQ", "GT", "LT", "OR", "UNIQUE", 
@@ -235,22 +260,46 @@ class ScryfallQueryParser ( Parser ):
                       "REVERSIBLE", "SHOWCASE", "SPELLBOOK", "SPIKEY", "SPLITMANA", 
                       "STAMPED", "STARTERCOLLECTION", "STARTERDECK", "STORY", 
                       "TCGPLAYER", "TEXTLESS", "TOKEN", "TOMBSTONE", "TRANSLUCENT", 
-                      "VARIATION", "STANDARD", "FUTURE", "TIMELESS", "GLADIATOR", 
-                      "PIONEER", "MODERN", "LEGACY", "PAUPER", "VINTAGE", 
-                      "STANDARDBRAWL", "BRAWL", "PAUPERCOMMANDER", "DUEL", 
-                      "OLDSCHOOL", "PREMODERN", "PREDH", "PAPER", "MTGO", 
-                      "ARENA", "COMMON", "UNCOMMON", "RARE", "SPECIAL", 
-                      "MYTHIC", "BONUS", "EVEN", "ODD", "A", "ART", "ATAG", 
-                      "ARTTAG", "B", "BLOCK", "BORDER", "C", "CN", "NUMBER_KEY", 
-                      "CUBE", "DATE", "DEVOTION", "E", "EDITION", "FO", 
-                      "FULLORACLE", "FT", "FLAVOR", "FUNCTION", "OTAG", 
-                      "ORACLETAG", "ID", "IDENTITY", "ILLUSTRATIONS", "IN", 
-                      "KEYWORD", "KW", "LANG", "LANGUAGE", "LOY", "LOYALTY", 
-                      "M", "MANA", "N", "O", "ORACLE", "PAPERPRINTS", "PAPERSETS", 
-                      "POW", "PT", "POWTOU", "PRODUCES", "R", "U", "S", 
-                      "SETS", "STAMP", "ST", "T", "TYPE", "TOU", "CHEAPEST", 
-                      "WM", "WATERMARK", "YEAR", "NUMBER", "QUOTED_TEXT", 
-                      "REGEX", "WORD", "BARE_VALUE", "WS" ]
+                      "VARIATION", "ABNORMAL", "BASELINE", "BATTLELAND", 
+                      "BELZENLOK", "BICYCLELAND", "BIKELAND", "BONDLAND", 
+                      "BOUNCELAND", "CANLAND", "CANOPYLAND", "CHECKLAND", 
+                      "CORE", "CREATURELAND", "CUSTOM", "CYCLELAND", "DECIDUOUS", 
+                      "DUAL", "ERRATATEXT", "ERRATATYPE", "EXPANSION", "FASTLAND", 
+                      "FETCHLAND", "FILTERLAND", "FINALFANTASY1", "FINALFANTASY10", 
+                      "FINALFANTASY11", "FINALFANTASY12", "FINALFANTASY13", 
+                      "FINALFANTASY14", "FINALFANTASY15", "FINALFANTASY16", 
+                      "FINALFANTASY2", "FINALFANTASY3", "FINALFANTASY4", 
+                      "FINALFANTASY5", "FINALFANTASY6", "FINALFANTASY7", 
+                      "FINALFANTASY8", "FINALFANTASY9", "FINALFANTASYI", 
+                      "FINALFANTASYII", "FINALFANTASYIII", "FINALFANTASYIV", 
+                      "FINALFANTASYIX", "FINALFANTASYV", "FINALFANTASYVI", 
+                      "FINALFANTASYVII", "FINALFANTASYVIII", "FINALFANTASYX", 
+                      "FINALFANTASYXI", "FINALFANTASYXII", "FINALFANTASYXIII", 
+                      "FINALFANTASYXIV", "FINALFANTASYXV", "FINALFANTASYXVI", 
+                      "FIRSTPRINTING", "FMB1", "GAINLAND", "GOLD", "HALO", 
+                      "KAROO", "MB1", "NONDEFAULT", "NONTRADITIONAL", "NOORIGINALTEXT", 
+                      "NORMAL", "ODDFRAME", "PAGL", "PAINLAND", "PATHWAY", 
+                      "PCTB", "PHED", "PLACEHOLDERIMAGE", "PLAYTEST", "PROMOTYPE", 
+                      "SCRYLAND", "SETEXTENSION", "SHADOWLAND", "SHOCKLAND", 
+                      "SLOWLAND", "SNARL", "STAR", "STORAGELAND", "SURVEILLAND", 
+                      "TANGOLAND", "TRADITIONAL", "TRICYCLELAND", "TRIKELAND", 
+                      "TRILAND", "TRIOME", "TYPICAL", "UPSIDEDOWN", "UPSIDEDOWNBACK", 
+                      "STANDARD", "FUTURE", "TIMELESS", "GLADIATOR", "PIONEER", 
+                      "MODERN", "LEGACY", "PAUPER", "VINTAGE", "STANDARDBRAWL", 
+                      "BRAWL", "PAUPERCOMMANDER", "DUEL", "OLDSCHOOL", "PREMODERN", 
+                      "PREDH", "PAPER", "MTGO", "ARENA", "COMMON", "UNCOMMON", 
+                      "RARE", "SPECIAL", "MYTHIC", "BONUS", "EVEN", "ODD", 
+                      "A", "ART", "ATAG", "ARTTAG", "B", "BLOCK", "BORDER", 
+                      "C", "CN", "NUMBER_KEY", "CUBE", "DATE", "DEVOTION", 
+                      "E", "EDITION", "FO", "FULLORACLE", "FT", "FLAVOR", 
+                      "FUNCTION", "OTAG", "ORACLETAG", "ID", "IDENTITY", 
+                      "ILLUSTRATIONS", "IN", "KEYWORD", "KW", "LANG", "LANGUAGE", 
+                      "LOY", "LOYALTY", "M", "MANA", "N", "O", "ORACLE", 
+                      "PAPERPRINTS", "PAPERSETS", "POW", "PT", "POWTOU", 
+                      "PRODUCES", "R", "U", "S", "SETS", "STAMP", "ST", 
+                      "T", "TYPE", "TOU", "CHEAPEST", "WM", "WATERMARK", 
+                      "YEAR", "NUMBER", "QUOTED_TEXT", "REGEX", "WORD", 
+                      "BARE_VALUE", "WS" ]
 
     RULE_start = 0
     RULE_topExpr = 1
@@ -538,95 +587,188 @@ class ScryfallQueryParser ( Parser ):
     TOMBSTONE=221
     TRANSLUCENT=222
     VARIATION=223
-    STANDARD=224
-    FUTURE=225
-    TIMELESS=226
-    GLADIATOR=227
-    PIONEER=228
-    MODERN=229
-    LEGACY=230
-    PAUPER=231
-    VINTAGE=232
-    STANDARDBRAWL=233
-    BRAWL=234
-    PAUPERCOMMANDER=235
-    DUEL=236
-    OLDSCHOOL=237
-    PREMODERN=238
-    PREDH=239
-    PAPER=240
-    MTGO=241
-    ARENA=242
-    COMMON=243
-    UNCOMMON=244
-    RARE=245
-    SPECIAL=246
-    MYTHIC=247
-    BONUS=248
-    EVEN=249
-    ODD=250
-    A=251
-    ART=252
-    ATAG=253
-    ARTTAG=254
-    B=255
-    BLOCK=256
-    BORDER=257
-    C=258
-    CN=259
-    NUMBER_KEY=260
-    CUBE=261
-    DATE=262
-    DEVOTION=263
-    E=264
-    EDITION=265
-    FO=266
-    FULLORACLE=267
-    FT=268
-    FLAVOR=269
-    FUNCTION=270
-    OTAG=271
-    ORACLETAG=272
-    ID=273
-    IDENTITY=274
-    ILLUSTRATIONS=275
-    IN=276
-    KEYWORD=277
-    KW=278
-    LANG=279
-    LANGUAGE=280
-    LOY=281
-    LOYALTY=282
-    M=283
-    MANA=284
-    N=285
-    O=286
-    ORACLE=287
-    PAPERPRINTS=288
-    PAPERSETS=289
-    POW=290
-    PT=291
-    POWTOU=292
-    PRODUCES=293
-    R=294
-    U=295
-    S=296
-    SETS=297
-    STAMP=298
-    ST=299
-    T=300
-    TYPE=301
-    TOU=302
-    CHEAPEST=303
-    WM=304
-    WATERMARK=305
-    YEAR=306
-    NUMBER=307
-    QUOTED_TEXT=308
-    REGEX=309
-    WORD=310
-    BARE_VALUE=311
-    WS=312
+    ABNORMAL=224
+    BASELINE=225
+    BATTLELAND=226
+    BELZENLOK=227
+    BICYCLELAND=228
+    BIKELAND=229
+    BONDLAND=230
+    BOUNCELAND=231
+    CANLAND=232
+    CANOPYLAND=233
+    CHECKLAND=234
+    CORE=235
+    CREATURELAND=236
+    CUSTOM=237
+    CYCLELAND=238
+    DECIDUOUS=239
+    DUAL=240
+    ERRATATEXT=241
+    ERRATATYPE=242
+    EXPANSION=243
+    FASTLAND=244
+    FETCHLAND=245
+    FILTERLAND=246
+    FINALFANTASY1=247
+    FINALFANTASY10=248
+    FINALFANTASY11=249
+    FINALFANTASY12=250
+    FINALFANTASY13=251
+    FINALFANTASY14=252
+    FINALFANTASY15=253
+    FINALFANTASY16=254
+    FINALFANTASY2=255
+    FINALFANTASY3=256
+    FINALFANTASY4=257
+    FINALFANTASY5=258
+    FINALFANTASY6=259
+    FINALFANTASY7=260
+    FINALFANTASY8=261
+    FINALFANTASY9=262
+    FINALFANTASYI=263
+    FINALFANTASYII=264
+    FINALFANTASYIII=265
+    FINALFANTASYIV=266
+    FINALFANTASYIX=267
+    FINALFANTASYV=268
+    FINALFANTASYVI=269
+    FINALFANTASYVII=270
+    FINALFANTASYVIII=271
+    FINALFANTASYX=272
+    FINALFANTASYXI=273
+    FINALFANTASYXII=274
+    FINALFANTASYXIII=275
+    FINALFANTASYXIV=276
+    FINALFANTASYXV=277
+    FINALFANTASYXVI=278
+    FIRSTPRINTING=279
+    FMB1=280
+    GAINLAND=281
+    GOLD=282
+    HALO=283
+    KAROO=284
+    MB1=285
+    NONDEFAULT=286
+    NONTRADITIONAL=287
+    NOORIGINALTEXT=288
+    NORMAL=289
+    ODDFRAME=290
+    PAGL=291
+    PAINLAND=292
+    PATHWAY=293
+    PCTB=294
+    PHED=295
+    PLACEHOLDERIMAGE=296
+    PLAYTEST=297
+    PROMOTYPE=298
+    SCRYLAND=299
+    SETEXTENSION=300
+    SHADOWLAND=301
+    SHOCKLAND=302
+    SLOWLAND=303
+    SNARL=304
+    STAR=305
+    STORAGELAND=306
+    SURVEILLAND=307
+    TANGOLAND=308
+    TRADITIONAL=309
+    TRICYCLELAND=310
+    TRIKELAND=311
+    TRILAND=312
+    TRIOME=313
+    TYPICAL=314
+    UPSIDEDOWN=315
+    UPSIDEDOWNBACK=316
+    STANDARD=317
+    FUTURE=318
+    TIMELESS=319
+    GLADIATOR=320
+    PIONEER=321
+    MODERN=322
+    LEGACY=323
+    PAUPER=324
+    VINTAGE=325
+    STANDARDBRAWL=326
+    BRAWL=327
+    PAUPERCOMMANDER=328
+    DUEL=329
+    OLDSCHOOL=330
+    PREMODERN=331
+    PREDH=332
+    PAPER=333
+    MTGO=334
+    ARENA=335
+    COMMON=336
+    UNCOMMON=337
+    RARE=338
+    SPECIAL=339
+    MYTHIC=340
+    BONUS=341
+    EVEN=342
+    ODD=343
+    A=344
+    ART=345
+    ATAG=346
+    ARTTAG=347
+    B=348
+    BLOCK=349
+    BORDER=350
+    C=351
+    CN=352
+    NUMBER_KEY=353
+    CUBE=354
+    DATE=355
+    DEVOTION=356
+    E=357
+    EDITION=358
+    FO=359
+    FULLORACLE=360
+    FT=361
+    FLAVOR=362
+    FUNCTION=363
+    OTAG=364
+    ORACLETAG=365
+    ID=366
+    IDENTITY=367
+    ILLUSTRATIONS=368
+    IN=369
+    KEYWORD=370
+    KW=371
+    LANG=372
+    LANGUAGE=373
+    LOY=374
+    LOYALTY=375
+    M=376
+    MANA=377
+    N=378
+    O=379
+    ORACLE=380
+    PAPERPRINTS=381
+    PAPERSETS=382
+    POW=383
+    PT=384
+    POWTOU=385
+    PRODUCES=386
+    R=387
+    U=388
+    S=389
+    SETS=390
+    STAMP=391
+    ST=392
+    T=393
+    TYPE=394
+    TOU=395
+    CHEAPEST=396
+    WM=397
+    WATERMARK=398
+    YEAR=399
+    NUMBER=400
+    QUOTED_TEXT=401
+    REGEX=402
+    WORD=403
+    BARE_VALUE=404
+    WS=405
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -810,7 +952,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 110 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174491162) != 0) or _la==118 or ((((_la - 251)) & ~0x3f) == 0 and ((1 << (_la - 251)) & 792615942231162879) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174491162) != 0) or _la==118 or ((((_la - 344)) & ~0x3f) == 0 and ((1 << (_la - 344)) & 792615942231162879) != 0)):
                     break
 
         except RecognitionException as re:
@@ -870,7 +1012,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 112
                 self.topGroup()
                 pass
-            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 308, 310]:
+            elif token in [3, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 401, 403]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 113
                 self.topTerm()
@@ -1125,7 +1267,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 136 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174237210) != 0) or _la==118 or ((((_la - 251)) & ~0x3f) == 0 and ((1 << (_la - 251)) & 792615942231162879) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 561577174237210) != 0) or _la==118 or ((((_la - 344)) & ~0x3f) == 0 and ((1 << (_la - 344)) & 792615942231162879) != 0)):
                     break
 
         except RecognitionException as re:
@@ -1185,7 +1327,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 138
                 self.parenGroup()
                 pass
-            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 308, 310]:
+            elif token in [3, 4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 401, 403]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 139
                 self.parenTerm()
@@ -1368,7 +1510,7 @@ class ScryfallQueryParser ( Parser ):
                 self.state = 151
                 self.displayAtom()
                 pass
-            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 308, 310]:
+            elif token in [4, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 118, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 401, 403]:
                 self.enterOuterAlt(localctx, 2)
                 self.state = 152
                 self.nonDisplayAtom()
@@ -1749,11 +1891,11 @@ class ScryfallQueryParser ( Parser ):
             self.state = 182
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [308]:
+            if token in [401]:
                 self.state = 180
                 self.quotedText()
                 pass
-            elif token in [310]:
+            elif token in [403]:
                 self.state = 181
                 self.word()
                 pass
@@ -1920,7 +2062,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 190
             _la = self._input.LA(1)
-            if not(_la==29 or _la==30 or _la==252):
+            if not(_la==29 or _la==30 or _la==345):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -2657,6 +2799,9 @@ class ScryfallQueryParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def ABNORMAL(self):
+            return self.getToken(ScryfallQueryParser.ABNORMAL, 0)
+
         def ADVENTURE(self):
             return self.getToken(ScryfallQueryParser.ADVENTURE, 0)
 
@@ -2687,17 +2832,38 @@ class ScryfallQueryParser ( Parser ):
         def BACK(self):
             return self.getToken(ScryfallQueryParser.BACK, 0)
 
+        def BASELINE(self):
+            return self.getToken(ScryfallQueryParser.BASELINE, 0)
+
+        def BATTLELAND(self):
+            return self.getToken(ScryfallQueryParser.BATTLELAND, 0)
+
         def BEAR(self):
             return self.getToken(ScryfallQueryParser.BEAR, 0)
 
         def BEGINNERBOX(self):
             return self.getToken(ScryfallQueryParser.BEGINNERBOX, 0)
 
+        def BELZENLOK(self):
+            return self.getToken(ScryfallQueryParser.BELZENLOK, 0)
+
+        def BICYCLELAND(self):
+            return self.getToken(ScryfallQueryParser.BICYCLELAND, 0)
+
+        def BIKELAND(self):
+            return self.getToken(ScryfallQueryParser.BIKELAND, 0)
+
+        def BONDLAND(self):
+            return self.getToken(ScryfallQueryParser.BONDLAND, 0)
+
         def BOOSTER(self):
             return self.getToken(ScryfallQueryParser.BOOSTER, 0)
 
         def BORDERLESS(self):
             return self.getToken(ScryfallQueryParser.BORDERLESS, 0)
+
+        def BOUNCELAND(self):
+            return self.getToken(ScryfallQueryParser.BOUNCELAND, 0)
 
         def BRAWLCOMMANDER(self):
             return self.getToken(ScryfallQueryParser.BRAWLCOMMANDER, 0)
@@ -2708,8 +2874,17 @@ class ScryfallQueryParser ( Parser ):
         def BUYABOX(self):
             return self.getToken(ScryfallQueryParser.BUYABOX, 0)
 
+        def CANLAND(self):
+            return self.getToken(ScryfallQueryParser.CANLAND, 0)
+
+        def CANOPYLAND(self):
+            return self.getToken(ScryfallQueryParser.CANOPYLAND, 0)
+
         def CARDMARKET(self):
             return self.getToken(ScryfallQueryParser.CARDMARKET, 0)
+
+        def CHECKLAND(self):
+            return self.getToken(ScryfallQueryParser.CHECKLAND, 0)
 
         def CI(self):
             return self.getToken(ScryfallQueryParser.CI, 0)
@@ -2732,11 +2907,26 @@ class ScryfallQueryParser ( Parser ):
         def CONVENTION(self):
             return self.getToken(ScryfallQueryParser.CONVENTION, 0)
 
+        def CORE(self):
+            return self.getToken(ScryfallQueryParser.CORE, 0)
+
         def COVERED(self):
             return self.getToken(ScryfallQueryParser.COVERED, 0)
 
+        def CREATURELAND(self):
+            return self.getToken(ScryfallQueryParser.CREATURELAND, 0)
+
+        def CUSTOM(self):
+            return self.getToken(ScryfallQueryParser.CUSTOM, 0)
+
+        def CYCLELAND(self):
+            return self.getToken(ScryfallQueryParser.CYCLELAND, 0)
+
         def DATESTAMPED(self):
             return self.getToken(ScryfallQueryParser.DATESTAMPED, 0)
+
+        def DECIDUOUS(self):
+            return self.getToken(ScryfallQueryParser.DECIDUOUS, 0)
 
         def DEFAULT(self):
             return self.getToken(ScryfallQueryParser.DEFAULT, 0)
@@ -2750,11 +2940,20 @@ class ScryfallQueryParser ( Parser ):
         def DOUBLESIDED(self):
             return self.getToken(ScryfallQueryParser.DOUBLESIDED, 0)
 
+        def DUAL(self):
+            return self.getToken(ScryfallQueryParser.DUAL, 0)
+
         def DUELCOMMANDER(self):
             return self.getToken(ScryfallQueryParser.DUELCOMMANDER, 0)
 
         def ENGLISHART(self):
             return self.getToken(ScryfallQueryParser.ENGLISHART, 0)
+
+        def ERRATATEXT(self):
+            return self.getToken(ScryfallQueryParser.ERRATATEXT, 0)
+
+        def ERRATATYPE(self):
+            return self.getToken(ScryfallQueryParser.ERRATATYPE, 0)
 
         def ETB(self):
             return self.getToken(ScryfallQueryParser.ETB, 0)
@@ -2765,14 +2964,23 @@ class ScryfallQueryParser ( Parser ):
         def ETCHED(self):
             return self.getToken(ScryfallQueryParser.ETCHED, 0)
 
+        def EXPANSION(self):
+            return self.getToken(ScryfallQueryParser.EXPANSION, 0)
+
         def EXTENDED(self):
             return self.getToken(ScryfallQueryParser.EXTENDED, 0)
 
         def EXTRA(self):
             return self.getToken(ScryfallQueryParser.EXTRA, 0)
 
+        def FASTLAND(self):
+            return self.getToken(ScryfallQueryParser.FASTLAND, 0)
+
         def FBB(self):
             return self.getToken(ScryfallQueryParser.FBB, 0)
+
+        def FETCHLAND(self):
+            return self.getToken(ScryfallQueryParser.FETCHLAND, 0)
 
         def FF(self):
             return self.getToken(ScryfallQueryParser.FF, 0)
@@ -2873,11 +3081,113 @@ class ScryfallQueryParser ( Parser ):
         def FFXVI(self):
             return self.getToken(ScryfallQueryParser.FFXVI, 0)
 
+        def FILTERLAND(self):
+            return self.getToken(ScryfallQueryParser.FILTERLAND, 0)
+
         def FINALFANTASY(self):
             return self.getToken(ScryfallQueryParser.FINALFANTASY, 0)
 
+        def FINALFANTASY1(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY1, 0)
+
+        def FINALFANTASY10(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY10, 0)
+
+        def FINALFANTASY11(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY11, 0)
+
+        def FINALFANTASY12(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY12, 0)
+
+        def FINALFANTASY13(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY13, 0)
+
+        def FINALFANTASY14(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY14, 0)
+
+        def FINALFANTASY15(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY15, 0)
+
+        def FINALFANTASY16(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY16, 0)
+
+        def FINALFANTASY2(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY2, 0)
+
+        def FINALFANTASY3(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY3, 0)
+
+        def FINALFANTASY4(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY4, 0)
+
+        def FINALFANTASY5(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY5, 0)
+
+        def FINALFANTASY6(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY6, 0)
+
+        def FINALFANTASY7(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY7, 0)
+
+        def FINALFANTASY8(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY8, 0)
+
+        def FINALFANTASY9(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASY9, 0)
+
+        def FINALFANTASYI(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYI, 0)
+
+        def FINALFANTASYII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYII, 0)
+
+        def FINALFANTASYIII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYIII, 0)
+
+        def FINALFANTASYIV(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYIV, 0)
+
+        def FINALFANTASYIX(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYIX, 0)
+
+        def FINALFANTASYV(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYV, 0)
+
+        def FINALFANTASYVI(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYVI, 0)
+
+        def FINALFANTASYVII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYVII, 0)
+
+        def FINALFANTASYVIII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYVIII, 0)
+
+        def FINALFANTASYX(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYX, 0)
+
+        def FINALFANTASYXI(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXI, 0)
+
+        def FINALFANTASYXII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXII, 0)
+
+        def FINALFANTASYXIII(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXIII, 0)
+
+        def FINALFANTASYXIV(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXIV, 0)
+
+        def FINALFANTASYXV(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXV, 0)
+
+        def FINALFANTASYXVI(self):
+            return self.getToken(ScryfallQueryParser.FINALFANTASYXVI, 0)
+
         def FIRSTPRINT(self):
             return self.getToken(ScryfallQueryParser.FIRSTPRINT, 0)
+
+        def FIRSTPRINTING(self):
+            return self.getToken(ScryfallQueryParser.FIRSTPRINTING, 0)
 
         def FLAVOR(self):
             return self.getToken(ScryfallQueryParser.FLAVOR, 0)
@@ -2887,6 +3197,9 @@ class ScryfallQueryParser ( Parser ):
 
         def FLIP(self):
             return self.getToken(ScryfallQueryParser.FLIP, 0)
+
+        def FMB1(self):
+            return self.getToken(ScryfallQueryParser.FMB1, 0)
 
         def FNM(self):
             return self.getToken(ScryfallQueryParser.FNM, 0)
@@ -2909,6 +3222,9 @@ class ScryfallQueryParser ( Parser ):
         def FWB(self):
             return self.getToken(ScryfallQueryParser.FWB, 0)
 
+        def GAINLAND(self):
+            return self.getToken(ScryfallQueryParser.GAINLAND, 0)
+
         def GAMECHANGER(self):
             return self.getToken(ScryfallQueryParser.GAMECHANGER, 0)
 
@@ -2920,6 +3236,12 @@ class ScryfallQueryParser ( Parser ):
 
         def GLOSSY(self):
             return self.getToken(ScryfallQueryParser.GLOSSY, 0)
+
+        def GOLD(self):
+            return self.getToken(ScryfallQueryParser.GOLD, 0)
+
+        def HALO(self):
+            return self.getToken(ScryfallQueryParser.HALO, 0)
 
         def HIRES(self):
             return self.getToken(ScryfallQueryParser.HIRES, 0)
@@ -2951,6 +3273,9 @@ class ScryfallQueryParser ( Parser ):
         def JUDGE_GIFT(self):
             return self.getToken(ScryfallQueryParser.JUDGE_GIFT, 0)
 
+        def KAROO(self):
+            return self.getToken(ScryfallQueryParser.KAROO, 0)
+
         def LEAGUE(self):
             return self.getToken(ScryfallQueryParser.LEAGUE, 0)
 
@@ -2968,6 +3293,9 @@ class ScryfallQueryParser ( Parser ):
 
         def MASTERPIECE(self):
             return self.getToken(ScryfallQueryParser.MASTERPIECE, 0)
+
+        def MB1(self):
+            return self.getToken(ScryfallQueryParser.MB1, 0)
 
         def MDFC(self):
             return self.getToken(ScryfallQueryParser.MDFC, 0)
@@ -3002,14 +3330,29 @@ class ScryfallQueryParser ( Parser ):
         def NEWINPAUPER(self):
             return self.getToken(ScryfallQueryParser.NEWINPAUPER, 0)
 
+        def NONDEFAULT(self):
+            return self.getToken(ScryfallQueryParser.NONDEFAULT, 0)
+
         def NONFOIL(self):
             return self.getToken(ScryfallQueryParser.NONFOIL, 0)
+
+        def NONTRADITIONAL(self):
+            return self.getToken(ScryfallQueryParser.NONTRADITIONAL, 0)
+
+        def NOORIGINALTEXT(self):
+            return self.getToken(ScryfallQueryParser.NOORIGINALTEXT, 0)
+
+        def NORMAL(self):
+            return self.getToken(ScryfallQueryParser.NORMAL, 0)
 
         def NOTUNIVERSESBEYOND(self):
             return self.getToken(ScryfallQueryParser.NOTUNIVERSESBEYOND, 0)
 
         def OATHBREAKER(self):
             return self.getToken(ScryfallQueryParser.OATHBREAKER, 0)
+
+        def ODDFRAME(self):
+            return self.getToken(ScryfallQueryParser.ODDFRAME, 0)
 
         def OLD(self):
             return self.getToken(ScryfallQueryParser.OLD, 0)
@@ -3023,6 +3366,12 @@ class ScryfallQueryParser ( Parser ):
         def OVERSIZED(self):
             return self.getToken(ScryfallQueryParser.OVERSIZED, 0)
 
+        def PAGL(self):
+            return self.getToken(ScryfallQueryParser.PAGL, 0)
+
+        def PAINLAND(self):
+            return self.getToken(ScryfallQueryParser.PAINLAND, 0)
+
         def PAPERART(self):
             return self.getToken(ScryfallQueryParser.PAPERART, 0)
 
@@ -3032,14 +3381,29 @@ class ScryfallQueryParser ( Parser ):
         def PARTY(self):
             return self.getToken(ScryfallQueryParser.PARTY, 0)
 
+        def PATHWAY(self):
+            return self.getToken(ScryfallQueryParser.PATHWAY, 0)
+
+        def PAUPERCOMMANDER(self):
+            return self.getToken(ScryfallQueryParser.PAUPERCOMMANDER, 0)
+
+        def PCTB(self):
+            return self.getToken(ScryfallQueryParser.PCTB, 0)
+
         def PERMANENT(self):
             return self.getToken(ScryfallQueryParser.PERMANENT, 0)
+
+        def PHED(self):
+            return self.getToken(ScryfallQueryParser.PHED, 0)
 
         def PHYREXIA(self):
             return self.getToken(ScryfallQueryParser.PHYREXIA, 0)
 
         def PHYREXIAN(self):
             return self.getToken(ScryfallQueryParser.PHYREXIAN, 0)
+
+        def PLACEHOLDERIMAGE(self):
+            return self.getToken(ScryfallQueryParser.PLACEHOLDERIMAGE, 0)
 
         def PLANAR(self):
             return self.getToken(ScryfallQueryParser.PLANAR, 0)
@@ -3053,6 +3417,9 @@ class ScryfallQueryParser ( Parser ):
         def PLAYER_REWARDS(self):
             return self.getToken(ScryfallQueryParser.PLAYER_REWARDS, 0)
 
+        def PLAYTEST(self):
+            return self.getToken(ScryfallQueryParser.PLAYTEST, 0)
+
         def PRERELEASE(self):
             return self.getToken(ScryfallQueryParser.PRERELEASE, 0)
 
@@ -3061,6 +3428,9 @@ class ScryfallQueryParser ( Parser ):
 
         def PROMO(self):
             return self.getToken(ScryfallQueryParser.PROMO, 0)
+
+        def PROMOTYPE(self):
+            return self.getToken(ScryfallQueryParser.PROMOTYPE, 0)
 
         def REBALANCED(self):
             return self.getToken(ScryfallQueryParser.REBALANCED, 0)
@@ -3083,11 +3453,29 @@ class ScryfallQueryParser ( Parser ):
         def SCRYFALLPREVIEW(self):
             return self.getToken(ScryfallQueryParser.SCRYFALLPREVIEW, 0)
 
+        def SCRYLAND(self):
+            return self.getToken(ScryfallQueryParser.SCRYLAND, 0)
+
         def SET_PROMO(self):
             return self.getToken(ScryfallQueryParser.SET_PROMO, 0)
 
+        def SETEXTENSION(self):
+            return self.getToken(ScryfallQueryParser.SETEXTENSION, 0)
+
+        def SHADOWLAND(self):
+            return self.getToken(ScryfallQueryParser.SHADOWLAND, 0)
+
+        def SHOCKLAND(self):
+            return self.getToken(ScryfallQueryParser.SHOCKLAND, 0)
+
         def SHOWCASE(self):
             return self.getToken(ScryfallQueryParser.SHOWCASE, 0)
+
+        def SLOWLAND(self):
+            return self.getToken(ScryfallQueryParser.SLOWLAND, 0)
+
+        def SNARL(self):
+            return self.getToken(ScryfallQueryParser.SNARL, 0)
 
         def SPELL(self):
             return self.getToken(ScryfallQueryParser.SPELL, 0)
@@ -3113,14 +3501,26 @@ class ScryfallQueryParser ( Parser ):
         def STAMPED(self):
             return self.getToken(ScryfallQueryParser.STAMPED, 0)
 
+        def STAR(self):
+            return self.getToken(ScryfallQueryParser.STAR, 0)
+
         def STARTERCOLLECTION(self):
             return self.getToken(ScryfallQueryParser.STARTERCOLLECTION, 0)
 
         def STARTERDECK(self):
             return self.getToken(ScryfallQueryParser.STARTERDECK, 0)
 
+        def STORAGELAND(self):
+            return self.getToken(ScryfallQueryParser.STORAGELAND, 0)
+
         def STORY(self):
             return self.getToken(ScryfallQueryParser.STORY, 0)
+
+        def SURVEILLAND(self):
+            return self.getToken(ScryfallQueryParser.SURVEILLAND, 0)
+
+        def TANGOLAND(self):
+            return self.getToken(ScryfallQueryParser.TANGOLAND, 0)
 
         def TCGPLAYER(self):
             return self.getToken(ScryfallQueryParser.TCGPLAYER, 0)
@@ -3137,17 +3537,44 @@ class ScryfallQueryParser ( Parser ):
         def TOMBSTONE(self):
             return self.getToken(ScryfallQueryParser.TOMBSTONE, 0)
 
+        def TRADITIONAL(self):
+            return self.getToken(ScryfallQueryParser.TRADITIONAL, 0)
+
         def TRANSFORM(self):
             return self.getToken(ScryfallQueryParser.TRANSFORM, 0)
 
         def TRANSLUCENT(self):
             return self.getToken(ScryfallQueryParser.TRANSLUCENT, 0)
 
+        def TRICYCLELAND(self):
+            return self.getToken(ScryfallQueryParser.TRICYCLELAND, 0)
+
+        def TRIKELAND(self):
+            return self.getToken(ScryfallQueryParser.TRIKELAND, 0)
+
+        def TRILAND(self):
+            return self.getToken(ScryfallQueryParser.TRILAND, 0)
+
+        def TRIOME(self):
+            return self.getToken(ScryfallQueryParser.TRIOME, 0)
+
+        def TYPICAL(self):
+            return self.getToken(ScryfallQueryParser.TYPICAL, 0)
+
+        def UB(self):
+            return self.getToken(ScryfallQueryParser.UB, 0)
+
         def UNIQUE(self):
             return self.getToken(ScryfallQueryParser.UNIQUE, 0)
 
         def UNIVERSESBEYOND(self):
             return self.getToken(ScryfallQueryParser.UNIVERSESBEYOND, 0)
+
+        def UPSIDEDOWN(self):
+            return self.getToken(ScryfallQueryParser.UPSIDEDOWN, 0)
+
+        def UPSIDEDOWNBACK(self):
+            return self.getToken(ScryfallQueryParser.UPSIDEDOWNBACK, 0)
 
         def VANILLA(self):
             return self.getToken(ScryfallQueryParser.VANILLA, 0)
@@ -3187,7 +3614,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 228
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & -4611685743549472768) != 0) or ((((_la - 64)) & ~0x3f) == 0 and ((1 << (_la - 64)) & -21) != 0) or ((((_la - 128)) & ~0x3f) == 0 and ((1 << (_la - 128)) & -1) != 0) or ((((_la - 192)) & ~0x3f) == 0 and ((1 << (_la - 192)) & 150323855359) != 0) or ((((_la - 269)) & ~0x3f) == 0 and ((1 << (_la - 269)) & 69256347649) != 0)):
+            if not(((((_la - 13)) & ~0x3f) == 0 and ((1 << (_la - 13)) & -36591746938830847) != 0) or ((((_la - 77)) & ~0x3f) == 0 and ((1 << (_la - 77)) & -1) != 0) or ((((_la - 141)) & ~0x3f) == 0 and ((1 << (_la - 141)) & -1) != 0) or ((((_la - 205)) & ~0x3f) == 0 and ((1 << (_la - 205)) & -1) != 0) or ((((_la - 269)) & ~0x3f) == 0 and ((1 << (_la - 269)) & 586312376488296447) != 0) or ((((_la - 362)) & ~0x3f) == 0 and ((1 << (_la - 362)) & 69256347649) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3483,7 +3910,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 242
             _la = self._input.LA(1)
-            if not(_la==52 or ((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 4399187361793) != 0) or ((((_la - 224)) & ~0x3f) == 0 and ((1 << (_la - 224)) & 65535) != 0)):
+            if not(_la==52 or ((((_la - 84)) & ~0x3f) == 0 and ((1 << (_la - 84)) & 4399187361793) != 0) or ((((_la - 317)) & ~0x3f) == 0 and ((1 << (_la - 317)) & 65535) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3552,7 +3979,7 @@ class ScryfallQueryParser ( Parser ):
             self.match(ScryfallQueryParser.COLON)
             self.state = 246
             _la = self._input.LA(1)
-            if not(((((_la - 240)) & ~0x3f) == 0 and ((1 << (_la - 240)) & 7) != 0)):
+            if not(((((_la - 333)) & ~0x3f) == 0 and ((1 << (_la - 333)) & 7) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3611,7 +4038,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 248
             _la = self._input.LA(1)
-            if not(((((_la - 240)) & ~0x3f) == 0 and ((1 << (_la - 240)) & 7) != 0)):
+            if not(((((_la - 333)) & ~0x3f) == 0 and ((1 << (_la - 333)) & 7) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3678,7 +4105,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 250
             _la = self._input.LA(1)
-            if not(_la==26 or _la==276 or _la==294):
+            if not(_la==26 or _la==369 or _la==387):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3765,7 +4192,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 254
             _la = self._input.LA(1)
-            if not(((((_la - 243)) & ~0x3f) == 0 and ((1 << (_la - 243)) & 6756498952720447) != 0)):
+            if not(((((_la - 336)) & ~0x3f) == 0 and ((1 << (_la - 336)) & 6756498952720447) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -3843,7 +4270,7 @@ class ScryfallQueryParser ( Parser ):
             self.compOp()
             self.state = 258
             _la = self._input.LA(1)
-            if not(((((_la - 249)) & ~0x3f) == 0 and ((1 << (_la - 249)) & 288230376151711747) != 0)):
+            if not(((((_la - 342)) & ~0x3f) == 0 and ((1 << (_la - 342)) & 288230376151711747) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -4160,7 +4587,7 @@ class ScryfallQueryParser ( Parser ):
             self.enterOuterAlt(localctx, 1)
             self.state = 264
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 561576738291712) != 0) or _la==118 or ((((_la - 251)) & ~0x3f) == 0 and ((1 << (_la - 251)) & 72040001851883519) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 561576738291712) != 0) or _la==118 or ((((_la - 344)) & ~0x3f) == 0 and ((1 << (_la - 344)) & 72040001851883519) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)

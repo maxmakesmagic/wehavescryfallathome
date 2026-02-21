@@ -107,7 +107,8 @@ includeTerm: INCLUDE COLON EXTRAS;
 isTerm: IS COLON isValue;
 notTerm: NOT COLON isValue;
 isValue
-    : ADVENTURE
+    : ABNORMAL
+    | ADVENTURE
     | ALCHEMY
     | ARENA_LEAGUE
     | ARENAID
@@ -117,14 +118,24 @@ isValue
     | ATYPICAL
     | AUGMENTATION
     | BACK
+    | BASELINE
+    | BATTLELAND
     | BEAR
     | BEGINNERBOX
+    | BELZENLOK
+    | BICYCLELAND
+    | BIKELAND
+    | BONDLAND
     | BOOSTER
     | BORDERLESS
+    | BOUNCELAND
     | BRAWLCOMMANDER
     | BRAWLER
     | BUYABOX
+    | CANLAND
+    | CANOPYLAND
     | CARDMARKET
+    | CHECKLAND
     | CI
     | CLASS
     | COLORSHIFTED
@@ -132,20 +143,31 @@ isValue
     | COMPANION
     | CONTENTWARNING
     | CONVENTION
+    | CORE
     | COVERED
+    | CREATURELAND
+    | CUSTOM
+    | CYCLELAND
     | DATESTAMPED
+    | DECIDUOUS
     | DEFAULT
     | DFC
     | DIGITAL
     | DOUBLESIDED
+    | DUAL
     | DUELCOMMANDER
     | ENGLISHART
+    | ERRATATEXT
+    | ERRATATYPE
     | ETB
     | ETCH
     | ETCHED
+    | EXPANSION
     | EXTENDED
     | EXTRA
+    | FASTLAND
     | FBB
+    | FETCHLAND
     | FF
     | FF1
     | FF10
@@ -179,11 +201,46 @@ isValue
     | FFXIV
     | FFXV
     | FFXVI
+    | FILTERLAND
     | FINALFANTASY
+    | FINALFANTASY1
+    | FINALFANTASY10
+    | FINALFANTASY11
+    | FINALFANTASY12
+    | FINALFANTASY13
+    | FINALFANTASY14
+    | FINALFANTASY15
+    | FINALFANTASY16
+    | FINALFANTASY2
+    | FINALFANTASY3
+    | FINALFANTASY4
+    | FINALFANTASY5
+    | FINALFANTASY6
+    | FINALFANTASY7
+    | FINALFANTASY8
+    | FINALFANTASY9
+    | FINALFANTASYI
+    | FINALFANTASYII
+    | FINALFANTASYIII
+    | FINALFANTASYIV
+    | FINALFANTASYIX
+    | FINALFANTASYV
+    | FINALFANTASYVI
+    | FINALFANTASYVII
+    | FINALFANTASYVIII
+    | FINALFANTASYX
+    | FINALFANTASYXI
+    | FINALFANTASYXII
+    | FINALFANTASYXIII
+    | FINALFANTASYXIV
+    | FINALFANTASYXV
+    | FINALFANTASYXVI
     | FIRSTPRINT
+    | FIRSTPRINTING
     | FLAVOR
     | FLAVORNAME
     | FLIP
+    | FMB1
     | FNM
     | FOIL
     | FRENCHVANILLA
@@ -191,10 +248,13 @@ isValue
     | FUNNY
     | FUTURE
     | FWB
+    | GAINLAND
     | GAMECHANGER
     | GAMEDAY
     | GIFTBOX
     | GLOSSY
+    | GOLD
+    | HALO
     | HIRES
     | HISTORIC
     | HYBRID
@@ -205,12 +265,14 @@ isValue
     | INTROPACK
     | INVITATIONAL
     | JUDGE_GIFT
+    | KAROO
     | LEAGUE
     | LEVELER
     | LIGHTS
     | LOCALIZEDNAME
     | MANLAND
     | MASTERPIECE
+    | MB1
     | MDFC
     | MEDIA_INSERT
     | MELD
@@ -222,26 +284,40 @@ isValue
     | MULTIVERSE
     | NEW
     | NEWINPAUPER
+    | NONDEFAULT
     | NONFOIL
+    | NONTRADITIONAL
+    | NOORIGINALTEXT
+    | NORMAL
     | NOTUNIVERSESBEYOND
     | OATHBREAKER
+    | ODDFRAME
     | OLD
     | ONLYPRINT
     | OUTLAW
     | OVERSIZED
+    | PAGL
+    | PAINLAND
     | PAPERART
     | PARTNER
     | PARTY
+    | PATHWAY
+    | PAUPERCOMMANDER
+    | PCTB
     | PERMANENT
+    | PHED
     | PHYREXIA
     | PHYREXIAN
+    | PLACEHOLDERIMAGE
     | PLANAR
     | PLANESWALKER_DECK
     | PLANESWALKERDECK
     | PLAYER_REWARDS
+    | PLAYTEST
     | PRERELEASE
     | PRINTEDTEXT
     | PROMO
+    | PROMOTYPE
     | REBALANCED
     | RELATED
     | RELEASE
@@ -249,8 +325,14 @@ isValue
     | RESERVED
     | REVERSIBLE
     | SCRYFALLPREVIEW
+    | SCRYLAND
     | SET_PROMO
+    | SETEXTENSION
+    | SHADOWLAND
+    | SHOCKLAND
     | SHOWCASE
+    | SLOWLAND
+    | SNARL
     | SPELL
     | SPELLBOOK
     | SPIKEY
@@ -259,18 +341,31 @@ isValue
     | SPOTLIGHT
     | STAMP
     | STAMPED
+    | STAR
     | STARTERCOLLECTION
     | STARTERDECK
+    | STORAGELAND
     | STORY
+    | SURVEILLAND
+    | TANGOLAND
     | TCGPLAYER
     | TDFC
     | TEXTLESS
     | TOKEN
     | TOMBSTONE
+    | TRADITIONAL
     | TRANSFORM
     | TRANSLUCENT
+    | TRICYCLELAND
+    | TRIKELAND
+    | TRILAND
+    | TRIOME
+    | TYPICAL
+    | UB
     | UNIQUE
     | UNIVERSESBEYOND
+    | UPSIDEDOWN
+    | UPSIDEDOWNBACK
     | VANILLA
     | VARIATION
     | WATERMARK
@@ -658,6 +753,99 @@ TOKEN: 'token';
 TOMBSTONE: 'tombstone';
 TRANSLUCENT: 'translucent';
 VARIATION: 'variation';
+ABNORMAL: 'abnormal';
+BASELINE: 'baseline';
+BATTLELAND: 'battleland';
+BELZENLOK: 'belzenlok';
+BICYCLELAND: 'bicycleland';
+BIKELAND: 'bikeland';
+BONDLAND: 'bondland';
+BOUNCELAND: 'bounceland';
+CANLAND: 'canland';
+CANOPYLAND: 'canopyland';
+CHECKLAND: 'checkland';
+CORE: 'core';
+CREATURELAND: 'creatureland';
+CUSTOM: 'custom';
+CYCLELAND: 'cycleland';
+DECIDUOUS: 'deciduous';
+DUAL: 'dual';
+ERRATATEXT: 'erratatext';
+ERRATATYPE: 'erratatype';
+EXPANSION: 'expansion';
+FASTLAND: 'fastland';
+FETCHLAND: 'fetchland';
+FILTERLAND: 'filterland';
+FINALFANTASY1: 'finalfantasy1';
+FINALFANTASY10: 'finalfantasy10';
+FINALFANTASY11: 'finalfantasy11';
+FINALFANTASY12: 'finalfantasy12';
+FINALFANTASY13: 'finalfantasy13';
+FINALFANTASY14: 'finalfantasy14';
+FINALFANTASY15: 'finalfantasy15';
+FINALFANTASY16: 'finalfantasy16';
+FINALFANTASY2: 'finalfantasy2';
+FINALFANTASY3: 'finalfantasy3';
+FINALFANTASY4: 'finalfantasy4';
+FINALFANTASY5: 'finalfantasy5';
+FINALFANTASY6: 'finalfantasy6';
+FINALFANTASY7: 'finalfantasy7';
+FINALFANTASY8: 'finalfantasy8';
+FINALFANTASY9: 'finalfantasy9';
+FINALFANTASYI: 'finalfantasyi';
+FINALFANTASYII: 'finalfantasyii';
+FINALFANTASYIII: 'finalfantasyiii';
+FINALFANTASYIV: 'finalfantasyiv';
+FINALFANTASYIX: 'finalfantasyix';
+FINALFANTASYV: 'finalfantasyv';
+FINALFANTASYVI: 'finalfantasyvi';
+FINALFANTASYVII: 'finalfantasyvii';
+FINALFANTASYVIII: 'finalfantasyviii';
+FINALFANTASYX: 'finalfantasyx';
+FINALFANTASYXI: 'finalfantasyxi';
+FINALFANTASYXII: 'finalfantasyxii';
+FINALFANTASYXIII: 'finalfantasyxiii';
+FINALFANTASYXIV: 'finalfantasyxiv';
+FINALFANTASYXV: 'finalfantasyxv';
+FINALFANTASYXVI: 'finalfantasyxvi';
+FIRSTPRINTING: 'firstprinting';
+FMB1: 'fmb1';
+GAINLAND: 'gainland';
+GOLD: 'gold';
+HALO: 'halo';
+KAROO: 'karoo';
+MB1: 'mb1';
+NONDEFAULT: 'nondefault';
+NONTRADITIONAL: 'nontraditional';
+NOORIGINALTEXT: 'nooriginaltext';
+NORMAL: 'normal';
+ODDFRAME: 'oddframe';
+PAGL: 'pagl';
+PAINLAND: 'painland';
+PATHWAY: 'pathway';
+PCTB: 'pctb';
+PHED: 'phed';
+PLACEHOLDERIMAGE: 'placeholderimage';
+PLAYTEST: 'playtest';
+PROMOTYPE: 'promotype';
+SCRYLAND: 'scryland';
+SETEXTENSION: 'setextension';
+SHADOWLAND: 'shadowland';
+SHOCKLAND: 'shockland';
+SLOWLAND: 'slowland';
+SNARL: 'snarl';
+STAR: 'star';
+STORAGELAND: 'storageland';
+SURVEILLAND: 'surveilland';
+TANGOLAND: 'tangoland';
+TRADITIONAL: 'traditional';
+TRICYCLELAND: 'tricycleland';
+TRIKELAND: 'trikeland';
+TRILAND: 'triland';
+TRIOME: 'triome';
+TYPICAL: 'typical';
+UPSIDEDOWN: 'upsidedown';
+UPSIDEDOWNBACK: 'upsidedownback';
 
 STANDARD: 'standard';
 FUTURE: 'future';
